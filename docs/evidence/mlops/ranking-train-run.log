@@ -1,0 +1,2 @@
+trained ranking: model=mlops/training/artifacts/ranking/model.json metrics={"mae": 0.026105957212178395, "precision_at_10": 0.395, "queries": 20}
+evaluated ranking: {"mae": 0.02534320984174684, "precision_at_10": 0.397, "queries": 100}
