@@ -1,6 +1,7 @@
 '''Tests for mlops/cicd/sbom.py.'''
 
 import hashlib
+import importlib.util
 import json
 import subprocess
 import sys
@@ -39,6 +40,25 @@ class SbomTests(unittest.TestCase):
             self.assertEqual(checksums[0]['algorithm'], 'SHA256')
             self.assertEqual(checksums[0]['checksumValue'], expected)
             self.assertEqual(len(document['documentDescribes']), len(packages))
+
+    def test_image_packages_listed_without_docker(self):
+        spec = importlib.util.spec_from_file_location('sbom', SBOM)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        text = json.dumps([{'name': 'fastapi', 'version': '0.115'}, {'name': 'bad'}])
+        self.assertEqual(module._pip_packages(text), [('fastapi', '0.115')])
+        self.assertEqual(module._pip_packages('not json'), [])
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / 'one.py').write_text('value = 1\n', encoding='utf-8')
+            document, count = module.build_sbom(root, 'python:3.15.0-slim-bookworm', image='job-radar-api:local', image_packages=[('fastapi', '0.115')], image_id='sha256:abc')
+            self.assertEqual(count, 1)
+            by_id = {package['SPDXID']: package for package in document['packages']}
+            self.assertEqual(by_id['SPDXRef-Package-built-image']['name'], 'job-radar-api:local')
+            self.assertEqual(by_id['SPDXRef-Package-built-image']['versionInfo'], 'sha256:abc')
+            self.assertEqual(by_id['SPDXRef-ImagePackage-fastapi']['versionInfo'], '0.115')
+            self.assertIn('SPDXRef-Package-built-image', document['documentDescribes'])
+            self.assertIn('SPDXRef-ImagePackage-fastapi', document['documentDescribes'])
 
 
 if __name__ == '__main__':

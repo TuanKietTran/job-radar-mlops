@@ -78,7 +78,7 @@ repository.
 `sbom.py` records the base image plus every file under the repository
 root with a sha256 checksum each, in SPDX 2.3 JSON. The creation
 timestamp is fixed, so repeated runs on an unchanged tree produce
-identical output. The build workflow runs `syft` when it is present,
+identical output. With `--image IMAGE`, `sbom.py` also records the built image with its image id and the python packages installed in it, via `docker run pip list`. `build.sh` records each built image id in its log line. The build workflow runs `syft` when it is present,
 else `sbom.py`.
 
 ## Validation note
