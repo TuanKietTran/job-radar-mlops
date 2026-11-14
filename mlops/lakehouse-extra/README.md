@@ -19,11 +19,15 @@ fresh clone with plain python3 and the standard library.
 
 - fixture.py writes 200 synthetic postings to data/jobs.csv
 - notebooks/01_bronze_to_silver.py cleans bronze into data/silver/jobs.csv
-- notebooks/02_gold_marts.py builds staging tables and four gold marts in data/gold.db
+- notebooks/02_gold_marts.py builds staging tables and eight gold marts in data/gold.db
 - notebooks/03_warehouse_queries.py runs the warehouse queries into data/warehouse/
-- sql/warehouse/ holds the four warehouse queries
+- sql/warehouse/ holds the eight warehouse queries
 - run_sql.py runs those queries into results/
-- models/gold/ holds the four dbt-style marts, models/schema.yml describes them
+- models/gold/ holds the eight dbt-style marts, models/schema.yml describes them
+- mart_salary_by_experience_band: band, postings, avg_salary_mid, min_salary, max_salary
+- mart_postings_by_source_board: source_board, postings, share
+- mart_postings_by_industry: industry, postings, avg_salary_mid
+- mart_salary_by_month: month, postings, avg_salary_mid, min_salary, max_salary
 - run_dbt.py expands ref() and materializes each mart as a SQLite table
 - tests/ holds stdlib unittest checks for the fixture, notebooks, SQL and dbt runner
 
