@@ -298,5 +298,105 @@
     "founded": 2018,
     "description": "Builds front desk tools for budget hotels.",
     "open_roles": 14
+  },
+  {
+    "name": "An Phu Software",
+    "slug": "an-phu-software",
+    "industry": "software development",
+    "city": "Ho Chi Minh City",
+    "size": "11-50",
+    "founded": 2019,
+    "description": "Builds booking software for small service firms.",
+    "open_roles": 2
+  },
+  {
+    "name": "Bao An Systems",
+    "slug": "bao-an-systems",
+    "industry": "financial technology",
+    "city": "Hanoi",
+    "size": "51-200",
+    "founded": 2020,
+    "description": "Builds bookkeeping tools for small businesses.",
+    "open_roles": 5
+  },
+  {
+    "name": "Cam Tu Digital",
+    "slug": "cam-tu-digital",
+    "industry": "e-commerce",
+    "city": "Da Nang",
+    "size": "201-500",
+    "founded": 2021,
+    "description": "Runs a marketplace service for grocery sellers.",
+    "open_roles": 8
+  },
+  {
+    "name": "Dai Nghia Systems",
+    "slug": "dai-nghia-systems",
+    "industry": "logistics",
+    "city": "Hai Phong",
+    "size": "1-10",
+    "founded": 2022,
+    "description": "Builds freight booking tools for trucking firms.",
+    "open_roles": 11
+  },
+  {
+    "name": "Ha An Technology",
+    "slug": "ha-an-technology",
+    "industry": "health technology",
+    "city": "Can Tho",
+    "size": "51-200",
+    "founded": 2023,
+    "description": "Builds intake and referral software for community clinics.",
+    "open_roles": 14
+  },
+  {
+    "name": "Huong Giang Software",
+    "slug": "huong-giang-software",
+    "industry": "education technology",
+    "city": "Hue",
+    "size": "11-50",
+    "founded": 2024,
+    "description": "Builds exam and revision tools for secondary schools.",
+    "open_roles": 2
+  },
+  {
+    "name": "Linh Dan Technology",
+    "slug": "linh-dan-technology",
+    "industry": "manufacturing",
+    "city": "Binh Duong",
+    "size": "51-200",
+    "founded": 2013,
+    "description": "Builds maintenance scheduling software for small factories.",
+    "open_roles": 5
+  },
+  {
+    "name": "Mai Anh Systems",
+    "slug": "mai-anh-systems",
+    "industry": "agriculture technology",
+    "city": "Da Lat",
+    "size": "201-500",
+    "founded": 2014,
+    "description": "Builds soil and irrigation planning tools for vegetable growers.",
+    "open_roles": 8
+  },
+  {
+    "name": "Ngoc Trinh Digital",
+    "slug": "ngoc-trinh-digital",
+    "industry": "renewable energy",
+    "city": "Nha Trang",
+    "size": "1-10",
+    "founded": 2015,
+    "description": "Builds usage tracking tools for rooftop solar owners.",
+    "open_roles": 11
+  },
+  {
+    "name": "Quang Minh Systems",
+    "slug": "quang-minh-systems",
+    "industry": "hospitality technology",
+    "city": "Dong Nai",
+    "size": "51-200",
+    "founded": 2016,
+    "description": "Builds tour booking tools for local operators.",
+    "open_roles": 14
   }
 ]

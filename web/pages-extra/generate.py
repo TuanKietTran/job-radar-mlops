@@ -85,8 +85,8 @@ def main():
     index_items = '\n'.join(company_link(c) for c in companies)
     industry_links = '\n'.join('<li><a href=\'/industries/' + slugify(i) + '.html\'>' + esc(i.title()) + '</a></li>' for i in industries)
     city_links = '\n'.join('<li><a href=\'/cities/' + slugify(c) + '.html\'>' + esc(c) + '</a></li>' for c in cities)
-    index_body = '<h1>Company directory</h1>\n<p>Thirty invented companies listed in this directory, grouped by industry and city.</p>\n<h2>Browse by industry</h2>\n<ul>\n' + industry_links + '\n</ul>\n<h2>Browse by city</h2>\n<ul>\n' + city_links + '\n</ul>\n<h2>All companies</h2>\n<ul>\n' + index_items + '\n</ul>'
-    write(SITE / 'index.html', page('Company directory', 'Browse thirty invented companies by industry and city.', '/', index_body))
+    index_body = '<h1>Company directory</h1>\n<p>Forty invented companies listed in this directory, grouped by industry and city.</p>\n<h2>Browse by industry</h2>\n<ul>\n' + industry_links + '\n</ul>\n<h2>Browse by city</h2>\n<ul>\n' + city_links + '\n</ul>\n<h2>All companies</h2>\n<ul>\n' + index_items + '\n</ul>'
+    write(SITE / 'index.html', page('Company directory', 'Browse forty invented companies by industry and city.', '/', index_body))
     pages.append('/')
     for company in companies:
         industry_slug = slugify(company['industry'])
