@@ -1,0 +1,28 @@
+%% Component diagram for the search API.
+%% Source: services api app.py and services api main.py, ADR 0007.
+%% The API is a small read path over canonical jobs with no database at request time.
+C4Component
+title Component diagram for the search API
+Container_Boundary(search_api, 'Search API, FastAPI served by uvicorn on port 8000') {
+Component(main_entry, 'Main entry', 'services api main.py', 'Runs uvicorn on host 0.0.0.0 port 8000')
+Component(create_app, 'Create app', 'services api app.py create_app', 'Builds the FastAPI app titled Job radar API and loads the job list once')
+Component(load_jobs, 'Load jobs', 'services api app.py load_jobs', 'Reads data processed jobs.json, or JOBS_PATH, and falls back to the sample fixture when the file is absent')
+Component(health, 'Health endpoint', 'GET health', 'Returns status ok')
+Component(list_jobs, 'List jobs endpoint', 'GET api jobs', 'Filters by q, city, industry, remote, level, salary min and max, experience, page and page size')
+Component(get_job, 'Get job endpoint', 'GET api jobs job id', 'Returns one job by id or 404')
+Component(redirect_job, 'Redirect endpoint', 'GET api redirect job id', 'Redirects with status 302 to the job source url or 404')
+Component(filters, 'Filters endpoint', 'GET api filters', 'Returns sorted cities, industries, remotes and levels from the loaded jobs')
+Component(fold, 'Fold text', 'services api app.py fold', 'Folds diacritics and lowercases text for matching')
+Component(match_salary, 'Match salary', 'services api app.py matches salary', 'Checks salary range overlap against salary min and max VND')
+Component(match_experience, 'Match experience', 'services api app.py matches experience', 'Checks the requested years against the experience range')
+Component(sorted_jobs, 'Sort jobs', 'services api app.py sorted', 'Sorts by posted at descending, then by id')
+}
+ContainerDb(canonical_jobs, 'Canonical jobs file', 'JSON at data processed jobs.json', 'Canonical jobs with a fixture fallback')
+Rel(main_entry, create_app, 'Serves the app built by')
+Rel(create_app, load_jobs, 'Loads jobs through')
+Rel(load_jobs, canonical_jobs, 'Reads')
+Rel(list_jobs, fold, 'Folds the query and the job text with')
+Rel(list_jobs, match_salary, 'Filters with')
+Rel(list_jobs, match_experience, 'Filters with')
+Rel(list_jobs, sorted_jobs, 'Orders results with')
+UpdateLayoutConfig($c4ShapeInRow='3', $c4BoundaryInRow='1')
