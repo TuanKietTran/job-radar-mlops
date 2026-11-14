@@ -1,0 +1,19 @@
+bronze: 5000 rows into 22 board files in mlops/data/lake/bronze
+silver: bronze 5000 rows, dropped invalid 0, dedupe exact 0 fuzzy 36, kept 4964 in mlops/data/lake/silver/jobs.db
+gold: salary rows 36, board rows 22, month rows 11 in mlops/data/lake/gold/gold.db
+validate: rows 4964 valid 4964 passed True report mlops/data/lake/silver/validation.json
+  not_null_job_id: passed 4964 failed 0
+  not_null_title: passed 4964 failed 0
+  not_null_company: passed 4964 failed 0
+  not_null_city: passed 4964 failed 0
+  not_null_industry: passed 4964 failed 0
+  enum_city: passed 4964 failed 0
+  enum_industry: passed 4964 failed 0
+  enum_employment_type: passed 4964 failed 0
+  salary_ints: passed 4964 failed 0
+  salary_min_le_max: passed 4964 failed 0
+  salary_range: passed 4964 failed 0
+  experience_range: passed 4964 failed 0
+  posted_date_range: passed 4964 failed 0
+  job_id_unique: passed 1 failed 0
+lineage: mlops/data/lake/lineage.json sources 22 silver rows 4964
