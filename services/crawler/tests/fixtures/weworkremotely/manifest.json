@@ -1,0 +1,9 @@
+{
+  "source": "weworkremotely",
+  "feed_url": "https://weworkremotely.com/categories/remote-programming-jobs.rss",
+  "fetched_at": "2026-11-15T02:02:00+07:00",
+  "full_feed_items": 25,
+  "excerpt_items": 3,
+  "excerpt": "Vertex Marketing Group, Current, BDF EXPERTS: one full-time with salary, one contract with a year mention, one with no employment token and no salary text",
+  "note": "Excerpt of the live feed for offline tests. Adapter output records carry a short snippet only, never the full description."
+}
