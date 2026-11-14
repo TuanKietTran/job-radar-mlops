@@ -1,0 +1,10 @@
+screenshots dry run
+playwright: absent
+missing page dirs: web/tools
+pages: 6
+web/guides/dist/index.html
+web/guides/dist/cau-truc-cv.html
+web/pages-extra/site/index.html
+web/pages-extra/site/companies/an-nhien-systems.html
+web/pages-extra/site/cities/ho-chi-minh-city.html
+web/pages-extra/site/industries/software-development.html

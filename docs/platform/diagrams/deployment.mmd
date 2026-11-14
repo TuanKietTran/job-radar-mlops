@@ -1,0 +1,41 @@
+%% Deployment diagram for the job radar platform.
+%% Source: ADR 0012 deployment mapping, ADR 0010 observability approach.
+%% The cloud mapping is proposed. No deployment from the infra branch has run,
+%% and no endpoint or address can be quoted from it.
+C4Deployment
+title Deployment diagram for the job radar platform, mapping is proposed
+Deployment_Node(local_machine, 'Local machine', 'Developer checkout') {
+Deployment_Node(local_python, 'Local Python runtime', 'Standard library Python, no database server') {
+Container(ingest_local, 'Ingest pipeline', 'Standard library Python', 'Normalizes fixtures, dedupes and loads SQLite')
+ContainerDb(sqlite_local, 'SQLite local store', 'SQLite file', 'Canonical jobs and raw payload mirror')
+}
+Deployment_Node(local_api, 'Local search service', 'uvicorn on port 8000') {
+Container(search_api, 'Search API', 'FastAPI', 'Reads data processed jobs.json with fixture fallback')
+}
+Deployment_Node(local_static, 'Local static pages', 'Any static host or local file server') {
+Container(web_pages, 'Static web pages', 'Plain HTML and CSS', 'Generated guides and company pages')
+}
+Deployment_Node(local_obs, 'Local observability', 'Localhost only') {
+Container(obs_stack, 'Observability stack', 'Prometheus, Grafana and OpenTelemetry collector', 'Local observation only, production observation is still open')
+}
+}
+Deployment_Node(aws, 'AWS, proposed', 'Object storage, model serving and container registry') {
+ContainerDb(s3, 'Object storage', 'AWS S3, proposed', 'Proposed object storage from the infra branch')
+Container(sagemaker, 'Model serving', 'AWS SageMaker, proposed', 'Proposed model serving from the infra branch')
+Container(ecr, 'Container registry', 'AWS ECR, proposed', 'Proposed container registry from the infra branch')
+}
+Deployment_Node(azure, 'Azure, proposed', 'Managed ML workspace') {
+Container(azure_ml, 'ML workspace', 'Azure ML, proposed', 'Proposed managed ML workspace from the infra branch')
+}
+Deployment_Node(databricks, 'Databricks, proposed', 'Training and evaluation workloads') {
+Container(training, 'Training and evaluation', 'Databricks, proposed', 'Proposed training and evaluation workloads from the infra branch')
+}
+Deployment_Node(kubernetes, 'Kubernetes, proposed', 'Helm chart for the job radar service') {
+Container(helm_service, 'Job radar service', 'Helm chart, proposed', 'Proposed service deployment, no deployment run recorded')
+}
+Rel(ingest_local, sqlite_local, 'Writes')
+Rel(search_api, sqlite_local, 'Consistent through the canonical schema, not through a shared database')
+Rel(helm_service, s3, 'Uses object storage, proposed')
+Rel(helm_service, ecr, 'Deploys image from, proposed')
+Rel(training, sagemaker, 'Hands models to, proposed')
+UpdateLayoutConfig($c4ShapeInRow='2', $c4BoundaryInRow='1')
