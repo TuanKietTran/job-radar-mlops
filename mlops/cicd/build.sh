@@ -17,7 +17,8 @@ build_one() {
   file=$2
   tag=$3
   if docker build -f "$file" -t "$tag" .; then
-    record "build: $name ok"
+    image_id=$(docker image inspect -f '{{.Id}}' "$tag")
+    record "build: $name ok tag $tag image $image_id"
   else
     record "build: $name failed"
     return 1
