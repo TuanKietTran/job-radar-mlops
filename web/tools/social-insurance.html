@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Social insurance calculator</title>
+<link rel='stylesheet' href='./tools.css'>
+</head>
+<body>
+<nav><a href='./index.html'>Salary tools</a></nav>
+<h1>Social insurance calculator</h1>
+<p>Rates are 2026 assumptions dated 2026-11-14. All money is integer VND per month.</p>
+<form id='calculator' novalidate>
+<label for='gross'>Gross salary (VND per month)</label>
+<input id='gross' name='gross' inputmode='numeric' autocomplete='off'>
+<p id='gross-error' class='error' role='alert' hidden></p>
+<button type='submit'>Calculate</button>
+</form>
+<p id='api-notice' class='notice' role='alert' hidden></p>
+<section id='results' class='results' hidden>
+<h2>Result</h2>
+<dl>
+<dt>Gross salary</dt><dd id='result-gross'></dd>
+<dt>Insurance base (BHXH and BHYT)</dt><dd id='result-base'></dd>
+<dt>BHXH employee</dt><dd id='result-bhxh-employee'></dd>
+<dt>BHYT employee</dt><dd id='result-bhyt-employee'></dd>
+<dt>Employee social insurance total</dt><dd id='result-employee'></dd>
+<dt>BHXH employer</dt><dd id='result-bhxh-employer'></dd>
+<dt>BHYT employer</dt><dd id='result-bhyt-employer'></dd>
+<dt>Employer social insurance total</dt><dd id='result-employer'></dd>
+<dt>Insurance base (BHTN)</dt><dd id='result-bhtn-base'></dd>
+<dt>BHTN employee</dt><dd id='result-bhtn-employee'></dd>
+<dt>BHTN employer</dt><dd id='result-bhtn-employer'></dd>
+</dl>
+<p class='hint'>BHXH and BHYT use a base capped at 46,800,000 VND. BHTN uses a base capped at 99,200,000 VND.</p>
+</section>
+<script type='module'>
+import { validateGross, callApi, formatVnd, setFieldError, showNotice, hideNotice } from './tools.js';
+const form = document.getElementById('calculator');
+const grossInput = document.getElementById('gross');
+const grossError = document.getElementById('gross-error');
+const notice = document.getElementById('api-notice');
+const resultsSection = document.getElementById('results');
+form.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  hideNotice(notice);
+  resultsSection.hidden = true;
+  const grossProblem = validateGross(grossInput.value);
+  const grossOk = setFieldError(grossInput, grossError, grossProblem);
+  if (!grossOk) {
+    return;
+  }
+  const gross = Number(grossInput.value.trim().replace(/[\s,]/g, ''));
+  try {
+    const responses = await Promise.all([
+      callApi('/api/salary/social-insurance', { gross: gross }),
+      callApi('/api/salary/unemployment-insurance', { gross: gross })
+    ]);
+    const social = responses[0];
+    const bhtn = responses[1];
+    document.getElementById('result-gross').textContent = formatVnd(social.gross);
+    document.getElementById('result-base').textContent = formatVnd(social.base);
+    document.getElementById('result-bhxh-employee').textContent = formatVnd(social.bhxh_employee);
+    document.getElementById('result-bhyt-employee').textContent = formatVnd(social.bhyt_employee);
+    document.getElementById('result-employee').textContent = formatVnd(social.employee);
+    document.getElementById('result-bhxh-employer').textContent = formatVnd(social.bhxh_employer);
+    document.getElementById('result-bhyt-employer').textContent = formatVnd(social.bhyt_employer);
+    document.getElementById('result-employer').textContent = formatVnd(social.employer);
+    document.getElementById('result-bhtn-base').textContent = formatVnd(bhtn.base);
+    document.getElementById('result-bhtn-employee').textContent = formatVnd(bhtn.employee);
+    document.getElementById('result-bhtn-employer').textContent = formatVnd(bhtn.employer);
+    resultsSection.hidden = false;
+  } catch (error) {
+    showNotice(notice, error.message);
+  }
+});
+</script>
+</body>
+</html>
