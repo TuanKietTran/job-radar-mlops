@@ -26,7 +26,7 @@ If that file is absent, the service falls back to `services/api/tests/fixtures/s
 - `GET /api/redirect/{id}` returns 302 to the job `source_url`.
 - `GET /api/filters` returns `cities`, `industries`, `remotes` and `levels`.
 
-Search matches title, company, skills and description. Matching is case-insensitive and diacritic-insensitive for Vietnamese text. Salary filtering uses range overlap, and jobs with null salary match only when no salary filter is given. The experience filter matches when the requested years fall inside the job experience range. Filters combine with AND. Results are ordered by `posted_at` descending, then `id`.
+Search matches title, company, skills and description. Matching is case-insensitive and diacritic-insensitive for Vietnamese text. Salary filtering uses range overlap, and jobs with null salary match only when no salary filter is given. The experience filter matches when the requested years fall inside the job experience range. Filters combine with AND. Results are ordered by `posted_at` descending, then `id`. Remote is one of onsite, hybrid or remote, not a boolean, because the fixture stores the work mode that way. Salary is monthly gross in VND. Unknown or empty filter values return total 0 with an empty list. Invalid values, such as a non-numeric salary or a negative experience, return 422. The OpenAPI snapshot in `services/api/openapi.json` is generated from the running app and must match live `/openapi.json`.
 
 ## Tests
 
