@@ -1,0 +1,37 @@
+name: register
+on:
+  workflow_dispatch:
+    inputs:
+      model_version:
+        description: Model version to register
+        required: true
+      stage:
+        description: Target stage
+        required: false
+        default: staging
+permissions:
+  contents: read
+concurrency:
+  group: register-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.15'
+      - name: Run offline checks
+        run: python3 mlops/cicd/check.py
+      - name: Write bill of materials
+        run: python3 mlops/cicd/sbom.py
+      - name: Registry checks
+        run: |
+          if [ -d mlops/registry ]; then
+            echo 'register: registry directory is present'
+            find mlops/registry -type f | sort
+          else
+            echo 'register: registry directory is absent, guard exits 0'
+          fi
+          echo 'register: model version ${{ inputs.model_version }} to stage ${{ inputs.stage }}'

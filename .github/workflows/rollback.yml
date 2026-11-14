@@ -1,0 +1,35 @@
+name: rollback
+on:
+  workflow_dispatch:
+    inputs:
+      model_version:
+        description: Model version to roll back from
+        required: true
+      previous_stage:
+        description: Stage to restore
+        required: false
+        default: staging
+permissions:
+  contents: read
+concurrency:
+  group: rollback-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  rollback:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.15'
+      - name: Run offline checks
+        run: python3 mlops/cicd/check.py
+      - name: Restore previous stage
+        run: |
+          echo 'rollback: restoring stage ${{ inputs.previous_stage }} for model version ${{ inputs.model_version }}'
+          if [ -f mlops/registry/current-stage.txt ] && [ -f mlops/registry/previous-stage.txt ]; then
+            cp mlops/registry/previous-stage.txt mlops/registry/current-stage.txt
+            echo 'rollback: restored previous stage'
+          else
+            echo 'rollback: no previous stage is recorded, nothing to restore'
+          fi
