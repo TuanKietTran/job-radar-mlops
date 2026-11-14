@@ -1,6 +1,6 @@
 screenshots dry run
 playwright: absent
-missing page dirs: web/tools
+missing page dirs: none
 pages: 6
 web/guides/dist/index.html
 web/guides/dist/cau-truc-cv.html
