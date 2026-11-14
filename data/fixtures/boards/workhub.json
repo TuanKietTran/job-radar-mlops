@@ -1,0 +1,280 @@
+{
+  "board": "workhub",
+  "jobs": [
+    {
+      "code": "workhub-001",
+      "position": "Chuyên viên tài chính",
+      "company_name": "Tập đoàn Nam Sơn",
+      "place": "Nha Trang",
+      "field": "Tài chính",
+      "pay": "Up to 35 triệu",
+      "work_type": "remote",
+      "years": "5-5 năm",
+      "date_posted": "2026-10-11",
+      "link": "https://workhub.example.invalid/jobs/workhub-001",
+      "summary": "Vị trí Chuyên viên tài chính tại Tập đoàn Nam Sơn ở Nha Trang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "SQL",
+        "Báo cáo",
+        "Excel"
+      ],
+      "contract": "Toàn thời gian",
+      "benefits": [
+        "Thưởng tháng 13",
+        "Ngày nghỉ phép 12 ngày",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-11-10"
+    },
+    {
+      "code": "workhub-002",
+      "position": "Lập trình viên Java",
+      "company_name": "Công ty Bảo An",
+      "place": "Can Tho",
+      "field": "Công nghệ thông tin",
+      "pay": "Thỏa thuận",
+      "work_type": "Từ xa",
+      "years": "2+ năm kinh nghiệm",
+      "date_posted": "2026-10-14",
+      "link": "https://workhub.example.invalid/jobs/workhub-002",
+      "summary": "Vị trí Lập trình viên Java tại Công ty Bảo An ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "SQL",
+        "Git",
+        "Python"
+      ],
+      "contract": "Toàn thời gian",
+      "benefits": [
+        "Laptop làm việc",
+        "Thưởng tháng 13",
+        "Bảo hiểm xã hội đầy đủ"
+      ],
+      "deadline": "2026-11-13"
+    },
+    {
+      "code": "workhub-003",
+      "position": "Kỹ sư DevOps",
+      "company_name": "Tập đoàn Trường Sơn",
+      "place": "Bình Dương",
+      "field": "Ngân hàng",
+      "pay": "20-25 triệu",
+      "work_type": "Linh hoạt",
+      "years": "2+ năm kinh nghiệm",
+      "date_posted": "2026-10-08",
+      "link": "https://workhub.example.invalid/jobs/workhub-003",
+      "summary": "Vị trí Kỹ sư DevOps tại Tập đoàn Trường Sơn ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Chăm sóc khách hàng",
+        "Excel",
+        "SQL"
+      ],
+      "contract": "Hợp đồng",
+      "benefits": [
+        "Đào tạo nội bộ",
+        "Bảo hiểm y tế",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-11-07"
+    },
+    {
+      "code": "workhub-004",
+      "position": "Chuyên viên an ninh mạng",
+      "company_name": "Công ty Hồng Phúc",
+      "place": "Bình Dương",
+      "field": "Healthcare",
+      "pay": "Thỏa thuận",
+      "work_type": "Từ xa",
+      "years": "6-6 năm",
+      "date_posted": "2026-10-16",
+      "link": "https://workhub.example.invalid/jobs/workhub-004",
+      "summary": "Vị trí Chuyên viên an ninh mạng tại Công ty Hồng Phúc ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Excel",
+        "Chăm sóc bệnh nhân",
+        "Hồ sơ y tế"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Bảo hiểm xã hội đầy đủ",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": "2026-11-15"
+    },
+    {
+      "code": "workhub-005",
+      "position": "Kỹ sư DevOps",
+      "company_name": "Công ty Sao Mai",
+      "place": "Hai Phong",
+      "field": "Banking",
+      "pay": "25000000-40000000",
+      "work_type": "Onsite",
+      "years": "1-4 năm",
+      "date_posted": "2026-11-07",
+      "link": "https://workhub.example.invalid/jobs/workhub-005",
+      "summary": "Vị trí Kỹ sư DevOps tại Công ty Sao Mai ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Excel",
+        "SQL",
+        "Tín dụng"
+      ],
+      "contract": "contract",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Ngày nghỉ phép 12 ngày",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-12-07"
+    },
+    {
+      "code": "workhub-006",
+      "position": "Kỹ sư hệ thống",
+      "company_name": "Công ty Phúc Lộc",
+      "place": "Hue",
+      "field": "IT",
+      "pay": "25000000-40000000",
+      "work_type": "Linh hoạt",
+      "years": "0+ năm kinh nghiệm",
+      "date_posted": "2026-10-11",
+      "link": "https://workhub.example.invalid/jobs/workhub-006",
+      "summary": "Vị trí Kỹ sư hệ thống tại Công ty Phúc Lộc ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "React",
+        "Java",
+        "Docker"
+      ],
+      "contract": "Bán thời gian",
+      "benefits": [
+        "Laptop làm việc",
+        "Bảo hiểm y tế",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": "2026-11-10"
+    },
+    {
+      "code": "workhub-007",
+      "position": "Kỹ sư dữ liệu",
+      "company_name": "Công ty Phúc Lộc",
+      "place": "Cần Thơ",
+      "field": "Sản xuất",
+      "pay": "From 10 triệu",
+      "work_type": "hybrid",
+      "years": "1-4 years",
+      "date_posted": "2026-10-30",
+      "link": "https://workhub.example.invalid/jobs/workhub-007",
+      "summary": "Vị trí Kỹ sư dữ liệu tại Công ty Phúc Lộc ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Kiểm soát chất lượng",
+        "An toàn lao động",
+        "Excel"
+      ],
+      "contract": "part-time",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Ngày nghỉ phép 12 ngày",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-11-29"
+    },
+    {
+      "code": "workhub-008",
+      "position": "Kỹ sư hệ thống",
+      "company_name": "Công ty Thanh Tâm",
+      "place": "Cần Thơ",
+      "field": "Information Technology",
+      "pay": "18-23 triệu",
+      "work_type": "remote",
+      "years": "1-3 năm",
+      "date_posted": "2026-10-10",
+      "link": "https://workhub.example.invalid/jobs/workhub-008",
+      "summary": "Vị trí Kỹ sư hệ thống tại Công ty Thanh Tâm ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Docker",
+        "Git",
+        "SQL"
+      ],
+      "contract": "Toàn thời gian",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Laptop làm việc",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": "2026-11-09"
+    },
+    {
+      "code": "workhub-009",
+      "position": "Chuyên viên an ninh mạng",
+      "company_name": "Công ty Ánh Dương",
+      "place": "Vung Tau",
+      "field": "Ngân hàng",
+      "pay": "8 triệu",
+      "work_type": "Hybrid",
+      "years": "0+ năm kinh nghiệm",
+      "date_posted": "2026-11-10",
+      "link": "https://workhub.example.invalid/jobs/workhub-009",
+      "summary": "Vị trí Chuyên viên an ninh mạng tại Công ty Ánh Dương ở Vung Tau. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Excel",
+        "Chăm sóc khách hàng",
+        "Tín dụng"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Thưởng tháng 13",
+        "Bảo hiểm y tế"
+      ],
+      "deadline": "2026-12-10"
+    },
+    {
+      "code": "workhub-010",
+      "position": "Thiết kế giao diện người dùng",
+      "company_name": "Công ty Thanh Tâm",
+      "place": "Bình Dương",
+      "field": "Thương mại điện tử",
+      "pay": "Up to 17 triệu",
+      "work_type": "Remote",
+      "years": "2+ năm kinh nghiệm",
+      "date_posted": "2026-10-22",
+      "link": "https://workhub.example.invalid/jobs/workhub-010",
+      "summary": "Vị trí Thiết kế giao diện người dùng tại Công ty Thanh Tâm ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Excel",
+        "Phân tích dữ liệu",
+        "Marketing số"
+      ],
+      "contract": "Bán thời gian",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Thưởng tháng 13",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": "2026-11-21"
+    },
+    {
+      "code": "workhub-011",
+      "position": "Nhân  viên marketing số",
+      "company_name": "Công ty Hồng Phúc",
+      "place": "HCMC",
+      "field": "Sản xuất",
+      "pay": "15000000 VND - 25000000 VND",
+      "work_type": "Onsite",
+      "years": "1+ năm kinh nghiệm",
+      "date_posted": "2026-10-25",
+      "link": "https://workhub.example.invalid/jobs/workhub-011",
+      "summary": "Vị trí Nhân viên marketing số tại Công ty Hồng Phúc ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Quản lý sản xuất",
+        "Excel",
+        "An toàn lao động"
+      ],
+      "contract": "Bán thời gian",
+      "benefits": [
+        "Laptop làm việc",
+        "Bảo hiểm xã hội đầy đủ",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-11-23"
+    }
+  ]
+}

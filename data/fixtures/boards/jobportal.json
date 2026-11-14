@@ -1,0 +1,280 @@
+{
+  "board": "jobportal",
+  "jobs": [
+    {
+      "code": "jobportal-001",
+      "position": "Kỹ sư phần mềm Python",
+      "company_name": "Tập đoàn Đại Dương",
+      "place": "TP. Hồ Chí Minh",
+      "field": "Manufacturing",
+      "pay": "10000000-20000000",
+      "work_type": "Linh hoạt",
+      "years": "3+ năm kinh nghiệm",
+      "date_posted": "2026-10-18",
+      "link": "https://jobportal.example.invalid/jobs/jobportal-001",
+      "summary": "Vị trí Kỹ sư phần mềm Python tại Tập đoàn Đại Dương ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "An toàn lao động",
+        "Excel",
+        "Quản lý sản xuất"
+      ],
+      "contract": "Bán thời gian",
+      "benefits": [
+        "Đào tạo nội bộ",
+        "Ngày nghỉ phép 12 ngày",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-11-17"
+    },
+    {
+      "code": "jobportal-002",
+      "position": "Thiết kế giao diện người dùng",
+      "company_name": "Công ty Phương Nam",
+      "place": "Hà Nội",
+      "field": "Healthcare",
+      "pay": "From 10 triệu",
+      "work_type": "Hybrid",
+      "years": "0-2 years",
+      "date_posted": "2026-11-09",
+      "link": "https://jobportal.example.invalid/jobs/jobportal-002",
+      "summary": "Vị trí Thiết kế giao diện người dùng tại Công ty Phương Nam ở Hanoi. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Hồ sơ y tế",
+        "Giao tiếp",
+        "Chăm sóc bệnh nhân"
+      ],
+      "contract": "Bán thời gian",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Thưởng tháng 13",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": "2026-12-09"
+    },
+    {
+      "code": "jobportal-003",
+      "position": "Lập trình viên Java",
+      "company_name": "Tập đoàn Xuân Mai",
+      "place": "Đà Nẵng",
+      "field": "Education",
+      "pay": "25-30 triệu",
+      "work_type": "Onsite",
+      "years": "1-3 năm",
+      "date_posted": "2026-10-01",
+      "link": "https://jobportal.example.invalid/jobs/jobportal-003",
+      "summary": "Vị trí Lập trình viên Java tại Tập đoàn Xuân Mai ở Da Nang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Soạn giáo án",
+        "Giao tiếp",
+        "Tiếng Anh"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Thưởng tháng 13",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": null
+    },
+    {
+      "code": "jobportal-004",
+      "position": "Kỹ sư Backend .NET",
+      "company_name": "Công ty Bảo An",
+      "place": "Hanoi",
+      "field": "Education",
+      "pay": "From 8 triệu",
+      "work_type": "onsite",
+      "years": "2-4 years",
+      "date_posted": "2026-11-10",
+      "link": "https://jobportal.example.invalid/jobs/jobportal-004",
+      "summary": "Vị trí Kỹ sư Backend .NET tại Công ty Bảo An ở Hanoi. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Soạn giáo án",
+        "Giao tiếp",
+        "Giảng dạy"
+      ],
+      "contract": "Toàn thời gian",
+      "benefits": [
+        "Laptop làm việc",
+        "Đào tạo nội bộ",
+        "Bảo hiểm y tế"
+      ],
+      "deadline": "2026-12-10"
+    },
+    {
+      "code": "jobportal-005",
+      "position": "Nhân viên kho vận",
+      "company_name": "Công ty An Bình",
+      "place": "HCMC",
+      "field": "Y tế",
+      "pay": "Thỏa thuận",
+      "work_type": "Linh hoạt",
+      "years": "0-0 years",
+      "date_posted": "2026-10-09",
+      "link": "https://jobportal.example.invalid/jobs/jobportal-005",
+      "summary": "Vị trí Nhân viên kho vận tại Công ty An Bình ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Hồ sơ y tế",
+        "Chăm sóc bệnh nhân",
+        "Giao tiếp"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Phụ cấp ăn trưa",
+        "Bảo hiểm xã hội đầy đủ",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-11-08"
+    },
+    {
+      "code": "jobportal-006",
+      "position": "Chuyên viên tài chính",
+      "company_name": "Công ty Hồng Phúc",
+      "place": "Nha Trang",
+      "field": "Healthcare",
+      "pay": "10000000-18000000",
+      "work_type": "Từ xa",
+      "years": "4-4 years",
+      "date_posted": "2026-10-05",
+      "link": "https://jobportal.example.invalid/jobs/jobportal-006",
+      "summary": "Vị trí Chuyên viên tài chính tại Công ty Hồng Phúc ở Nha Trang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Chăm sóc bệnh nhân",
+        "Hồ sơ y tế",
+        "Giao tiếp"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Bảo hiểm xã hội đầy đủ",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-11-04"
+    },
+    {
+      "code": "jobportal-007",
+      "position": "Chuyên viên tài chính",
+      "company_name": "Tập đoàn Minh Khang",
+      "place": "Đồng Nai",
+      "field": "Healthcare",
+      "pay": "8000000-23000000",
+      "work_type": "Remote",
+      "years": "2+ năm kinh nghiệm",
+      "date_posted": "2026-10-19",
+      "link": "https://jobportal.example.invalid/jobs/jobportal-007",
+      "summary": "Vị trí Chuyên viên tài chính tại Tập đoàn Minh Khang ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Excel",
+        "Giao tiếp",
+        "Hồ sơ y tế"
+      ],
+      "contract": "internship",
+      "benefits": [
+        "Đào tạo nội bộ",
+        "Bảo hiểm xã hội đầy đủ",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": "2026-11-18"
+    },
+    {
+      "code": "jobportal-008",
+      "position": "Nhân viên kinh doanh",
+      "company_name": "Công ty Trí Đức",
+      "place": "Đồng Nai",
+      "field": "Ngân hàng",
+      "pay": "From 25 triệu",
+      "work_type": "remote",
+      "years": "3+ năm kinh nghiệm",
+      "date_posted": "2026-10-01",
+      "link": "https://jobportal.example.invalid/jobs/jobportal-008",
+      "summary": "Vị trí Nhân viên kinh doanh tại Công ty Trí Đức ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Excel",
+        "SQL",
+        "Tín dụng"
+      ],
+      "contract": "Hợp đồng",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Thưởng tháng 13",
+        "Bảo hiểm y tế"
+      ],
+      "deadline": "2026-10-31"
+    },
+    {
+      "code": "jobportal-009",
+      "position": "Chuyên viên phân tích dữ liệu",
+      "company_name": "Công ty Việt Thắng",
+      "place": "TP. Hồ Chí Minh",
+      "field": "Công nghệ thông tin",
+      "pay": "20000000 VND - 35000000 VND",
+      "work_type": "remote",
+      "years": "3+ năm kinh nghiệm",
+      "date_posted": "2026-10-21",
+      "link": "https://jobportal.example.invalid/jobs/jobportal-009",
+      "summary": "Vị trí Chuyên viên phân tích dữ liệu tại Công ty Việt Thắng ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Python",
+        "Git",
+        "AWS"
+      ],
+      "contract": "Hợp đồng",
+      "benefits": [
+        "Phụ cấp ăn trưa",
+        "Đào tạo nội bộ",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-11-20"
+    },
+    {
+      "code": "jobportal-010",
+      "position": "Kỹ sư dữ liệu",
+      "company_name": "Công ty Ánh Dương",
+      "place": "Nha Trang",
+      "field": "Giáo dục",
+      "pay": "8-23 triệu",
+      "work_type": "Từ xa",
+      "years": "1+ năm kinh nghiệm",
+      "date_posted": "2026-10-18",
+      "link": "https://jobportal.example.invalid/jobs/jobportal-010",
+      "summary": "Vị trí Kỹ sư dữ liệu tại Công ty Ánh Dương ở Nha Trang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Giao tiếp",
+        "Giảng dạy",
+        "Tiếng Anh"
+      ],
+      "contract": "internship",
+      "benefits": [
+        "Laptop làm việc",
+        "Ngày nghỉ phép 12 ngày",
+        "Phụ cấp ăn trưa"
+      ],
+      "deadline": "2026-11-17"
+    },
+    {
+      "code": "jobportal-011",
+      "position": "Lập  trình viên Java",
+      "company_name": "Công ty Phương Nam",
+      "place": "Cần Thơ",
+      "field": "Finance",
+      "pay": "From 25 triệu",
+      "work_type": "Onsite",
+      "years": "0-1 năm",
+      "date_posted": "2026-10-25",
+      "link": "https://jobportal.example.invalid/jobs/jobportal-011",
+      "summary": "Vị trí Lập trình viên Java tại Công ty Phương Nam ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Báo cáo",
+        "Kế toán",
+        "SQL"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Bảo hiểm xã hội đầy đủ",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-11-23"
+    }
+  ]
+}

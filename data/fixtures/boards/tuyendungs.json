@@ -1,0 +1,280 @@
+{
+  "board": "tuyendungs",
+  "jobs": [
+    {
+      "code": "tuyendungs-001",
+      "position": "Chuyên viên tài chính",
+      "company_name": "Tập đoàn Phú Thịnh",
+      "place": "Hanoi",
+      "field": "Sản xuất",
+      "pay": "From 15 triệu",
+      "work_type": "remote",
+      "years": "2+ năm kinh nghiệm",
+      "date_posted": "2026-10-19",
+      "link": "https://tuyendungs.example.invalid/jobs/tuyendungs-001",
+      "summary": "Vị trí Chuyên viên tài chính tại Tập đoàn Phú Thịnh ở Hanoi. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "An toàn lao động",
+        "Kiểm soát chất lượng",
+        "Quản lý sản xuất"
+      ],
+      "contract": "Toàn thời gian",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Phụ cấp ăn trưa",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-11-18"
+    },
+    {
+      "code": "tuyendungs-002",
+      "position": "Chuyên viên vận hành",
+      "company_name": "Công ty Hồng Phúc",
+      "place": "Bình Dương",
+      "field": "Information Technology",
+      "pay": "12-17 triệu",
+      "work_type": "Hybrid",
+      "years": "3-3 years",
+      "date_posted": "2026-10-26",
+      "link": "https://tuyendungs.example.invalid/jobs/tuyendungs-002",
+      "summary": "Vị trí Chuyên viên vận hành tại Công ty Hồng Phúc ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Python",
+        "AWS",
+        "Linux"
+      ],
+      "contract": "contract",
+      "benefits": [
+        "Thưởng tháng 13",
+        "Bảo hiểm xã hội đầy đủ",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": "2026-11-25"
+    },
+    {
+      "code": "tuyendungs-003",
+      "position": "Nhân viên kinh doanh",
+      "company_name": "Công ty Ánh Dương",
+      "place": "Hải Phòng",
+      "field": "Ngân hàng",
+      "pay": "8000000-16000000",
+      "work_type": "Tại văn phòng",
+      "years": "6-7 years",
+      "date_posted": "2026-11-03",
+      "link": "https://tuyendungs.example.invalid/jobs/tuyendungs-003",
+      "summary": "Vị trí Nhân viên kinh doanh tại Công ty Ánh Dương ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Tín dụng",
+        "Chăm sóc khách hàng",
+        "SQL"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Thưởng tháng 13",
+        "Laptop làm việc",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": "2026-12-03"
+    },
+    {
+      "code": "tuyendungs-004",
+      "position": "Chuyên viên hỗ trợ khách hàng",
+      "company_name": "Công ty Việt Thắng",
+      "place": "Dong Nai",
+      "field": "IT",
+      "pay": "Up to 28 triệu",
+      "work_type": "Linh hoạt",
+      "years": "0+ năm kinh nghiệm",
+      "date_posted": "2026-10-18",
+      "link": "https://tuyendungs.example.invalid/jobs/tuyendungs-004",
+      "summary": "Vị trí Chuyên viên hỗ trợ khách hàng tại Công ty Việt Thắng ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Java",
+        "React",
+        "Docker"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Ngày nghỉ phép 12 ngày",
+        "Thưởng tháng 13"
+      ],
+      "deadline": null
+    },
+    {
+      "code": "tuyendungs-005",
+      "position": "Kỹ sư phần mềm Python",
+      "company_name": "Tập đoàn Minh Khang",
+      "place": "Can Tho",
+      "field": "Giáo dục",
+      "pay": "18-26 triệu",
+      "work_type": "Tại văn phòng",
+      "years": "6-6 năm",
+      "date_posted": "2026-10-15",
+      "link": "https://tuyendungs.example.invalid/jobs/tuyendungs-005",
+      "summary": "Vị trí Kỹ sư phần mềm Python tại Tập đoàn Minh Khang ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Soạn giáo án",
+        "Tiếng Anh",
+        "Giảng dạy"
+      ],
+      "contract": "Hợp đồng",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Đào tạo nội bộ",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": null
+    },
+    {
+      "code": "tuyendungs-006",
+      "position": "Quản lý sản phẩm",
+      "company_name": "Công ty Việt Thắng",
+      "place": "Hai Phong",
+      "field": "Logistics",
+      "pay": "20 triệu",
+      "work_type": "hybrid",
+      "years": "0+ năm kinh nghiệm",
+      "date_posted": "2026-10-20",
+      "link": "https://tuyendungs.example.invalid/jobs/tuyendungs-006",
+      "summary": "Vị trí Quản lý sản phẩm tại Công ty Việt Thắng ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Lập kế hoạch",
+        "Quản lý kho",
+        "Giao tiếp"
+      ],
+      "contract": "Thực tập",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Thưởng tháng 13",
+        "Phụ cấp ăn trưa"
+      ],
+      "deadline": "2026-11-19"
+    },
+    {
+      "code": "tuyendungs-007",
+      "position": "Chuyên viên an ninh mạng",
+      "company_name": "Công ty Bảo An",
+      "place": "Da Nang",
+      "field": "Công nghệ thông tin",
+      "pay": "8 triệu",
+      "work_type": "Remote",
+      "years": "2-4 năm",
+      "date_posted": "2026-10-25",
+      "link": "https://tuyendungs.example.invalid/jobs/tuyendungs-007",
+      "summary": "Vị trí Chuyên viên an ninh mạng tại Công ty Bảo An ở Da Nang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Java",
+        "Python",
+        "Git"
+      ],
+      "contract": "Thực tập",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Ngày nghỉ phép 12 ngày",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-11-24"
+    },
+    {
+      "code": "tuyendungs-008",
+      "position": "Kế toán tổng hợp",
+      "company_name": "Công ty Bảo An",
+      "place": "Can Tho",
+      "field": "Logistics",
+      "pay": "Up to 18 triệu",
+      "work_type": "remote",
+      "years": "2-4 năm",
+      "date_posted": "2026-10-02",
+      "link": "https://tuyendungs.example.invalid/jobs/tuyendungs-008",
+      "summary": "Vị trí Kế toán tổng hợp tại Công ty Bảo An ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Vận chuyển",
+        "Giao tiếp",
+        "Quản lý kho"
+      ],
+      "contract": "Toàn thời gian",
+      "benefits": [
+        "Thưởng tháng 13",
+        "Ngày nghỉ phép 12 ngày",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-11-01"
+    },
+    {
+      "code": "tuyendungs-009",
+      "position": "Nhân viên kiểm thử phần mềm",
+      "company_name": "Tập đoàn Nam Sơn",
+      "place": "Huế",
+      "field": "Vận tải",
+      "pay": "10-25 triệu",
+      "work_type": "Hybrid",
+      "years": "1-2 năm",
+      "date_posted": "2026-11-10",
+      "link": "https://tuyendungs.example.invalid/jobs/tuyendungs-009",
+      "summary": "Vị trí Nhân viên kiểm thử phần mềm tại Tập đoàn Nam Sơn ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Excel",
+        "Lập kế hoạch",
+        "Giao tiếp"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Thưởng tháng 13",
+        "Bảo hiểm xã hội đầy đủ",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": "2026-12-10"
+    },
+    {
+      "code": "tuyendungs-010",
+      "position": "Kỹ sư Backend .NET",
+      "company_name": "Công ty Thiên Long",
+      "place": "Hai Phong",
+      "field": "Vận tải",
+      "pay": "Up to 23 triệu",
+      "work_type": "onsite",
+      "years": "6-8 năm",
+      "date_posted": "2026-10-08",
+      "link": "https://tuyendungs.example.invalid/jobs/tuyendungs-010",
+      "summary": "Vị trí Kỹ sư Backend .NET tại Công ty Thiên Long ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Giao tiếp",
+        "Excel",
+        "Lập kế hoạch"
+      ],
+      "contract": "Toàn thời gian",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Đào tạo nội bộ",
+        "Bảo hiểm y tế"
+      ],
+      "deadline": "2026-11-07"
+    },
+    {
+      "code": "tuyendungs-011",
+      "position": "Nhân  viên kinh doanh",
+      "company_name": "Công ty Hồng Phúc",
+      "place": "Bình Dương",
+      "field": "IT",
+      "pay": "10 triệu",
+      "work_type": "Hybrid",
+      "years": "0-1 năm",
+      "date_posted": "2026-11-09",
+      "link": "https://tuyendungs.example.invalid/jobs/tuyendungs-011",
+      "summary": "Vị trí Nhân viên kinh doanh tại Công ty Hồng Phúc ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Java",
+        "React",
+        "Git"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Đào tạo nội bộ",
+        "Bảo hiểm xã hội đầy đủ",
+        "Phụ cấp ăn trưa"
+      ],
+      "deadline": "2026-12-08"
+    }
+  ]
+}
