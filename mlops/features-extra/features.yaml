@@ -1,0 +1,17 @@
+features:
+  - name: views_1h
+    window: 1h
+    owner: feature-store
+    sla_minutes: 15
+  - name: views_24h
+    window: 24h
+    owner: feature-store
+    sla_minutes: 60
+  - name: applies_24h
+    window: 24h
+    owner: feature-store
+    sla_minutes: 60
+  - name: apply_rate_7d
+    window: 7d
+    owner: feature-store
+    sla_minutes: 360
