@@ -94,12 +94,20 @@ Architecture decisions, runbooks, data dictionary and diagrams live under [docs/
 
 ## Verification
 
-There is no make verify target in this checkout. Run the checks below from the repo root:
+Run from the repo root, after the Quickstart virtual environment setup:
 
 ```
+make verify
+```
+
+`make verify` runs the offline checks, the unit tests, the search API tests and the hygiene check:
+
+```
+python3 mlops/cicd/check.py
 python3 docs/platform/check.py
 python3 -m unittest discover mlops
-python3 -m pytest services/api/tests
+.venv/bin/pytest services/api/tests -q
+git diff --check
 ```
 
 End to end, from the repo root:
