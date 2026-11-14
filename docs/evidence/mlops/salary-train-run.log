@@ -1,0 +1,2 @@
+trained salary: model=mlops/training/artifacts/salary/model.json metrics={"mae": 1922934.8610071777, "rmse": 2361341.662124774, "rows": 500, "test_rows": 100}
+evaluated salary: {"mae": 1766101.268151317, "rmse": 2170587.0827250103, "rows": 500}
