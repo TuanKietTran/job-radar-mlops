@@ -19,7 +19,7 @@ import re
 import sys
 from pathlib import Path
 
-SKIP_DIRS = {'.git', '.venv', '__pycache__', '.tox', 'node_modules'}
+SKIP_DIRS = {'.git', '.venv', '__pycache__', '.tox', 'node_modules', '.terraform'}
 SKIP_FILES = {'sbom.spdx.json'}
 TEXT_SUFFIXES = {'.py', '.md', '.yml', '.yaml', '.sh', '.txt'}
 WORKFLOW_DIR = '.github/workflows'
@@ -146,8 +146,10 @@ def check_text(root, issues):
                 issues.append(f'{rel}: banned token {match.group(0)!r}')
         if _has_emoji(text):
             issues.append(f'{rel}: emoji found')
-        if path.suffix == '.md' and '!' in text:
-            issues.append(f'{rel}: exclamation mark in markdown')
+        if path.suffix == '.md':
+            prose = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', text)
+            if '!' in prose:
+                issues.append(f'{rel}: exclamation mark in markdown')
 
 
 def check_workflows(root, issues):
