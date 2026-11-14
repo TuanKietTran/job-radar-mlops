@@ -1,9 +1,11 @@
 import json
 import os
+import sqlite3
 import unicodedata
+from datetime import datetime, timezone
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.responses import RedirectResponse
 
 
@@ -22,6 +24,32 @@ def _default_jobs_path():
 
 def _fixture_path():
     return Path(__file__).resolve().parent / 'tests' / 'fixtures' / 'sample-jobs.json'
+
+
+def _default_clicks_path():
+    return Path(__file__).resolve().parents[2] / 'data' / 'clicks.db'
+
+
+def _init_clicks(path):
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with sqlite3.connect(str(path)) as conn:
+        conn.execute('CREATE TABLE IF NOT EXISTS clicks (id INTEGER PRIMARY KEY AUTOINCREMENT, job_id TEXT NOT NULL, clicked_at_utc TEXT NOT NULL, user_agent TEXT)')
+        conn.commit()
+
+
+def _log_click(path, job_id, user_agent):
+    _init_clicks(path)
+    with sqlite3.connect(str(path)) as conn:
+        conn.execute('INSERT INTO clicks (job_id, clicked_at_utc, user_agent) VALUES (?, ?, ?)', (job_id, datetime.now(timezone.utc).isoformat(), user_agent))
+        conn.commit()
+
+
+def _count_clicks(path, job_id):
+    _init_clicks(path)
+    with sqlite3.connect(str(path)) as conn:
+        row = conn.execute('SELECT COUNT(*) FROM clicks WHERE job_id = ?', (job_id,)).fetchone()
+    return int(row[0]) if row else 0
 
 
 def load_jobs():
@@ -74,9 +102,10 @@ def _sorted(jobs):
     return sorted(jobs, key=lambda j: str(j.get('posted_at') or ''), reverse=True)
 
 
-def create_app(jobs=None):
+def create_app(jobs=None, clicks_path=None):
     app = FastAPI(title='Job radar API')
     data = list(jobs) if jobs is not None else load_jobs()
+    clicks_db = Path(clicks_path or os.environ.get('CLICKS_PATH') or _default_clicks_path())
 
     @app.get('/health')
     def health():
@@ -118,6 +147,24 @@ def create_app(jobs=None):
         for job in data:
             if str(job.get('id')) == job_id:
                 return job
+        raise HTTPException(status_code=404, detail='job not found')
+
+    @app.get('/api/jobs/{job_id}/redirect', description='Redirect to the job original posting URL and log one click.')
+    def redirect_job_by_id(job_id: str, request: Request):
+        for job in data:
+            if str(job.get('id')) == job_id:
+                url = str(job.get('source_url') or '')
+                if not url:
+                    raise HTTPException(status_code=404, detail='job has no source url')
+                _log_click(clicks_db, job_id, request.headers.get('user-agent'))
+                return RedirectResponse(url=url, status_code=302)
+        raise HTTPException(status_code=404, detail='job not found')
+
+    @app.get('/api/jobs/{job_id}/clicks', description='Return the number of logged redirect clicks for one job.')
+    def job_clicks(job_id: str):
+        for job in data:
+            if str(job.get('id')) == job_id:
+                return {'job_id': job_id, 'clicks': _count_clicks(clicks_db, job_id)}
         raise HTTPException(status_code=404, detail='job not found')
 
     @app.get('/api/redirect/{job_id}')
