@@ -1,0 +1,12 @@
+body { font-family: system-ui, sans-serif; line-height: 1.5; margin: 0 auto; max-width: 40rem; padding: 1rem; color: #222; }
+a { color: #1a5fb4; }
+label { display: block; font-weight: 600; margin-top: 1rem; }
+input { display: block; margin-top: 0.25rem; padding: 0.5rem; width: 100%; box-sizing: border-box; }
+select { display: block; margin-top: 0.25rem; padding: 0.5rem; width: 100%; box-sizing: border-box; }
+button { margin-top: 1rem; padding: 0.6rem 1.2rem; }
+.error { color: #9b1c1c; margin: 0.25rem 0 0; }
+.notice { border: 1px solid #999; padding: 0.75rem; margin-top: 1rem; }
+.results { margin-top: 1rem; }
+.results dt { font-weight: 600; margin-top: 0.5rem; }
+.results dd { margin: 0; }
+.hint { color: #555; }

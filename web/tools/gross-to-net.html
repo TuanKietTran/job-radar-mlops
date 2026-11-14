@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Gross to net calculator</title>
+<link rel='stylesheet' href='./tools.css'>
+</head>
+<body>
+<nav><a href='./index.html'>Salary tools</a></nav>
+<h1>Gross to net calculator</h1>
+<p>Rates are 2026 assumptions dated 2026-11-14. All money is integer VND per month.</p>
+<form id='calculator' novalidate>
+<label for='mode'>Direction</label>
+<select id='mode' name='mode'>
+<option value='gross'>Gross to net</option>
+<option value='net'>Net to gross</option>
+</select>
+<label id='amount-label' for='amount'>Gross salary (VND per month)</label>
+<input id='amount' name='amount' inputmode='numeric' autocomplete='off'>
+<p id='amount-error' class='error' role='alert' hidden></p>
+<label for='dependents'>Dependents</label>
+<input id='dependents' name='dependents' inputmode='numeric' autocomplete='off' value='0'>
+<p id='dependents-error' class='error' role='alert' hidden></p>
+<button type='submit'>Calculate</button>
+</form>
+<p id='api-notice' class='notice' role='alert' hidden></p>
+<section id='results' class='results' hidden>
+<h2>Result</h2>
+<dl>
+<dt>Gross salary</dt><dd id='result-gross'></dd>
+<dt>Net salary</dt><dd id='result-net'></dd>
+<dt>Employee insurance total</dt><dd id='result-employee-total'></dd>
+<dt>Employer insurance total</dt><dd id='result-employer-total'></dd>
+<dt>BHXH employee</dt><dd id='result-bhxh-employee'></dd>
+<dt>BHYT employee</dt><dd id='result-bhyt-employee'></dd>
+<dt>BHTN employee</dt><dd id='result-bhtn-employee'></dd>
+<dt>Taxable income</dt><dd id='result-taxable'></dd>
+<dt>Personal income tax</dt><dd id='result-tax'></dd>
+</dl>
+<p class='hint'>Net to gross returns a gross salary whose net is within 1000 VND of the target net.</p>
+</section>
+<script type='module'>
+import { validateGross, validateNet, validateDependents, callApi, formatVnd, setFieldError, showNotice, hideNotice } from './tools.js';
+const form = document.getElementById('calculator');
+const modeSelect = document.getElementById('mode');
+const amountInput = document.getElementById('amount');
+const amountLabel = document.getElementById('amount-label');
+const amountError = document.getElementById('amount-error');
+const dependentsInput = document.getElementById('dependents');
+const dependentsError = document.getElementById('dependents-error');
+const notice = document.getElementById('api-notice');
+const resultsSection = document.getElementById('results');
+function updateLabel() {
+  amountLabel.textContent = modeSelect.value === 'gross' ? 'Gross salary (VND per month)' : 'Net salary (VND per month)';
+}
+modeSelect.addEventListener('change', updateLabel);
+form.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  hideNotice(notice);
+  resultsSection.hidden = true;
+  const amountProblem = modeSelect.value === 'gross' ? validateGross(amountInput.value) : validateNet(amountInput.value);
+  const dependentsProblem = validateDependents(dependentsInput.value);
+  const amountOk = setFieldError(amountInput, amountError, amountProblem);
+  const dependentsOk = setFieldError(dependentsInput, dependentsError, dependentsProblem);
+  if (!amountOk || !dependentsOk) {
+    return;
+  }
+  const amount = Number(amountInput.value.trim().replace(/[\s,]/g, ''));
+  const dependents = Number(dependentsInput.value.trim());
+  try {
+    const data = modeSelect.value === 'gross'
+      ? await callApi('/api/salary/calculate', { gross: amount, dependents: dependents })
+      : await callApi('/api/salary/net-to-gross', { net: amount, dependents: dependents });
+    document.getElementById('result-gross').textContent = formatVnd(data.gross);
+    document.getElementById('result-net').textContent = formatVnd(data.net);
+    document.getElementById('result-employee-total').textContent = formatVnd(data.insurance.employee_total);
+    document.getElementById('result-employer-total').textContent = formatVnd(data.insurance.employer_total);
+    document.getElementById('result-bhxh-employee').textContent = formatVnd(data.insurance.bhxh_employee);
+    document.getElementById('result-bhyt-employee').textContent = formatVnd(data.insurance.bhyt_employee);
+    document.getElementById('result-bhtn-employee').textContent = formatVnd(data.insurance.bhtn_employee);
+    document.getElementById('result-taxable').textContent = formatVnd(data.taxable_income);
+    document.getElementById('result-tax').textContent = formatVnd(data.tax);
+    resultsSection.hidden = false;
+  } catch (error) {
+    showNotice(notice, error.message);
+  }
+});
+</script>
+</body>
+</html>

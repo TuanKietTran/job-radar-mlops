@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Salary tools</title>
+<link rel='stylesheet' href='./tools.css'>
+</head>
+<body>
+<h1>Salary tools</h1>
+<p>Calculators for Vietnam gross to net salary, unemployment benefit estimates, and social insurance. Rates are 2026 assumptions dated 2026-11-14. Re-check rates against the law in force before using results for a real payroll decision.</p>
+<p id='api-status' class='notice'>Checking salary API status.</p>
+<ul>
+<li><a href='./gross-to-net.html'>Gross to net calculator</a> - net salary, insurance, and tax from gross salary, or gross salary from net salary.</li>
+<li><a href='./unemployment-benefit.html'>Unemployment benefit calculator</a> - estimated benefit months and amount from months contributed and average salary.</li>
+<li><a href='./social-insurance.html'>Social insurance calculator</a> - BHXH, BHYT, and BHTN from gross salary.</li>
+</ul>
+<p class='hint'>These pages call the salary API at http://127.0.0.1:8001. Start the stub server from tests/tools/stub_salary_api.py for local testing. The stub is for local testing only and is not the real engine.</p>
+<script type='module'>
+import { apiBase } from './tools.js';
+const statusElement = document.getElementById('api-status');
+try {
+  const response = await fetch(apiBase() + '/health');
+  if (response.ok) {
+    statusElement.textContent = 'Salary API is reachable at ' + apiBase() + '.';
+  } else {
+    statusElement.textContent = 'Salary API returned status ' + response.status + ' at ' + apiBase() + '.';
+  }
+} catch (error) {
+  statusElement.textContent = 'Salary API is unreachable at ' + apiBase() + '. Start the stub server and try again.';
+}
+</script>
+</body>
+</html>
