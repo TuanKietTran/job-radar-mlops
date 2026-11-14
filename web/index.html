@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Radar — Việc làm tại Việt Nam</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-head"><div class="wrap head-inner"><a class="brand" href="index.html"><span class="brand-mark">JR</span>Job Radar</a><nav class="nav" aria-label="Điều hướng chính"><a href="index.html" aria-current="page">Việc làm</a><a href="tools.html">Công cụ lương</a><a href="pricing.html">Bảng giá</a><a href="companies.html">Công ty</a><a href="guides.html">Hướng dẫn</a></nav></div></header>
+<main class="wrap">
+<section class="hero">
+<h1>Tìm việc làm, nhìn rõ lương thực nhận</h1>
+<p class="lede">Job Radar tổng hợp tin tuyển dụng từ nhiều trang việc làm, so sánh lương gross và net trước khi bạn ứng tuyển.</p>
+</section>
+<section aria-label="Tìm kiếm và lọc">
+<div class="field"><label for="q">Tìm kiếm</label><input id="q" name="q" type="search" placeholder="Chức danh, công ty, kỹ năng" autocomplete="off"></div>
+<div class="filters">
+<div class="field"><label for="city">Thành phố</label><select id="city" name="city"></select></div>
+<div class="field"><label for="industry">Ngành nghề</label><select id="industry" name="industry"></select></div>
+<div class="field"><label for="level">Cấp bậc</label><select id="level" name="level"></select></div>
+<div class="field"><label for="salary-min">Lương từ (triệu đồng)</label><input id="salary-min" name="salary-min" type="number" min="0" step="1" inputmode="numeric"></div>
+<div class="field"><label for="salary-max">Lương đến (triệu đồng)</label><input id="salary-max" name="salary-max" type="number" min="0" step="1" inputmode="numeric"></div>
+<div class="field"><label for="experience">Kinh nghiệm (năm)</label><input id="experience" name="experience" type="number" min="0" max="30" step="1" inputmode="numeric"></div>
+</div>
+<div class="field"><span id="remote-label">Hình thức làm việc</span><div class="chips" role="group" aria-labelledby="remote-label"><button type="button" class="chip" data-remote="" aria-pressed="true">Tất cả</button><button type="button" class="chip" data-remote="onsite" aria-pressed="false">Tại văn phòng</button><button type="button" class="chip" data-remote="hybrid" aria-pressed="false">Kết hợp</button><button type="button" class="chip" data-remote="remote" aria-pressed="false">Từ xa</button></div></div>
+<div class="actions"><button type="button" class="btn btn-ghost" id="reset-filters">Xóa bộ lọc</button></div>
+<p class="note" id="demo-note" hidden>Đang hiển thị dữ liệu mẫu vì chưa kết nối được API.</p>
+</section>
+<section aria-label="Danh sách việc làm">
+<p id="result-count" class="muted" aria-live="polite"></p>
+<div class="grid" id="job-list"></div>
+</section>
+</main>
+<footer class="site-foot"><div class="wrap"><p>Dữ liệu mẫu tổng hợp từ các bảng tin giả định, chỉ dùng để xem thử. Lương hiển thị là lương gross theo tháng, chưa gồm thuế và bảo hiểm.</p></div></footer>
+<script src="assets/salary.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

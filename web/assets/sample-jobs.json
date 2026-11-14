@@ -1,0 +1,407 @@
+[
+  {
+    "id": "j001",
+    "title": "Kỹ sư Backend .NET",
+    "company": "Công ty Cổ phần Sao Mai Số",
+    "city": "Hà Nội",
+    "industry": "Phần mềm",
+    "skills": [
+      "C#",
+      ".NET",
+      "SQL Server"
+    ],
+    "salary_min_vnd": 20000000,
+    "salary_max_vnd": 32000000,
+    "salary_currency": "VND",
+    "remote": "hybrid",
+    "experience_min_years": 2,
+    "experience_max_years": 4,
+    "level": "middle",
+    "employment_type": "full-time",
+    "posted_at": "2026-11-10",
+    "source_board": "vietworks",
+    "source_url": "https://vietworks.example.invalid/jobs/j001",
+    "description": "Xây dựng và vận hành API cho hệ thống thương mại điện tử nội bộ.",
+    "benefits": [
+      "Bảo hiểm đầy đủ",
+      "Thưởng tháng 13"
+    ],
+    "application_deadline": "2026-12-10"
+  },
+  {
+    "id": "j002",
+    "title": "Lập trình viên Frontend React",
+    "company": "Công ty TNHH Mây Trắng",
+    "city": "TP. Hồ Chí Minh",
+    "industry": "Phần mềm",
+    "skills": [
+      "React",
+      "TypeScript",
+      "CSS"
+    ],
+    "salary_min_vnd": 18000000,
+    "salary_max_vnd": 28000000,
+    "salary_currency": "VND",
+    "remote": "remote",
+    "experience_min_years": 1,
+    "experience_max_years": 3,
+    "level": "middle",
+    "employment_type": "full-time",
+    "posted_at": "2026-11-11",
+    "source_board": "topjobvn",
+    "source_url": "https://topjobvn.example.invalid/jobs/j002",
+    "description": "Phát triển giao diện trang quản trị và trang bán hàng.",
+    "benefits": [
+      "Làm việc từ xa",
+      "Đào tạo nội bộ"
+    ],
+    "application_deadline": "2026-12-15"
+  },
+  {
+    "id": "j003",
+    "title": "Kỹ sư dữ liệu",
+    "company": "Công ty Cổ phần Cầu Vồng Số",
+    "city": "Hà Nội",
+    "industry": "Phần mềm",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow"
+    ],
+    "salary_min_vnd": 25000000,
+    "salary_max_vnd": 40000000,
+    "salary_currency": "VND",
+    "remote": "onsite",
+    "experience_min_years": 3,
+    "experience_max_years": 5,
+    "level": "senior",
+    "employment_type": "full-time",
+    "posted_at": "2026-11-09",
+    "source_board": "careerhub",
+    "source_url": "https://careerhub.example.invalid/jobs/j003",
+    "description": "Xây dựng đường ống dữ liệu và báo cáo cho đội kinh doanh.",
+    "benefits": [
+      "Bảo hiểm đầy đủ",
+      "Thưởng dự án"
+    ],
+    "application_deadline": "2026-12-05"
+  },
+  {
+    "id": "j004",
+    "title": "Chuyên viên phân tích nghiệp vụ",
+    "company": "Công ty TNHH Bến Sông",
+    "city": "Đà Nẵng",
+    "industry": "Tài chính",
+    "skills": [
+      "SQL",
+      "Excel",
+      "Phân tích nghiệp vụ"
+    ],
+    "salary_min_vnd": 16000000,
+    "salary_max_vnd": 24000000,
+    "salary_currency": "VND",
+    "remote": "hybrid",
+    "experience_min_years": 2,
+    "experience_max_years": 4,
+    "level": "middle",
+    "employment_type": "full-time",
+    "posted_at": "2026-11-08",
+    "source_board": "timviecnhanh",
+    "source_url": "https://timviecnhanh.example.invalid/jobs/j004",
+    "description": "Thu thập yêu cầu và viết tài liệu cho hệ thống kế toán.",
+    "benefits": [
+      "Bảo hiểm đầy đủ",
+      "Nghỉ phép 14 ngày"
+    ],
+    "application_deadline": "2026-12-20"
+  },
+  {
+    "id": "j005",
+    "title": "Kỹ sư DevOps",
+    "company": "Công ty TNHH Lá Xanh",
+    "city": "TP. Hồ Chí Minh",
+    "industry": "Phần mềm",
+    "skills": [
+      "Docker",
+      "Kubernetes",
+      "AWS"
+    ],
+    "salary_min_vnd": 28000000,
+    "salary_max_vnd": 42000000,
+    "salary_currency": "VND",
+    "remote": "remote",
+    "experience_min_years": 3,
+    "experience_max_years": 6,
+    "level": "senior",
+    "employment_type": "full-time",
+    "posted_at": "2026-11-12",
+    "source_board": "vieclam24h",
+    "source_url": "https://vieclam24h.example.invalid/jobs/j005",
+    "description": "Vận hành hạ tầng đám mây và đường ống triển khai tự động.",
+    "benefits": [
+      "Làm việc từ xa",
+      "Thưởng tháng 13"
+    ],
+    "application_deadline": "2026-12-31"
+  },
+  {
+    "id": "j006",
+    "title": "Lập trình viên Mobile Flutter",
+    "company": "Công ty TNHH Núi Đỏ",
+    "city": "Hà Nội",
+    "industry": "Phần mềm",
+    "skills": [
+      "Flutter",
+      "Dart",
+      "REST"
+    ],
+    "salary_min_vnd": 15000000,
+    "salary_max_vnd": 23000000,
+    "salary_currency": "VND",
+    "remote": "onsite",
+    "experience_min_years": 1,
+    "experience_max_years": 3,
+    "level": "junior",
+    "employment_type": "full-time",
+    "posted_at": "2026-11-07",
+    "source_board": "jobpro",
+    "source_url": "https://jobpro.example.invalid/jobs/j006",
+    "description": "Phát triển ứng dụng giao hàng trên Android và iOS.",
+    "benefits": [
+      "Đào tạo nội bộ",
+      "Bảo hiểm đầy đủ"
+    ],
+    "application_deadline": "2026-12-10"
+  },
+  {
+    "id": "j007",
+    "title": "Kỹ sư kiểm thử phần mềm",
+    "company": "Công ty TNHH Sóng Mới",
+    "city": "TP. Hồ Chí Minh",
+    "industry": "Phần mềm",
+    "skills": [
+      "Kiểm thử",
+      "Selenium",
+      "Jira"
+    ],
+    "salary_min_vnd": 14000000,
+    "salary_max_vnd": 21000000,
+    "salary_currency": "VND",
+    "remote": "hybrid",
+    "experience_min_years": 1,
+    "experience_max_years": 3,
+    "level": "junior",
+    "employment_type": "full-time",
+    "posted_at": "2026-11-11",
+    "source_board": "nganhnghe",
+    "source_url": "https://nganhnghe.example.invalid/jobs/j007",
+    "description": "Viết và chạy kiểm thử tự động cho ứng dụng web.",
+    "benefits": [
+      "Bảo hiểm đầy đủ",
+      "Làm việc linh hoạt"
+    ],
+    "application_deadline": "2026-12-18"
+  },
+  {
+    "id": "j008",
+    "title": "Quản lý sản phẩm",
+    "company": "Công ty TNHH Trăng Non",
+    "city": "Hà Nội",
+    "industry": "Thương mại điện tử",
+    "skills": [
+      "Quản lý sản phẩm",
+      "Agile",
+      "Phân tích dữ liệu"
+    ],
+    "salary_min_vnd": 30000000,
+    "salary_max_vnd": 45000000,
+    "salary_currency": "VND",
+    "remote": "onsite",
+    "experience_min_years": 4,
+    "experience_max_years": 7,
+    "level": "lead",
+    "employment_type": "full-time",
+    "posted_at": "2026-11-06",
+    "source_board": "tuyendung",
+    "source_url": "https://tuyendung.example.invalid/jobs/j008",
+    "description": "Dẫn dắt lộ trình sản phẩm cho gian hàng trực tuyến.",
+    "benefits": [
+      "Thưởng tháng 13",
+      "Bảo hiểm đầy đủ"
+    ],
+    "application_deadline": "2026-12-25"
+  },
+  {
+    "id": "j009",
+    "title": "Chuyên viên kế toán tổng hợp",
+    "company": "Công ty TNHH Gió Đông",
+    "city": "Hải Phòng",
+    "industry": "Tài chính",
+    "skills": [
+      "Kế toán",
+      "Thuế",
+      "Excel"
+    ],
+    "salary_min_vnd": 13000000,
+    "salary_max_vnd": 18000000,
+    "salary_currency": "VND",
+    "remote": "onsite",
+    "experience_min_years": 2,
+    "experience_max_years": 4,
+    "level": "middle",
+    "employment_type": "full-time",
+    "posted_at": "2026-11-10",
+    "source_board": "vieclamtot",
+    "source_url": "https://vieclamtot.example.invalid/jobs/j009",
+    "description": "Tổng hợp sổ sách và lập báo cáo thuế hàng tháng.",
+    "benefits": [
+      "Bảo hiểm đầy đủ",
+      "Nghỉ phép 14 ngày"
+    ],
+    "application_deadline": "2026-12-12"
+  },
+  {
+    "id": "j010",
+    "title": "Kỹ sư học máy",
+    "company": "Công ty TNHH Vườn Đào",
+    "city": "TP. Hồ Chí Minh",
+    "industry": "Phần mềm",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "MLOps"
+    ],
+    "salary_min_vnd": 35000000,
+    "salary_max_vnd": 55000000,
+    "salary_currency": "VND",
+    "remote": "hybrid",
+    "experience_min_years": 3,
+    "experience_max_years": 5,
+    "level": "senior",
+    "employment_type": "full-time",
+    "posted_at": "2026-11-12",
+    "source_board": "jobvn",
+    "source_url": "https://jobvn.example.invalid/jobs/j010",
+    "description": "Huấn luyện và vận hành mô hình gợi ý sản phẩm.",
+    "benefits": [
+      "Thưởng dự án",
+      "Đào tạo nội bộ"
+    ],
+    "application_deadline": "2026-12-31"
+  },
+  {
+    "id": "j011",
+    "title": "Lập trình viên Fullstack",
+    "company": "Công ty Cổ phần Hải Âu",
+    "city": "Đà Nẵng",
+    "industry": "Phần mềm",
+    "skills": [
+      "Node.js",
+      "React",
+      "PostgreSQL"
+    ],
+    "salary_min_vnd": 22000000,
+    "salary_max_vnd": 34000000,
+    "salary_currency": "VND",
+    "remote": "remote",
+    "experience_min_years": 2,
+    "experience_max_years": 4,
+    "level": "middle",
+    "employment_type": "full-time",
+    "posted_at": "2026-11-09",
+    "source_board": "careerplus",
+    "source_url": "https://careerplus.example.invalid/jobs/j011",
+    "description": "Phát triển cả giao diện và API cho hệ thống đặt chỗ.",
+    "benefits": [
+      "Làm việc từ xa",
+      "Bảo hiểm đầy đủ"
+    ],
+    "application_deadline": "2026-12-22"
+  },
+  {
+    "id": "j012",
+    "title": "Chuyên viên vận hành kho",
+    "company": "Công ty TNHH Bình Minh Số",
+    "city": "Cần Thơ",
+    "industry": "Logistics",
+    "skills": [
+      "Quản lý kho",
+      "ERP",
+      "Excel"
+    ],
+    "salary_min_vnd": 11000000,
+    "salary_max_vnd": 15000000,
+    "salary_currency": "VND",
+    "remote": "onsite",
+    "experience_min_years": 1,
+    "experience_max_years": 2,
+    "level": "junior",
+    "employment_type": "full-time",
+    "posted_at": "2026-11-05",
+    "source_board": "workvn",
+    "source_url": "https://workvn.example.invalid/jobs/j012",
+    "description": "Theo dõi nhập xuất kho và đối soát với đội giao hàng.",
+    "benefits": [
+      "Bảo hiểm đầy đủ",
+      "Hỗ trợ ăn trưa"
+    ],
+    "application_deadline": "2026-12-08"
+  },
+  {
+    "id": "j013",
+    "title": "Thực tập sinh Frontend",
+    "company": "Công ty Cổ phần Kiến Vàng",
+    "city": "Hà Nội",
+    "industry": "Phần mềm",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "salary_min_vnd": null,
+    "salary_max_vnd": null,
+    "salary_currency": "VND",
+    "remote": "onsite",
+    "experience_min_years": 0,
+    "experience_max_years": 1,
+    "level": "intern",
+    "employment_type": "internship",
+    "posted_at": "2026-11-12",
+    "source_board": "timviec",
+    "source_url": "https://timviec.example.invalid/jobs/j013",
+    "description": "Hỗ trợ đội frontend xây dựng trang giới thiệu sản phẩm.",
+    "benefits": [
+      "Đào tạo nội bộ",
+      "Hỗ trợ thực tập"
+    ],
+    "application_deadline": "2026-12-31"
+  },
+  {
+    "id": "j014",
+    "title": "Giáo viên lập trình Python",
+    "company": "Công ty TNHH Suối Nguồn",
+    "city": "TP. Hồ Chí Minh",
+    "industry": "Giáo dục",
+    "skills": [
+      "Python",
+      "Giảng dạy"
+    ],
+    "salary_min_vnd": 12000000,
+    "salary_max_vnd": 17000000,
+    "salary_currency": "VND",
+    "remote": "hybrid",
+    "experience_min_years": 1,
+    "experience_max_years": 3,
+    "level": "junior",
+    "employment_type": "part-time",
+    "posted_at": "2026-11-08",
+    "source_board": "vieclammoi",
+    "source_url": "https://vieclammoi.example.invalid/jobs/j014",
+    "description": "Giảng dạy lập trình Python cơ bản cho học viên mới.",
+    "benefits": [
+      "Lịch dạy linh hoạt",
+      "Bảo hiểm đầy đủ"
+    ],
+    "application_deadline": "2026-12-15"
+  }
+]
