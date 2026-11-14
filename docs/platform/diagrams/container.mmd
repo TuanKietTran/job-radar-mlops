@@ -1,0 +1,30 @@
+%% Container diagram for the job radar platform.
+%% Sources: ADR 0001, ADR 0003, ADR 0004, ADR 0005, ADR 0006, ADR 0007,
+%% ADR 0008, ADR 0010, ADR 0012. Proposed items are labelled proposed.
+C4Container
+title Container diagram for the job radar platform
+Person(job_seeker, 'Job seeker', 'Searches synthetic job listings and reads career guides')
+System_Boundary(job_radar, 'Job radar platform') {
+Container(web_pages, 'Static web pages', 'Plain HTML and CSS, standard library Python generators', 'Guides from web guides and company pages from web pages-extra, with search backed by search.json')
+Container(search_api, 'Search API', 'FastAPI served by uvicorn on port 8000', 'Serves health, jobs, one job, redirect and filters over canonical jobs')
+Container(ingest, 'Ingest pipeline', 'Standard library Python', 'Normalizes fixtures, dedupes postings and loads the local store')
+Container(salary, 'Salary engine', 'Standard library Python', 'Gross to net calculator using 2026 assumptions only, integer VND per month')
+Container(lakehouse, 'Ingest lakehouse', 'MLOps bronze, silver and gold layers', 'Later MLOps addition under mlops ingest')
+Container(observability, 'Observability stack', 'Prometheus, Grafana and OpenTelemetry collector, localhost only', 'JSON logs, tracing and Prometheus text metrics')
+Container(ledger, 'Token ledger', 'Proposed', 'Proposed ledger for AI call balances and charges, not built on main')
+ContainerDb(sqlite_store, 'SQLite local store', 'SQLite, schema in services ingest schema', 'Canonical jobs and the raw payload mirror, lists stored as JSON text')
+ContainerDb(doc_store, 'Document store', 'Filesystem under data raw', 'One verbatim raw payload per file at board and board job id')
+ContainerDb(canonical_jobs, 'Canonical jobs file', 'JSON at data processed jobs.json', 'Canonical jobs read by the search API, with a fixture fallback')
+}
+System_Ext(fixtures, 'Synthetic fixtures', 'Invented boards and jobs under data fixtures boards')
+Rel(job_seeker, web_pages, 'Reads pages and searches')
+Rel(job_seeker, search_api, 'Queries jobs by text, city, industry, remote, level, salary and experience')
+Rel(ingest, fixtures, 'Reads invented fixtures')
+Rel(ingest, doc_store, 'Writes verbatim raw payloads')
+Rel(ingest, sqlite_store, 'Writes canonical jobs and raw payload mirror')
+Rel(ingest, canonical_jobs, 'Writes canonical jobs and the dedupe report')
+Rel(search_api, canonical_jobs, 'Reads canonical jobs, falls back to the sample fixture')
+Rel(web_pages, canonical_jobs, 'Company pages read data companies.json, guides read articles')
+Rel(search_api, observability, 'Emits logs, traces and metrics')
+Rel(ingest, observability, 'Emits logs, traces and metrics')
+UpdateLayoutConfig($c4ShapeInRow='3', $c4BoundaryInRow='1')

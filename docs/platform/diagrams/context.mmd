@@ -1,0 +1,16 @@
+%% Context diagram for the job radar platform.
+%% Sources: ADR 0001 monorepo layout, ADR 0002 synthetic data only,
+%% ADR 0007 search API framework choice, ADR 0008 web stack.
+%% All data is synthetic. No real board is contacted and no real listing is copied.
+C4Context
+title System context for the job radar platform
+Person(job_seeker, 'Job seeker', 'Searches synthetic job listings and reads career guides')
+Person(worker, 'Platform worker', 'Runs ingest and the search API locally from a checkout')
+System(job_radar, 'Job radar platform', 'One public repo holding ingest, search, static web pages, guides and MLOps work')
+System_Ext(fixtures, 'Synthetic fixtures', 'Invented boards and jobs under data fixtures boards, 22 boards and 228 canonical jobs')
+System_Ext(static_host, 'Static host', 'Any static host serving the generated HTML pages')
+Rel(job_seeker, job_radar, 'Searches listings and reads guides')
+Rel(worker, job_radar, 'Runs ingest, search and page generation locally')
+Rel(job_radar, fixtures, 'Reads invented fixtures only')
+Rel(job_radar, static_host, 'Publishes generated HTML pages to')
+UpdateLayoutConfig($c4ShapeInRow='3', $c4BoundaryInRow='1')
