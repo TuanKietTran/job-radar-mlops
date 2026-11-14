@@ -13,6 +13,10 @@ PAIRS = [
     ('postings_by_month', 'mart_postings_by_month'),
     ('remote_share', 'mart_remote_share'),
     ('top_skills', 'mart_top_skills'),
+    ('salary_by_experience_band', 'mart_salary_by_experience_band'),
+    ('postings_by_source_board', 'mart_postings_by_source_board'),
+    ('postings_by_industry', 'mart_postings_by_industry'),
+    ('salary_by_month', 'mart_salary_by_month'),
 ]
 
 
@@ -59,7 +63,7 @@ class SqlDbtTests(unittest.TestCase):
                 names.append(line.split(':', 1)[1].strip())
         models = sorted(path.stem for path in (ROOT / 'models' / 'gold').glob('*.sql'))
         self.assertEqual(sorted(names), models)
-        self.assertEqual(len(names), 4)
+        self.assertEqual(len(names), 8)
 
     def test_ref_expansion(self):
         runner = load_runner()

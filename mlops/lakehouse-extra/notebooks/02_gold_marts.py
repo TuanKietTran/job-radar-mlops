@@ -51,11 +51,43 @@ SELECT skill, COUNT(*) AS postings
 FROM job_skills GROUP BY skill ORDER BY postings DESC, skill
 '''
 
+MART_SALARY_EXP = '''
+SELECT CASE WHEN experience_years BETWEEN 0 AND 2 THEN 'junior' WHEN experience_years BETWEEN 3 AND 5 THEN 'mid' WHEN experience_years BETWEEN 6 AND 9 THEN 'senior' WHEN experience_years BETWEEN 10 AND 15 THEN 'lead' END AS band, COUNT(*) AS postings,
+  CAST(AVG((salary_gross_min + salary_gross_max) / 2.0) AS INTEGER) AS avg_salary_mid,
+  MIN(salary_gross_min) AS min_salary,
+  MAX(salary_gross_max) AS max_salary
+FROM staging_jobs GROUP BY band ORDER BY band
+'''
+
+MART_SOURCE = '''
+SELECT source_board, COUNT(*) AS postings,
+  CAST(COUNT(*) AS REAL) / (SELECT COUNT(*) FROM staging_jobs) AS share
+FROM staging_jobs GROUP BY source_board ORDER BY source_board
+'''
+
+MART_INDUSTRY = '''
+SELECT industry, COUNT(*) AS postings,
+  CAST(AVG((salary_gross_min + salary_gross_max) / 2.0) AS INTEGER) AS avg_salary_mid
+FROM staging_jobs GROUP BY industry ORDER BY industry
+'''
+
+MART_SALARY_MONTH = '''
+SELECT substr(posted_date, 1, 7) AS month, COUNT(*) AS postings,
+  CAST(AVG((salary_gross_min + salary_gross_max) / 2.0) AS INTEGER) AS avg_salary_mid,
+  MIN(salary_gross_min) AS min_salary,
+  MAX(salary_gross_max) AS max_salary
+FROM staging_jobs GROUP BY month ORDER BY month
+'''
+
 MARTS = [
     ('mart_salary_by_city_industry', MART_SALARY),
     ('mart_postings_by_month', MART_MONTH),
     ('mart_remote_share', MART_REMOTE),
     ('mart_top_skills', MART_SKILLS),
+    ('mart_salary_by_experience_band', MART_SALARY_EXP),
+    ('mart_postings_by_source_board', MART_SOURCE),
+    ('mart_postings_by_industry', MART_INDUSTRY),
+    ('mart_salary_by_month', MART_SALARY_MONTH),
 ]
 
 

@@ -38,3 +38,47 @@ models:
         description: Skill named in the posting
       - name: postings
         description: Number of postings naming the skill
+  - name: mart_salary_by_experience_band
+    description: Posting counts and salary range by experience band
+    columns:
+      - name: band
+        description: Experience band, junior, mid, senior or lead
+      - name: postings
+        description: Number of postings in the experience band
+      - name: avg_salary_mid
+        description: Average of the salary range midpoint in VND
+      - name: min_salary
+        description: Lowest gross salary minimum in VND
+      - name: max_salary
+        description: Highest gross salary maximum in VND
+  - name: mart_postings_by_source_board
+    description: Share of postings by source board
+    columns:
+      - name: source_board
+        description: Board the posting came from
+      - name: postings
+        description: Number of postings from the source board
+      - name: share
+        description: Fraction of all postings from the source board
+  - name: mart_postings_by_industry
+    description: Posting counts and average salary midpoint by industry
+    columns:
+      - name: industry
+        description: Industry of the posting
+      - name: postings
+        description: Number of postings in the industry
+      - name: avg_salary_mid
+        description: Average of the salary range midpoint in VND
+  - name: mart_salary_by_month
+    description: Posting counts and salary range by month of posting
+    columns:
+      - name: month
+        description: Month of posting as year-month
+      - name: postings
+        description: Number of postings in the month
+      - name: avg_salary_mid
+        description: Average of the salary range midpoint in VND
+      - name: min_salary
+        description: Lowest gross salary minimum in VND
+      - name: max_salary
+        description: Highest gross salary maximum in VND
