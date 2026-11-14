@@ -41,11 +41,11 @@ def generated():
     yield
 
 
-def test_data_has_thirty_companies():
+def test_data_has_forty_companies():
     companies = load_companies()
-    assert len(companies) == 30
+    assert len(companies) == 40
     slugs = [c['slug'] for c in companies]
-    assert len(set(slugs)) == 30
+    assert len(set(slugs)) == 40
     for company in companies:
         assert REQUIRED_KEYS <= set(company)
         assert company['description'].strip()
@@ -56,7 +56,7 @@ def test_data_has_thirty_companies():
 
 def test_page_counts():
     assert (SITE / 'index.html').is_file()
-    assert len(list((SITE / 'companies').glob('*.html'))) == 30
+    assert len(list((SITE / 'companies').glob('*.html'))) == 40
     assert len(list((SITE / 'industries').glob('*.html'))) == 10
     assert len(list((SITE / 'cities').glob('*.html'))) == 10
 
@@ -78,7 +78,7 @@ def test_every_company_industry_and_city_page_exists():
 
 def test_each_page_has_title_description_and_h1():
     files = html_files()
-    assert len(files) == 51
+    assert len(files) == 61
     for path in files:
         text = path.read_text(encoding='utf-8')
         assert '<title>' in text and '</title>' in text
@@ -111,8 +111,8 @@ def test_sitemap_matches_files_on_disk():
     root = ET.parse(sitemap).getroot()
     ns = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
     urls = [el.text for el in root.findall('s:url/s:loc', ns)]
-    assert len(urls) == 51
-    assert len(set(urls)) == 51
+    assert len(urls) == 61
+    assert len(set(urls)) == 61
     for url in urls:
         assert url.startswith(BASE + '/') or url == BASE + '/'
         rel = url[len(BASE):]
