@@ -1,0 +1,8 @@
+{
+  "winner": "B",
+  "accuracy_a": 0.85,
+  "accuracy_b": 1.0,
+  "mean_latency_a_ms": 12,
+  "mean_latency_b_ms": 18,
+  "rows": 20
+}

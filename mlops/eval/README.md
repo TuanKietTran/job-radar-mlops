@@ -8,6 +8,8 @@ Offline evaluation for the job aggregator. Everything here runs on synthetic dat
 - models/salary-v1/model.json: fixture model, plain JSON params, never pickle. Linear salary formula on experience, city, industry and level, plus a skill ranker.
 - harness.py: offline eval, writes reports/eval.json.
 - simulate.py: A/B plus shadow simulation, writes reports/ab.json.
+- ab.py: small A/B run on 20 synthetic rows, writes data/ab/results.csv and data/ab/summary.json.
+- shadow.py: shadow run on the same 20 rows, baseline served, candidate scored only, writes data/shadow/divergences.csv and data/shadow/summary.json.
 - gates.py: promotion gates from config/gates.json, writes reports/verdict.json.
 - fairness.py: slice metrics and drift, writes reports/fairness.json.
 - cards.py: model card at docs/cards/salary-v1-1.0.0.md.
@@ -18,6 +20,8 @@ Offline evaluation for the job aggregator. Everything here runs on synthetic dat
     python3 -m mlops.eval.fixture
     python3 -m mlops.eval.harness
     python3 -m mlops.eval.simulate
+    python3 -m mlops.eval.ab
+    python3 -m mlops.eval.shadow
     python3 -m mlops.eval.fairness
     python3 -m mlops.eval.gates
     python3 -m mlops.eval.cards
@@ -42,6 +46,8 @@ True salary is the midpoint salary_mid_vnd stored per job. Predicted salary come
 ## A/B and shadow
 
 simulate.py replays 200 sessions of 40 sampled jobs. Even sessions serve the champion, odd sessions serve the challenger. In shadow mode the challenger is also scored on control sessions, but the served arm stays the champion. The recommendation line promotes the challenger only when its session MAE is at least 100,000 VND lower and its precision at 10 is no more than 0.02 lower than the champion.
+
+ab.py and shadow.py run the same 20 synthetic rows (seed 42, feature uniform in [0, 1), expected 1 when feature is at least 0.5). Variant A / baseline predicts 1 at 0.6 or above (12 ms per row); variant B / candidate predicts 1 at 0.5 or above (18 ms per row). A win is a row where one variant is correct and the other is not. Higher accuracy wins; ties break on lower mean latency. Verified run: A 0.85 accuracy, 0 wins; B 1.0 accuracy, 3 wins; winner B. In shadow.py the baseline predictions are served and never changed; the candidate is scored only. The 3 divergences (rows 11, 15, 17) are all rows where the candidate is correct and the baseline is not: divergence rate 0.15, baseline accuracy 0.85, candidate accuracy 1.0.
 
 ## Gates
 
