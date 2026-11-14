@@ -1,0 +1,29 @@
+B5 serving session - 2026-11-14
+Branch: mlops/b5-serving, worktree wt/mlops-b5
+Fixture: /tmp/b5-session/setup.py - registry salary v1 production intercept 20000000, v2 staging 22000000; jobs + salary/rank/match payloads in /tmp/b5-session
+Note: run_server.py stubs mlops.training.salary.gross_to_net as gross * 0.89; mlops/training is not on this branch.
+
+Live server 127.0.0.1:8001 (stdlib ThreadingHTTPServer, mlops/serving/app.py)
+- health ok, salary v1 production, v2 staging listed
+- POST /predict/salary: 27500000 gross / 24475000 net, v1 production
+- POST /predict/rank: score 1.0
+- POST /predict/match: score 1.0, matched Python+SQL, missing none
+- POST /predict/salary with bad payload: 400 missing title
+- /tmp/b5-session/requests.jsonl: 6 requests, latencies 0.06-0.09 ms
+
+Canary (mlops/serving/canary.py, /tmp/b5-session/canary.jsonl, 3 rows)
+- percent 10: routed staging, 29500000 gross / 26255000 net, v2 staging
+- percent 0: routed production, 27500000 gross / 24475000 net, v1 production
+- percent 100: routed staging, 29500000 gross / 26255000 net, v2 staging
+- compare: count 3, mean_abs_diff 2000000, mean_abs_pct 0.0727, within_5pct 0.0
+- live server 127.0.0.1:8002 at canary 100pct returned v2 staging 29500000 / 26255000
+
+Drift (mlops/monitoring/drift.py, PSI>0.2 KS>0.15 alert exit 1, quiet exit 0)
+- shifted data: alert field=salary psi=8.2831 ks=1.0
+- same distribution: ok salary psi=0.0 ks=0.0
+
+Report (mlops/monitoring/report.py): renders request counts, latency, errors, production models, drift status to report.md + report.json
+
+Tests re-verified 2026-11-14 18:13 ICT: python3 -m unittest discover -s mlops/tests, 15 tests OK in 4.662s (pytest not installed, unittest is the runner)
+Banned-word grep over mlops/serving, mlops/monitoring, mlops/tests: no hits
+Servers stopped after session, ports 8001/8002 down (lsof empty at re-verification)
