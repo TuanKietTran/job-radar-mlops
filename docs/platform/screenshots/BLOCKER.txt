@@ -1,0 +1,1 @@
+Playwright is absent, no PNG files were captured. Run with --dry-run to list the pages that would be captured.
