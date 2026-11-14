@@ -1,0 +1,40 @@
+version: 2
+models:
+  - name: mart_salary_by_city_industry
+    description: Posting counts and salary range by city and industry
+    columns:
+      - name: city
+        description: City of the posting
+      - name: industry
+        description: Industry of the posting
+      - name: postings
+        description: Number of postings in the city and industry
+      - name: avg_salary_mid
+        description: Average of the salary range midpoint in VND
+      - name: min_salary
+        description: Lowest gross salary minimum in VND
+      - name: max_salary
+        description: Highest gross salary maximum in VND
+  - name: mart_postings_by_month
+    description: Posting counts by month of posting
+    columns:
+      - name: month
+        description: Month of posting as year-month
+      - name: postings
+        description: Number of postings in the month
+  - name: mart_remote_share
+    description: Share of postings by work mode
+    columns:
+      - name: remote
+        description: Work mode, onsite, hybrid or remote
+      - name: postings
+        description: Number of postings in the work mode
+      - name: share
+        description: Fraction of all postings in the work mode
+  - name: mart_top_skills
+    description: Posting counts by skill, most common first
+    columns:
+      - name: skill
+        description: Skill named in the posting
+      - name: postings
+        description: Number of postings naming the skill

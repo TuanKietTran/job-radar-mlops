@@ -1,0 +1,38 @@
+wrote data/jobs.csv rows=200
+bronze rows=200 silver rows=200 dropped=0 duplicates=0
+wrote data/silver/jobs.csv
+staging_jobs rows=200 job_skills rows=601
+mart_salary_by_city_industry rows=39
+mart_postings_by_month rows=10
+mart_remote_share rows=3
+mart_top_skills rows=20
+wrote data/gold.db
+postings_by_month.sql rows=10
+remote_share.sql rows=3
+salary_by_city_industry.sql rows=39
+top_skills.sql rows=20
+wrote data/warehouse
+postings_by_month.sql rows=10
+remote_share.sql rows=3
+salary_by_city_industry.sql rows=39
+top_skills.sql rows=20
+wrote results
+mart_postings_by_month rows=10
+mart_remote_share rows=3
+mart_salary_by_city_industry rows=39
+mart_top_skills rows=20
+wrote data/gold.db
+test_cli_writes_csv (test_fixture.FixtureTests.test_cli_writes_csv) ... ok
+test_columns_count_and_ranges (test_fixture.FixtureTests.test_columns_count_and_ranges) ... ok
+test_determinism_two_runs_same_hash (test_fixture.FixtureTests.test_determinism_two_runs_same_hash) ... ok
+test_gold_tables (test_notebooks.NotebookTests.test_gold_tables) ... ok
+test_silver_keeps_all_rows (test_notebooks.NotebookTests.test_silver_keeps_all_rows) ... ok
+test_warehouse_outputs (test_notebooks.NotebookTests.test_warehouse_outputs) ... ok
+test_ref_expansion (test_sql_dbt.SqlDbtTests.test_ref_expansion) ... ok
+test_schema_lists_every_model (test_sql_dbt.SqlDbtTests.test_schema_lists_every_model) ... ok
+test_sql_matches_dbt_row_counts (test_sql_dbt.SqlDbtTests.test_sql_matches_dbt_row_counts) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 2.924s
+
+OK
