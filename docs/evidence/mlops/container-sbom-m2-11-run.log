@@ -1,0 +1,25 @@
+MS-M2-11 container SBOM run log
+2026-11-14 20:46 ICT, branch cicd/ms-m2-11-container-sbom, base main 41ff1a2
+Worktree wt/mz-workers-c-1-m2-11
+
+Changed files:
+- mlops/cicd/sbom.py: --image flag, built image with image id, image pip packages via docker run pip list
+- mlops/cicd/build.sh: records built image id in log line
+- mlops/cicd/tests/test_sbom.py: new test_image_packages_listed_without_docker, no docker needed
+- mlops/cicd/README.md: Bill of materials section documents --image and build.sh image id
+- docs/evidence/mlops/container-sbom-m2-11.spdx.json: generated SPDX for job-radar-api:local
+
+Verification, all run in this worktree:
+- cicd tests: Ran 8 tests, OK, 0.246s
+- evidence SPDX parses as JSON: json-ok
+- image packages in evidence: 23 unique SPDXRef-ImagePackage entries
+- live pip list in job-radar-api:local: 23 packages, count matches evidence
+- built image id in evidence: sha256:24495cf52e7c0b518774b07d078498559fafcae910d88274f70192d3573b417a, matches docker image inspect for job-radar-api:local
+- image runs: docker run -p 127.0.0.1:18001:8000 job-radar-api:local, GET /health returned status ok, curl exit 0, container stopped and removed
+- git diff --check: exit 0
+- hygiene: 0 Users hits in diff
+
+Pre-existing, not this slice:
+- python3 mlops/cicd/check.py fails with 5 issues in .github/workflows/mlops.yml, missing required keys. That file is untouched by this slice and not in the diff, so the failure is pre-existing on base.
+
+Next: manager merge.
