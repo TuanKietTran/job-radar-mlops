@@ -11,6 +11,7 @@ Offline evaluation for the job aggregator. Everything here runs on synthetic dat
 - ab.py: small A/B run on 20 synthetic rows, writes data/ab/results.csv and data/ab/summary.json.
 - shadow.py: shadow run on the same 20 rows, baseline served, candidate scored only, writes data/shadow/divergences.csv and data/shadow/summary.json.
 - gates.py: promotion gates from config/gates.json, writes reports/verdict.json.
+- promote.py: promotion decision from reports/verdict.json and reports/ab.json, writes data/promotion/decision.json.
 - fairness.py: slice metrics and drift, writes reports/fairness.json.
 - cards.py: model card at docs/cards/salary-v1-1.0.0.md.
 - tests: stdlib unittest suite.
@@ -24,6 +25,7 @@ Offline evaluation for the job aggregator. Everything here runs on synthetic dat
     python3 -m mlops.eval.shadow
     python3 -m mlops.eval.fairness
     python3 -m mlops.eval.gates
+    python3 -m mlops.eval.promote
     python3 -m mlops.eval.cards
     python3 -m unittest discover -s mlops/eval/tests
 
@@ -52,6 +54,16 @@ ab.py and shadow.py run the same 20 synthetic rows (seed 42, feature uniform in 
 ## Gates
 
 Defaults in config/gates.json: min sample 500, max MAE regression vs champion 1,500,000 VND, fairness MAE gap cap 4,000,000 VND, selection-rate gap cap 0.20, drift PSI cap 0.20. gates.py prints PASS or FAIL per gate and exits 0 only when all gates pass.
+
+## Promotion
+
+promote.py reads reports/verdict.json, reports/ab.json and reports/eval.json, and writes data/promotion/decision.json. Decision rules, in order:
+
+1. If the gates verdict is FAIL, the decision is keep champion, and the failing gates are listed in decision.json.
+2. Else if the A/B recommendation is exactly recommend: promote challenger, the decision is promote challenger.
+3. Else the decision is keep champion, and the reason is the A/B recommendation string.
+
+promote.py exits 0 when the decision is promote challenger and exits 1 when the decision is keep champion.
 
 ## Limits
 
