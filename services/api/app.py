@@ -3,7 +3,7 @@ import os
 import unicodedata
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import RedirectResponse
 
 
@@ -83,9 +83,11 @@ def create_app(jobs=None):
         return {'status': 'ok'}
 
     @app.get('/api/jobs')
-    def list_jobs(q: str | None = None, city: str | None = None, industry: str | None = None, remote: str | None = None, level: str | None = None, salary_min: int | None = None, salary_max: int | None = None, experience: int | None = None, page: int = 1, page_size: int = 20):
+    def list_jobs(q: str | None = Query(None, description='Search text matched against title, company, skills and description, case-insensitive and diacritic-insensitive'), city: str | None = Query(None, description='City name, case-insensitive and diacritic-insensitive, for example Ha Noi'), industry: str | None = Query(None, description='Industry name, case-insensitive, for example IT Software'), remote: str | None = Query(None, description='Work mode, one of onsite, hybrid or remote, case-insensitive'), level: str | None = Query(None, description='Seniority level, one of intern, junior, middle, senior or lead, case-insensitive'), salary_min: int | None = Query(None, ge=0, description='Minimum monthly gross salary in VND, job salary range must overlap the requested range'), salary_max: int | None = Query(None, ge=0, description='Maximum monthly gross salary in VND, job salary range must overlap the requested range'), experience: int | None = Query(None, ge=0, description='Years of experience, matches when it falls inside the job experience range'), page: int = Query(1, description='Page number, starting at 1'), page_size: int = Query(20, description='Jobs per page, clamped to 1 to 100')):
         page = max(1, page)
         page_size = min(max(1, page_size), 100)
+        if any(v is not None and not str(v).strip() for v in (q, city, industry, remote, level)):
+            return {'total': 0, 'page': page, 'page_size': page_size, 'jobs': []}
         needle = _fold(q) if q else ''
         result = []
         for job in data:
