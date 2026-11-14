@@ -1,0 +1,10 @@
+{
+  "source": "example",
+  "fixtures": [
+    {
+      "url": "https://example.example.invalid/jobs",
+      "file": "responses/list.json",
+      "description": "Recorded example board list response with two shape-a jobs."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "board": "example",
+  "jobs": [
+    {
+      "id": "example-001",
+      "title": "Software Engineer",
+      "company": "Example Co",
+      "city": "Ha Noi",
+      "industry": "IT",
+      "salary": "10000000-15000000",
+      "remote": "remote",
+      "experience": "3-5 years",
+      "posted_date": "2026-11-01",
+      "source_url": "https://example.example.invalid/jobs/example-001",
+      "skills": [
+        "python",
+        "sql"
+      ],
+      "employment_type": "full-time",
+      "description": "Software Engineer at Example Co in Ha Noi. Builds and maintains internal tools with the team.",
+      "benefits": [
+        "Health insurance"
+      ],
+      "deadline": "2026-12-01"
+    },
+    {
+      "id": "example-002",
+      "title": "Data Analyst",
+      "company": "Example Data Ltd",
+      "city": "Ho Chi Minh",
+      "industry": "Finance",
+      "salary": "From 20000000",
+      "remote": "hybrid",
+      "experience": "0-2 years",
+      "posted_date": "2026-11-02",
+      "source_url": "https://example.example.invalid/jobs/example-002",
+      "skills": [
+        "sql",
+        "excel"
+      ],
+      "employment_type": "full-time",
+      "description": "Data Analyst at Example Data Ltd in Ho Chi Minh City. Reports and dashboards for operations.",
+      "benefits": [],
+      "deadline": null
+    }
+  ]
+}
