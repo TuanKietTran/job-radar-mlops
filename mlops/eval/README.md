@@ -11,6 +11,7 @@ Offline evaluation for the job aggregator. Everything here runs on synthetic dat
 - ab.py: small A/B run on 20 synthetic rows, writes data/ab/results.csv and data/ab/summary.json.
 - shadow.py: shadow run on the same 20 rows, baseline served, candidate scored only, writes data/shadow/divergences.csv and data/shadow/summary.json.
 - gates.py: promotion gates from config/gates.json, writes reports/verdict.json.
+- promote.py: promotion decision from reports/verdict.json and reports/ab.json, writes data/promotion/decision.json.
 - fairness.py: slice metrics and drift, writes reports/fairness.json.
 - bias.py: bias and fairness checks on top of fairness.py, writes reports/bias.json and reports/bias.md.
 - cards.py: model card at docs/cards/salary-v1-1.0.0.md.
@@ -26,6 +27,7 @@ Offline evaluation for the job aggregator. Everything here runs on synthetic dat
     python3 -m mlops.eval.fairness
     python3 -m mlops.eval.bias
     python3 -m mlops.eval.gates
+    python3 -m mlops.eval.promote
     python3 -m mlops.eval.cards
     python3 -m unittest discover -s mlops/eval/tests
 
@@ -64,6 +66,16 @@ Equal opportunity labels: salary, a job is truly high-paid when its true salary 
 Thresholds, overridable in config/gates.json: disparate impact ratio at least 0.80 (disparate_impact_min_ratio), demographic parity difference at most 0.20 (demographic_parity_diff_cap), equal opportunity difference at most 0.20 (equal_opportunity_diff_cap). A dimension failing any threshold is listed under Flags in reports/bias.md and in the flags list in reports/bias.json.
 
 Verified run, n=500, median predicted salary 30,750,000 VND: city disparate impact 0.5213, parity difference 0.2938; industry 0.5767, 0.2502; employment_type 0.7124, 0.1598. Equal opportunity difference is 0.0 for salary on all three dimensions (every truly high-paid job is selected) and 0.0412, 0.069 and 0.038 for ranking. Five flags: disparate impact below 0.80 on all three dimensions, parity difference over 0.20 for city and industry.
+
+## Promotion
+
+promote.py reads reports/verdict.json, reports/ab.json and reports/eval.json, and writes data/promotion/decision.json. Decision rules, in order:
+
+1. If the gates verdict is FAIL, the decision is keep champion, and the failing gates are listed in decision.json.
+2. Else if the A/B recommendation is exactly recommend: promote challenger, the decision is promote challenger.
+3. Else the decision is keep champion, and the reason is the A/B recommendation string.
+
+promote.py exits 0 when the decision is promote challenger and exits 1 when the decision is keep champion.
 
 ## Limits
 
