@@ -1,9 +1,11 @@
+import json
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from fastapi.testclient import TestClient
 from app import create_app, load_jobs
-client = TestClient(create_app())
+_fixture = json.loads((Path(__file__).resolve().parent / 'fixtures' / 'sample-jobs.json').read_text(encoding='utf-8'))
+client = TestClient(create_app(jobs=_fixture))
 def _ids(r):
     return [j['id'] for j in r.json()['jobs']]
 def test_search_q():
