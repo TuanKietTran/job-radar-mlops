@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Song Xanh Software",
+    "slug": "song-xanh-software",
+    "industry": "software development",
+    "city": "Ho Chi Minh City",
+    "size": "11-50",
+    "founded": 2013,
+    "description": "Builds scheduling software for clinics in southern Vietnam.",
+    "open_roles": 2
+  },
+  {
+    "name": "Lua Vang Systems",
+    "slug": "lua-vang-systems",
+    "industry": "financial technology",
+    "city": "Ho Chi Minh City",
+    "size": "51-200",
+    "founded": 2014,
+    "description": "Builds payment reconciliation tools for small retailers.",
+    "open_roles": 5
+  },
+  {
+    "name": "Cay Tre Digital",
+    "slug": "cay-tre-digital",
+    "industry": "e-commerce",
+    "city": "Ho Chi Minh City",
+    "size": "201-500",
+    "founded": 2015,
+    "description": "Runs an online storefront service for craft sellers.",
+    "open_roles": 8
+  },
+  {
+    "name": "Nang Mai Systems",
+    "slug": "nang-mai-systems",
+    "industry": "logistics",
+    "city": "Hanoi",
+    "size": "1-10",
+    "founded": 2016,
+    "description": "Builds route planning tools for regional delivery teams.",
+    "open_roles": 11
+  },
+  {
+    "name": "Bien Xanh Technology",
+    "slug": "bien-xanh-technology",
+    "industry": "health technology",
+    "city": "Hanoi",
+    "size": "51-200",
+    "founded": 2017,
+    "description": "Builds appointment and records software for dental clinics.",
+    "open_roles": 14
+  },
+  {
+    "name": "Dong Que Software",
+    "slug": "dong-que-software",
+    "industry": "education technology",
+    "city": "Hanoi",
+    "size": "11-50",
+    "founded": 2018,
+    "description": "Builds course tools for vocational training centres.",
+    "open_roles": 2
+  },
+  {
+    "name": "Sen Hong Technology",
+    "slug": "sen-hong-technology",
+    "industry": "manufacturing",
+    "city": "Da Nang",
+    "size": "51-200",
+    "founded": 2019,
+    "description": "Builds stock and order software for small factories.",
+    "open_roles": 5
+  },
+  {
+    "name": "Minh Chau Systems",
+    "slug": "minh-chau-systems",
+    "industry": "agriculture technology",
+    "city": "Da Nang",
+    "size": "201-500",
+    "founded": 2020,
+    "description": "Builds crop monitoring dashboards for farming cooperatives.",
+    "open_roles": 8
+  },
+  {
+    "name": "Thao Nguyen Software",
+    "slug": "thao-nguyen-software",
+    "industry": "renewable energy",
+    "city": "Da Nang",
+    "size": "1-10",
+    "founded": 2021,
+    "description": "Builds meter reading and billing tools for solar installers.",
+    "open_roles": 11
+  },
+  {
+    "name": "Van Xuan Digital",
+    "slug": "van-xuan-digital",
+    "industry": "hospitality technology",
+    "city": "Hai Phong",
+    "size": "51-200",
+    "founded": 2022,
+    "description": "Builds booking tools for small hotels and guesthouses.",
+    "open_roles": 14
+  },
+  {
+    "name": "Hong Ha Digital",
+    "slug": "hong-ha-digital",
+    "industry": "software development",
+    "city": "Hai Phong",
+    "size": "11-50",
+    "founded": 2023,
+    "description": "Builds payroll software for factories in the north.",
+    "open_roles": 2
+  },
+  {
+    "name": "Phu Quy Technology",
+    "slug": "phu-quy-technology",
+    "industry": "financial technology",
+    "city": "Hai Phong",
+    "size": "51-200",
+    "founded": 2024,
+    "description": "Builds loan tracking tools for community credit groups.",
+    "open_roles": 5
+  },
+  {
+    "name": "Kim Ngan Systems",
+    "slug": "kim-ngan-systems",
+    "industry": "e-commerce",
+    "city": "Can Tho",
+    "size": "201-500",
+    "founded": 2013,
+    "description": "Runs a marketplace service for second-hand electronics.",
+    "open_roles": 8
+  },
+  {
+    "name": "Bao Tin Software",
+    "slug": "bao-tin-software",
+    "industry": "logistics",
+    "city": "Can Tho",
+    "size": "1-10",
+    "founded": 2014,
+    "description": "Builds warehouse tracking tools for port operators.",
+    "open_roles": 11
+  },
+  {
+    "name": "Ngoc Lan Digital",
+    "slug": "ngoc-lan-digital",
+    "industry": "health technology",
+    "city": "Can Tho",
+    "size": "51-200",
+    "founded": 2015,
+    "description": "Builds patient intake software for private clinics.",
+    "open_roles": 14
+  },
+  {
+    "name": "Thanh Phong Systems",
+    "slug": "thanh-phong-systems",
+    "industry": "education technology",
+    "city": "Nha Trang",
+    "size": "11-50",
+    "founded": 2016,
+    "description": "Builds exam and revision tools for secondary schools.",
+    "open_roles": 2
+  },
+  {
+    "name": "Duc Anh Technology",
+    "slug": "duc-anh-technology",
+    "industry": "manufacturing",
+    "city": "Nha Trang",
+    "size": "51-200",
+    "founded": 2017,
+    "description": "Builds machine maintenance logs for packaging plants.",
+    "open_roles": 5
+  },
+  {
+    "name": "Quoc Bao Systems",
+    "slug": "quoc-bao-systems",
+    "industry": "agriculture technology",
+    "city": "Nha Trang",
+    "size": "201-500",
+    "founded": 2018,
+    "description": "Builds soil and irrigation tools for rice growers.",
+    "open_roles": 8
+  },
+  {
+    "name": "My Linh Software",
+    "slug": "my-linh-software",
+    "industry": "renewable energy",
+    "city": "Hue",
+    "size": "1-10",
+    "founded": 2019,
+    "description": "Builds energy usage reports for rooftop solar owners.",
+    "open_roles": 11
+  },
+  {
+    "name": "Tuan Anh Digital",
+    "slug": "tuan-anh-digital",
+    "industry": "hospitality technology",
+    "city": "Hue",
+    "size": "51-200",
+    "founded": 2020,
+    "description": "Builds reservation tools for tour boats and hostels.",
+    "open_roles": 14
+  },
+  {
+    "name": "Hoang Yen Technology",
+    "slug": "hoang-yen-technology",
+    "industry": "software development",
+    "city": "Hue",
+    "size": "11-50",
+    "founded": 2021,
+    "description": "Builds inventory software for bookshops and stationers.",
+    "open_roles": 2
+  },
+  {
+    "name": "Phuong Thao Systems",
+    "slug": "phuong-thao-systems",
+    "industry": "financial technology",
+    "city": "Da Lat",
+    "size": "51-200",
+    "founded": 2022,
+    "description": "Builds mobile wallet tools for market vendors.",
+    "open_roles": 5
+  },
+  {
+    "name": "Khanh Linh Digital",
+    "slug": "khanh-linh-digital",
+    "industry": "e-commerce",
+    "city": "Da Lat",
+    "size": "201-500",
+    "founded": 2023,
+    "description": "Runs a grocery ordering service for neighbourhood shops.",
+    "open_roles": 8
+  },
+  {
+    "name": "Gia Bao Software",
+    "slug": "gia-bao-software",
+    "industry": "logistics",
+    "city": "Da Lat",
+    "size": "1-10",
+    "founded": 2024,
+    "description": "Builds freight booking tools for trucking firms.",
+    "open_roles": 11
+  },
+  {
+    "name": "Son Ha Systems",
+    "slug": "son-ha-systems",
+    "industry": "health technology",
+    "city": "Binh Duong",
+    "size": "51-200",
+    "founded": 2013,
+    "description": "Builds telehealth booking software for rural clinics.",
+    "open_roles": 14
+  },
+  {
+    "name": "Thu Hang Software",
+    "slug": "thu-hang-software",
+    "industry": "education technology",
+    "city": "Binh Duong",
+    "size": "11-50",
+    "founded": 2014,
+    "description": "Builds attendance and grading tools for language schools.",
+    "open_roles": 2
+  },
+  {
+    "name": "Viet Khoa Digital",
+    "slug": "viet-khoa-digital",
+    "industry": "manufacturing",
+    "city": "Binh Duong",
+    "size": "51-200",
+    "founded": 2015,
+    "description": "Builds quality control checklists for food processors.",
+    "open_roles": 5
+  },
+  {
+    "name": "An Nhien Systems",
+    "slug": "an-nhien-systems",
+    "industry": "agriculture technology",
+    "city": "Dong Nai",
+    "size": "201-500",
+    "founded": 2016,
+    "description": "Builds weather and harvest planning tools for orchards.",
+    "open_roles": 8
+  },
+  {
+    "name": "Bich Ngoc Technology",
+    "slug": "bich-ngoc-technology",
+    "industry": "renewable energy",
+    "city": "Dong Nai",
+    "size": "1-10",
+    "founded": 2017,
+    "description": "Builds billing tools for community solar projects.",
+    "open_roles": 11
+  },
+  {
+    "name": "Dinh Quang Digital",
+    "slug": "dinh-quang-digital",
+    "industry": "hospitality technology",
+    "city": "Dong Nai",
+    "size": "51-200",
+    "founded": 2018,
+    "description": "Builds front desk tools for budget hotels.",
+    "open_roles": 14
+  }
+]
