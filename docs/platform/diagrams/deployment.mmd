@@ -4,6 +4,7 @@
 %% and no endpoint or address can be quoted from it.
 C4Deployment
 title Deployment diagram for the job radar platform, mapping is proposed
+Person(worker, 'Platform worker', 'Runs ingest and the search API locally from a checkout')
 Deployment_Node(local_machine, 'Local machine', 'Developer checkout') {
 Deployment_Node(local_python, 'Local Python runtime', 'Standard library Python, no database server') {
 Container(ingest_local, 'Ingest pipeline', 'Standard library Python', 'Normalizes fixtures, dedupes and loads SQLite')
@@ -38,4 +39,4 @@ Rel(search_api, sqlite_local, 'Consistent through the canonical schema, not thro
 Rel(helm_service, s3, 'Uses object storage, proposed')
 Rel(helm_service, ecr, 'Deploys image from, proposed')
 Rel(training, sagemaker, 'Hands models to, proposed')
-UpdateLayoutConfig($c4ShapeInRow='2', $c4BoundaryInRow='1')
+UpdateLayoutConfig($c4ShapeInRow="2", $c4BoundaryInRow="1")

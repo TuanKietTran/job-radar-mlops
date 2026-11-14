@@ -1,1 +1,4 @@
-Playwright is absent, no PNG files were captured. Run with --dry-run to list the pages that would be captured.
+Playwright is absent, so the live run of docs/platform/scripts/screenshots.py captured nothing.
+6 PNGs were captured 2026-11-14 20:49 via Brave headless over a local http server, 1280x800 each.
+Pages: web/guides/dist/index.html, web/guides/dist/cau-truc-cv.html, web/pages-extra/site/index.html, web/pages-extra/site/companies/an-nhien-systems.html, web/pages-extra/site/cities/ho-chi-minh-city.html, web/pages-extra/site/industries/software-development.html
+Capture script: /tmp/capture-brave.sh
