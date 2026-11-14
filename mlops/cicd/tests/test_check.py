@@ -66,6 +66,24 @@ class CheckTests(unittest.TestCase):
             self.assertIn('trailing whitespace', result.stdout)
             self.assertIn('banned token', result.stdout)
 
+    def test_markdown_image_embeds_pass(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            _clean_fixture(root)
+            (root / 'notes.md').write_text('# Notes\n\n![Alt](shots/a.png)\n\n![Other](shots/b.png)\n', encoding='utf-8')
+            result = _run_check(root)
+            self.assertEqual(result.returncode, 0, result.stdout)
+            self.assertIn('check: pass', result.stdout)
+
+    def test_markdown_prose_exclamation_fails(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            _clean_fixture(root)
+            (root / 'notes.md').write_text('# Notes\n\nHello there!\n', encoding='utf-8')
+            result = _run_check(root)
+            self.assertEqual(result.returncode, 1)
+            self.assertIn('exclamation mark in markdown', result.stdout)
+
     def test_workflow_missing_key_fails(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
