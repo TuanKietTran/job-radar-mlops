@@ -70,6 +70,29 @@ Worktree: wt/mlops-ms-m1-2
 - posted_date_range: posted_date must parse as YYYY-MM-DD within 2026-01-01 to 2026-11-14.
 - job_id_unique: no duplicate job_id in the dataset; reported once per dataset, not per row.
 
+## Contract
+
+| field | type | rule |
+| --- | --- | --- |
+| job_id | string | Present and non-blank; no duplicate job_id in the dataset. |
+| title | string | Present and non-blank. |
+| company | string | Present and non-blank. |
+| city | string | Present and non-blank; one of Ha Noi, Ho Chi Minh, Da Nang, Hai Phong, Can Tho, Remote. |
+| industry | string | Present and non-blank; one of IT Software, Banking Finance, E-commerce, Manufacturing, Logistics, Healthcare. |
+| remote | boolean | Not checked by the validator. |
+| experience_years | int32 | Int from 0 to 15. |
+| salary_gross_min | int64 | Int; at most salary_gross_max; within 8000000 to 120000000. |
+| salary_gross_max | int64 | Int; at least salary_gross_min; within 8000000 to 120000000. |
+| currency | string | Not checked by the validator. |
+| employment_type | string | If present, one of Full-time, Part-time, Contract, Internship. |
+| posted_date | date | Parses as YYYY-MM-DD and within 2026-01-01 to 2026-11-14. |
+| source_board | string | Not checked by the validator. |
+| skills | list of string | Not checked by the validator. |
+
+## Fields not checked
+
+The validator does not check remote, currency, skills, or source_board. These fields have no rule in mlops/ingest/contracts.py, so a row can pass all 14 checks with any value in these fields, including a missing value. Passing validation is not full coverage of the record.
+
 ## Notes
 
 - Silver kept 4964 rows because 36 fuzzy duplicates were removed from 5000 bronze rows. No rows were dropped as invalid, and the standalone validator found 0 invalid rows in the synthetic input.
