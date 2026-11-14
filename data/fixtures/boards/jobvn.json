@@ -1,0 +1,215 @@
+{
+  "board": "jobvn",
+  "jobs": [
+    {
+      "job_id": "jobvn-001",
+      "job_title": "Kỹ sư trí tuệ nhân tạo",
+      "employer": "Công ty Hoàng Gia",
+      "location": "Da Nang",
+      "sector": "Y tế",
+      "salary_text": "Up to 22 triệu",
+      "work_mode": "Từ xa",
+      "exp": "4-5 years",
+      "posted": "09/11/2026",
+      "url": "https://jobvn.example.invalid/jobs/jobvn-001",
+      "description": "Vị trí Kỹ sư trí tuệ nhân tạo tại Công ty Hoàng Gia ở Da Nang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Hồ sơ y tế, Giao tiếp, Excel",
+      "job_type": "Toàn thời gian",
+      "perks": [
+        "Laptop làm việc",
+        "Bảo hiểm xã hội đầy đủ",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "apply_before": null
+    },
+    {
+      "job_id": "jobvn-002",
+      "job_title": "Quản lý dự án công nghệ",
+      "employer": "Công ty Hoàng Gia",
+      "location": "Binh Duong",
+      "sector": "E-commerce",
+      "salary_text": "Up to 25 triệu",
+      "work_mode": "onsite",
+      "exp": "2+ năm kinh nghiệm",
+      "posted": "25/10/2026",
+      "url": "https://jobvn.example.invalid/jobs/jobvn-002",
+      "description": "Vị trí Quản lý dự án công nghệ tại Công ty Hoàng Gia ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Phân tích dữ liệu, Excel, SEO",
+      "job_type": "full-time",
+      "perks": [
+        "Ngày nghỉ phép 12 ngày",
+        "Thưởng tháng 13",
+        "Bảo hiểm y tế"
+      ],
+      "apply_before": null
+    },
+    {
+      "job_id": "jobvn-003",
+      "job_title": "Lập trình viên Frontend React",
+      "employer": "Công ty Hồng Phúc",
+      "location": "Hải Phòng",
+      "sector": "Thương mại điện tử",
+      "salary_text": "Thỏa thuận",
+      "work_mode": "hybrid",
+      "exp": "3+ năm kinh nghiệm",
+      "posted": "28/10/2026",
+      "url": "https://jobvn.example.invalid/jobs/jobvn-003",
+      "description": "Vị trí Lập trình viên Frontend React tại Công ty Hồng Phúc ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Phân tích dữ liệu, Chăm sóc khách hàng, Marketing số",
+      "job_type": "Hợp đồng",
+      "perks": [
+        "Thưởng tháng 13",
+        "Ngày nghỉ phép 12 ngày",
+        "Laptop làm việc"
+      ],
+      "apply_before": "2026-11-27"
+    },
+    {
+      "job_id": "jobvn-004",
+      "job_title": "Nhân viên kho vận",
+      "employer": "Công ty Bảo An",
+      "location": "Ho Chi Minh City",
+      "sector": "E-commerce",
+      "salary_text": "20 triệu",
+      "work_mode": "Onsite",
+      "exp": "3-6 năm",
+      "posted": "07/11/2026",
+      "url": "https://jobvn.example.invalid/jobs/jobvn-004",
+      "description": "Vị trí Nhân viên kho vận tại Công ty Bảo An ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "SEO, Marketing số, Excel",
+      "job_type": "internship",
+      "perks": [
+        "Đào tạo nội bộ",
+        "Ngày nghỉ phép 12 ngày",
+        "Phụ cấp ăn trưa"
+      ],
+      "apply_before": "2026-12-07"
+    },
+    {
+      "job_id": "jobvn-005",
+      "job_title": "Lập trình viên Frontend React",
+      "employer": "Công ty Lan Anh",
+      "location": "Hanoi",
+      "sector": "Education",
+      "salary_text": "Up to 28 triệu",
+      "work_mode": "hybrid",
+      "exp": "1-3 năm",
+      "posted": "28/10/2026",
+      "url": "https://jobvn.example.invalid/jobs/jobvn-005",
+      "description": "Vị trí Lập trình viên Frontend React tại Công ty Lan Anh ở Hanoi. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Tiếng Anh, Giao tiếp, Giảng dạy",
+      "job_type": "full-time",
+      "perks": [
+        "Phụ cấp ăn trưa",
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm y tế"
+      ],
+      "apply_before": "2026-11-27"
+    },
+    {
+      "job_id": "jobvn-006",
+      "job_title": "Lập trình viên di động Flutter",
+      "employer": "Công ty Hải Đăng",
+      "location": "Hanoi",
+      "sector": "Công nghệ thông tin",
+      "salary_text": "From 20 triệu",
+      "work_mode": "remote",
+      "exp": "2+ năm kinh nghiệm",
+      "posted": "23/10/2026",
+      "url": "https://jobvn.example.invalid/jobs/jobvn-006",
+      "description": "Vị trí Lập trình viên di động Flutter tại Công ty Hải Đăng ở Hanoi. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Linux, Docker, Java",
+      "job_type": "contract",
+      "perks": [
+        "Phụ cấp ăn trưa",
+        "Đào tạo nội bộ",
+        "Laptop làm việc"
+      ],
+      "apply_before": null
+    },
+    {
+      "job_id": "jobvn-007",
+      "job_title": "Kỹ sư phần mềm Python",
+      "employer": "Tập đoàn Hòa Bình",
+      "location": "Binh Duong",
+      "sector": "Healthcare",
+      "salary_text": "Up to 28 triệu",
+      "work_mode": "Linh hoạt",
+      "exp": "3+ năm kinh nghiệm",
+      "posted": "02/11/2026",
+      "url": "https://jobvn.example.invalid/jobs/jobvn-007",
+      "description": "Vị trí Kỹ sư phần mềm Python tại Tập đoàn Hòa Bình ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Giao tiếp, Excel, Chăm sóc bệnh nhân",
+      "job_type": "Toàn thời gian",
+      "perks": [
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm xã hội đầy đủ",
+        "Đào tạo nội bộ"
+      ],
+      "apply_before": "2026-12-02"
+    },
+    {
+      "job_id": "jobvn-008",
+      "job_title": "Lập trình viên di động Flutter",
+      "employer": "Tập đoàn Minh Khang",
+      "location": "TP. Hồ Chí Minh",
+      "sector": "Tài chính",
+      "salary_text": "20000000 VND - 30000000 VND",
+      "work_mode": "remote",
+      "exp": "3+ năm kinh nghiệm",
+      "posted": "17/10/2026",
+      "url": "https://jobvn.example.invalid/jobs/jobvn-008",
+      "description": "Vị trí Lập trình viên di động Flutter tại Tập đoàn Minh Khang ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Báo cáo, Phân tích tài chính, SQL",
+      "job_type": "Toàn thời gian",
+      "perks": [
+        "Đào tạo nội bộ",
+        "Thưởng tháng 13",
+        "Phụ cấp ăn trưa"
+      ],
+      "apply_before": null
+    },
+    {
+      "job_id": "jobvn-009",
+      "job_title": "Nhân viên kiểm thử phần mềm",
+      "employer": "Công ty Sao Mai",
+      "location": "Cần Thơ",
+      "sector": "Logistics",
+      "salary_text": "From 10 triệu",
+      "work_mode": "Từ xa",
+      "exp": "5-6 năm",
+      "posted": "10/11/2026",
+      "url": "https://jobvn.example.invalid/jobs/jobvn-009",
+      "description": "Vị trí Nhân viên kiểm thử phần mềm tại Công ty Sao Mai ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Lập kế hoạch, Excel, Giao tiếp",
+      "job_type": "part-time",
+      "perks": [
+        "Phụ cấp ăn trưa",
+        "Thưởng tháng 13",
+        "Đào tạo nội bộ"
+      ],
+      "apply_before": "2026-12-10"
+    },
+    {
+      "job_id": "jobvn-010",
+      "job_title": "Chuyên viên an ninh mạng",
+      "employer": "Công ty Hoàng Gia",
+      "location": "Hải Phòng",
+      "sector": "Giáo dục",
+      "salary_text": "From 15 triệu",
+      "work_mode": "remote",
+      "exp": "2-4 năm",
+      "posted": "18/10/2026",
+      "url": "https://jobvn.example.invalid/jobs/jobvn-010",
+      "description": "Vị trí Chuyên viên an ninh mạng tại Công ty Hoàng Gia ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Giao tiếp, Soạn giáo án, Tiếng Anh",
+      "job_type": "Thực tập",
+      "perks": [
+        "Đào tạo nội bộ",
+        "Bảo hiểm xã hội đầy đủ",
+        "Laptop làm việc"
+      ],
+      "apply_before": "2026-11-17"
+    }
+  ]
+}

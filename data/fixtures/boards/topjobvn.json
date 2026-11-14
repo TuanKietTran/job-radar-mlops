@@ -1,0 +1,255 @@
+{
+  "board": "topjobvn",
+  "jobs": [
+    {
+      "id": "topjobvn-001",
+      "title": "Nhân viên kinh doanh",
+      "company": "Công ty Hồng Phúc",
+      "city": "Binh Duong",
+      "industry": "Information Technology",
+      "salary": "10000000-20000000",
+      "remote": "Hybrid",
+      "experience": "0-1 năm",
+      "posted_date": "2026-11-08",
+      "source_url": "https://topjobvn.example.invalid/jobs/topjobvn-001",
+      "description": "Vị trí Nhân viên kinh doanh tại Công ty Hồng Phúc ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Java",
+        "React",
+        "Git"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Đào tạo nội bộ",
+        "Bảo hiểm xã hội đầy đủ",
+        "Phụ cấp ăn trưa"
+      ],
+      "deadline": "2026-12-08"
+    },
+    {
+      "id": "topjobvn-002",
+      "title": "Thiết kế giao diện người dùng",
+      "company": "Công ty Sao Mai",
+      "city": "Da Nang",
+      "industry": "Tài chính",
+      "salary": "From 20 triệu",
+      "remote": "Remote",
+      "experience": "2-4 năm",
+      "posted_date": "2026-10-02",
+      "source_url": "https://topjobvn.example.invalid/jobs/topjobvn-002",
+      "description": "Vị trí Thiết kế giao diện người dùng tại Công ty Sao Mai ở Da Nang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Kế toán",
+        "Phân tích tài chính",
+        "SQL"
+      ],
+      "employment_type": "contract",
+      "benefits": [
+        "Laptop làm việc",
+        "Bảo hiểm y tế",
+        "Bảo hiểm xã hội đầy đủ"
+      ],
+      "deadline": "2026-11-01"
+    },
+    {
+      "id": "topjobvn-003",
+      "title": "Thiết kế giao diện người dùng",
+      "company": "Tập đoàn Hòa Bình",
+      "city": "Hanoi",
+      "industry": "Manufacturing",
+      "salary": "12000000-20000000",
+      "remote": "Remote",
+      "experience": "5-7 years",
+      "posted_date": "2026-11-04",
+      "source_url": "https://topjobvn.example.invalid/jobs/topjobvn-003",
+      "description": "Vị trí Thiết kế giao diện người dùng tại Tập đoàn Hòa Bình ở Hanoi. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "An toàn lao động",
+        "Excel",
+        "Quản lý sản xuất"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Thưởng tháng 13",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": "2026-12-04"
+    },
+    {
+      "id": "topjobvn-004",
+      "title": "Nhân viên kho vận",
+      "company": "Công ty Hoàng Gia",
+      "city": "Cần Thơ",
+      "industry": "Logistics",
+      "salary": "25000000-35000000",
+      "remote": "Linh hoạt",
+      "experience": "2-2 năm",
+      "posted_date": "2026-10-17",
+      "source_url": "https://topjobvn.example.invalid/jobs/topjobvn-004",
+      "description": "Vị trí Nhân viên kho vận tại Công ty Hoàng Gia ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Excel",
+        "Lập kế hoạch",
+        "Giao tiếp"
+      ],
+      "employment_type": "contract",
+      "benefits": [
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm xã hội đầy đủ",
+        "Bảo hiểm y tế"
+      ],
+      "deadline": null
+    },
+    {
+      "id": "topjobvn-005",
+      "title": "Kế toán tổng hợp",
+      "company": "Công ty Hồng Phúc",
+      "city": "Cần Thơ",
+      "industry": "Vận tải",
+      "salary": "18000000 VND - 23000000 VND",
+      "remote": "Hybrid",
+      "experience": "1+ năm kinh nghiệm",
+      "posted_date": "2026-10-23",
+      "source_url": "https://topjobvn.example.invalid/jobs/topjobvn-005",
+      "description": "Vị trí Kế toán tổng hợp tại Công ty Hồng Phúc ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Quản lý kho",
+        "Lập kế hoạch",
+        "Excel"
+      ],
+      "employment_type": "Toàn thời gian",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Thưởng tháng 13",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": "2026-11-22"
+    },
+    {
+      "id": "topjobvn-006",
+      "title": "Quản lý dự án công nghệ",
+      "company": "Công ty Trí Đức",
+      "city": "Binh Duong",
+      "industry": "Tài chính",
+      "salary": "8-16 triệu",
+      "remote": "Onsite",
+      "experience": "3-5 năm",
+      "posted_date": "2026-10-09",
+      "source_url": "https://topjobvn.example.invalid/jobs/topjobvn-006",
+      "description": "Vị trí Quản lý dự án công nghệ tại Công ty Trí Đức ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Báo cáo",
+        "Phân tích tài chính",
+        "Kế toán"
+      ],
+      "employment_type": "contract",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Laptop làm việc",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": null
+    },
+    {
+      "id": "topjobvn-007",
+      "title": "Kỹ sư Backend .NET",
+      "company": "Tập đoàn Kim Long",
+      "city": "Da Nang",
+      "industry": "Banking",
+      "salary": "20000000 VND - 25000000 VND",
+      "remote": "Remote",
+      "experience": "0-0 years",
+      "posted_date": "2026-10-09",
+      "source_url": "https://topjobvn.example.invalid/jobs/topjobvn-007",
+      "description": "Vị trí Kỹ sư Backend .NET tại Tập đoàn Kim Long ở Da Nang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Quản lý rủi ro",
+        "Tín dụng",
+        "Chăm sóc khách hàng"
+      ],
+      "employment_type": "Toàn thời gian",
+      "benefits": [
+        "Thưởng tháng 13",
+        "Ngày nghỉ phép 12 ngày",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-11-08"
+    },
+    {
+      "id": "topjobvn-008",
+      "title": "Kế toán tổng hợp",
+      "company": "Công ty Ánh Dương",
+      "city": "Bình Dương",
+      "industry": "Manufacturing",
+      "salary": "8 triệu",
+      "remote": "Linh hoạt",
+      "experience": "5-7 năm",
+      "posted_date": "2026-11-07",
+      "source_url": "https://topjobvn.example.invalid/jobs/topjobvn-008",
+      "description": "Vị trí Kế toán tổng hợp tại Công ty Ánh Dương ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Kiểm soát chất lượng",
+        "Excel",
+        "Quản lý sản xuất"
+      ],
+      "employment_type": "Hợp đồng",
+      "benefits": [
+        "Laptop làm việc",
+        "Thưởng tháng 13",
+        "Bảo hiểm xã hội đầy đủ"
+      ],
+      "deadline": "2026-12-07"
+    },
+    {
+      "id": "topjobvn-009",
+      "title": "Chuyên viên tài chính",
+      "company": "Công ty An Bình",
+      "city": "Huế",
+      "industry": "Ngân hàng",
+      "salary": "Up to 18 triệu",
+      "remote": "Tại văn phòng",
+      "experience": "6+ năm kinh nghiệm",
+      "posted_date": "2026-10-31",
+      "source_url": "https://topjobvn.example.invalid/jobs/topjobvn-009",
+      "description": "Vị trí Chuyên viên tài chính tại Công ty An Bình ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Chăm sóc khách hàng",
+        "Tín dụng",
+        "Quản lý rủi ro"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Phụ cấp ăn trưa",
+        "Laptop làm việc",
+        "Bảo hiểm xã hội đầy đủ"
+      ],
+      "deadline": "2026-11-30"
+    },
+    {
+      "id": "topjobvn-010",
+      "title": "Nhân viên kinh doanh",
+      "company": "Công ty Hải Đăng",
+      "city": "Hà Nội",
+      "industry": "Information Technology",
+      "salary": "25000000 VND - 30000000 VND",
+      "remote": "Từ xa",
+      "experience": "1-2 years",
+      "posted_date": "2026-10-29",
+      "source_url": "https://topjobvn.example.invalid/jobs/topjobvn-010",
+      "description": "Vị trí Nhân viên kinh doanh tại Công ty Hải Đăng ở Hanoi. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Linux",
+        "SQL",
+        "Docker"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Laptop làm việc",
+        "Bảo hiểm xã hội đầy đủ",
+        "Phụ cấp ăn trưa"
+      ],
+      "deadline": "2026-11-28"
+    }
+  ]
+}

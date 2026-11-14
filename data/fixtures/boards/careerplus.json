@@ -1,0 +1,215 @@
+{
+  "board": "careerplus",
+  "jobs": [
+    {
+      "job_id": "careerplus-001",
+      "job_title": "Lập trình viên Frontend React",
+      "employer": "Công ty Sao Mai",
+      "location": "Binh Duong",
+      "sector": "Ngân hàng",
+      "salary_text": "Thỏa thuận",
+      "work_mode": "Remote",
+      "exp": "2-4 years",
+      "posted": "21/10/2026",
+      "url": "https://careerplus.example.invalid/jobs/careerplus-001",
+      "description": "Vị trí Lập trình viên Frontend React tại Công ty Sao Mai ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Chăm sóc khách hàng, Excel, SQL",
+      "job_type": "full-time",
+      "perks": [
+        "Laptop làm việc",
+        "Bảo hiểm y tế",
+        "Phụ cấp ăn trưa"
+      ],
+      "apply_before": "2026-11-20"
+    },
+    {
+      "job_id": "careerplus-002",
+      "job_title": "Chuyên viên tuyển dụng",
+      "employer": "Công ty Sao Mai",
+      "location": "Hải Phòng",
+      "sector": "Sản xuất",
+      "salary_text": "25000000 VND - 33000000 VND",
+      "work_mode": "Tại văn phòng",
+      "exp": "6-6 years",
+      "posted": "29/10/2026",
+      "url": "https://careerplus.example.invalid/jobs/careerplus-002",
+      "description": "Vị trí Chuyên viên tuyển dụng tại Công ty Sao Mai ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "An toàn lao động, Kiểm soát chất lượng, Quản lý sản xuất",
+      "job_type": "full-time",
+      "perks": [
+        "Laptop làm việc",
+        "Phụ cấp ăn trưa",
+        "Bảo hiểm xã hội đầy đủ"
+      ],
+      "apply_before": "2026-11-28"
+    },
+    {
+      "job_id": "careerplus-003",
+      "job_title": "Chuyên viên phân tích dữ liệu",
+      "employer": "Công ty Đức Minh",
+      "location": "Nha Trang",
+      "sector": "Manufacturing",
+      "salary_text": "18 triệu",
+      "work_mode": "Remote",
+      "exp": "1+ năm kinh nghiệm",
+      "posted": "29/10/2026",
+      "url": "https://careerplus.example.invalid/jobs/careerplus-003",
+      "description": "Vị trí Chuyên viên phân tích dữ liệu tại Công ty Đức Minh ở Nha Trang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Quản lý sản xuất, An toàn lao động, Excel",
+      "job_type": "Toàn thời gian",
+      "perks": [
+        "Thưởng tháng 13",
+        "Bảo hiểm xã hội đầy đủ",
+        "Đào tạo nội bộ"
+      ],
+      "apply_before": "2026-11-28"
+    },
+    {
+      "job_id": "careerplus-004",
+      "job_title": "Kỹ sư hệ thống",
+      "employer": "Tập đoàn Nam Sơn",
+      "location": "Hồ Chí Minh",
+      "sector": "Vận tải",
+      "salary_text": "10000000-25000000",
+      "work_mode": "onsite",
+      "exp": "4+ năm kinh nghiệm",
+      "posted": "04/11/2026",
+      "url": "https://careerplus.example.invalid/jobs/careerplus-004",
+      "description": "Vị trí Kỹ sư hệ thống tại Tập đoàn Nam Sơn ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Quản lý kho, Vận chuyển, Lập kế hoạch",
+      "job_type": "internship",
+      "perks": [
+        "Đào tạo nội bộ",
+        "Phụ cấp ăn trưa",
+        "Laptop làm việc"
+      ],
+      "apply_before": "2026-12-04"
+    },
+    {
+      "job_id": "careerplus-005",
+      "job_title": "Kỹ sư hệ thống",
+      "employer": "Công ty Đức Minh",
+      "location": "Hải Phòng",
+      "sector": "Vận tải",
+      "salary_text": "Up to 25 triệu",
+      "work_mode": "onsite",
+      "exp": "2-4 năm",
+      "posted": "10/11/2026",
+      "url": "https://careerplus.example.invalid/jobs/careerplus-005",
+      "description": "Vị trí Kỹ sư hệ thống tại Công ty Đức Minh ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Quản lý kho, Giao tiếp, Excel",
+      "job_type": "internship",
+      "perks": [
+        "Bảo hiểm y tế",
+        "Phụ cấp ăn trưa",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "apply_before": "2026-12-10"
+    },
+    {
+      "job_id": "careerplus-006",
+      "job_title": "Kỹ sư DevOps",
+      "employer": "Công ty Phúc Lộc",
+      "location": "Huế",
+      "sector": "Logistics",
+      "salary_text": "15-23 triệu",
+      "work_mode": "Linh hoạt",
+      "exp": "1+ năm kinh nghiệm",
+      "posted": "07/10/2026",
+      "url": "https://careerplus.example.invalid/jobs/careerplus-006",
+      "description": "Vị trí Kỹ sư DevOps tại Công ty Phúc Lộc ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Excel, Lập kế hoạch, Giao tiếp",
+      "job_type": "full-time",
+      "perks": [
+        "Laptop làm việc",
+        "Thưởng tháng 13",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "apply_before": "2026-11-06"
+    },
+    {
+      "job_id": "careerplus-007",
+      "job_title": "Quản lý sản phẩm",
+      "employer": "Công ty Thanh Tâm",
+      "location": "Đồng Nai",
+      "sector": "Manufacturing",
+      "salary_text": "From 12 triệu",
+      "work_mode": "Linh hoạt",
+      "exp": "5-5 years",
+      "posted": "26/10/2026",
+      "url": "https://careerplus.example.invalid/jobs/careerplus-007",
+      "description": "Vị trí Quản lý sản phẩm tại Công ty Thanh Tâm ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Excel, Quản lý sản xuất, An toàn lao động",
+      "job_type": "full-time",
+      "perks": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Bảo hiểm y tế",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "apply_before": "2026-11-25"
+    },
+    {
+      "job_id": "careerplus-008",
+      "job_title": "Chuyên viên tuyển dụng",
+      "employer": "Công ty Thanh Tâm",
+      "location": "Hải Phòng",
+      "sector": "Ngân hàng",
+      "salary_text": "8-23 triệu",
+      "work_mode": "remote",
+      "exp": "6+ năm kinh nghiệm",
+      "posted": "05/11/2026",
+      "url": "https://careerplus.example.invalid/jobs/careerplus-008",
+      "description": "Vị trí Chuyên viên tuyển dụng tại Công ty Thanh Tâm ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Chăm sóc khách hàng, Tín dụng, Quản lý rủi ro",
+      "job_type": "Hợp đồng",
+      "perks": [
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm y tế",
+        "Phụ cấp ăn trưa"
+      ],
+      "apply_before": "2026-12-05"
+    },
+    {
+      "job_id": "careerplus-009",
+      "job_title": "Lập trình viên Java",
+      "employer": "Công ty Ngọc Anh",
+      "location": "Huế",
+      "sector": "IT",
+      "salary_text": "Up to 26 triệu",
+      "work_mode": "remote",
+      "exp": "5-8 years",
+      "posted": "08/11/2026",
+      "url": "https://careerplus.example.invalid/jobs/careerplus-009",
+      "description": "Vị trí Lập trình viên Java tại Công ty Ngọc Anh ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Git, Python, AWS",
+      "job_type": "Toàn thời gian",
+      "perks": [
+        "Phụ cấp ăn trưa",
+        "Đào tạo nội bộ",
+        "Thưởng tháng 13"
+      ],
+      "apply_before": "2026-12-08"
+    },
+    {
+      "job_id": "careerplus-010",
+      "job_title": "Kỹ sư DevOps",
+      "employer": "Công ty Đức Minh",
+      "location": "Đà Nẵng",
+      "sector": "Công nghệ thông tin",
+      "salary_text": "Up to 25 triệu",
+      "work_mode": "hybrid",
+      "exp": "3-3 years",
+      "posted": "09/10/2026",
+      "url": "https://careerplus.example.invalid/jobs/careerplus-010",
+      "description": "Vị trí Kỹ sư DevOps tại Công ty Đức Minh ở Da Nang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Docker, React, SQL",
+      "job_type": "contract",
+      "perks": [
+        "Thưởng tháng 13",
+        "Đào tạo nội bộ",
+        "Bảo hiểm y tế"
+      ],
+      "apply_before": "2026-11-08"
+    }
+  ]
+}

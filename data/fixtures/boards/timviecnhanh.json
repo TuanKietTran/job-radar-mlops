@@ -1,0 +1,255 @@
+{
+  "board": "timviecnhanh",
+  "jobs": [
+    {
+      "id": "timviecnhanh-001",
+      "title": "Quản lý dự án công nghệ",
+      "company": "Công ty An Bình",
+      "city": "Binh Duong",
+      "industry": "Giáo dục",
+      "salary": "20000000-28000000",
+      "remote": "onsite",
+      "experience": "0-2 years",
+      "posted_date": "2026-11-02",
+      "source_url": "https://timviecnhanh.example.invalid/jobs/timviecnhanh-001",
+      "description": "Vị trí Quản lý dự án công nghệ tại Công ty An Bình ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Giao tiếp",
+        "Giảng dạy",
+        "Tiếng Anh"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Đào tạo nội bộ",
+        "Laptop làm việc",
+        "Bảo hiểm y tế"
+      ],
+      "deadline": "2026-12-02"
+    },
+    {
+      "id": "timviecnhanh-002",
+      "title": "Lập trình viên di động Flutter",
+      "company": "Công ty An Bình",
+      "city": "Hai Phong",
+      "industry": "Manufacturing",
+      "salary": "18-26 triệu",
+      "remote": "Remote",
+      "experience": "1-1 years",
+      "posted_date": "2026-11-08",
+      "source_url": "https://timviecnhanh.example.invalid/jobs/timviecnhanh-002",
+      "description": "Vị trí Lập trình viên di động Flutter tại Công ty An Bình ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Kiểm soát chất lượng",
+        "Quản lý sản xuất",
+        "An toàn lao động"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Phụ cấp ăn trưa",
+        "Laptop làm việc",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-12-08"
+    },
+    {
+      "id": "timviecnhanh-003",
+      "title": "Lập trình viên Java",
+      "company": "Công ty Lan Anh",
+      "city": "Nha Trang",
+      "industry": "Education",
+      "salary": "From 25 triệu",
+      "remote": "remote",
+      "experience": "5-6 years",
+      "posted_date": "2026-11-07",
+      "source_url": "https://timviecnhanh.example.invalid/jobs/timviecnhanh-003",
+      "description": "Vị trí Lập trình viên Java tại Công ty Lan Anh ở Nha Trang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Soạn giáo án",
+        "Giảng dạy",
+        "Giao tiếp"
+      ],
+      "employment_type": "internship",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Thưởng tháng 13",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": "2026-12-07"
+    },
+    {
+      "id": "timviecnhanh-004",
+      "title": "Kỹ sư DevOps",
+      "company": "Công ty Bảo An",
+      "city": "Hue",
+      "industry": "Công nghệ thông tin",
+      "salary": "Up to 25 triệu",
+      "remote": "Tại văn phòng",
+      "experience": "0-3 năm",
+      "posted_date": "2026-10-30",
+      "source_url": "https://timviecnhanh.example.invalid/jobs/timviecnhanh-004",
+      "description": "Vị trí Kỹ sư DevOps tại Công ty Bảo An ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Java",
+        "AWS",
+        "Docker"
+      ],
+      "employment_type": "internship",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Phụ cấp ăn trưa",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": "2026-11-29"
+    },
+    {
+      "id": "timviecnhanh-005",
+      "title": "Nhân viên marketing số",
+      "company": "Công ty Sao Mai",
+      "city": "Hải Phòng",
+      "industry": "E-commerce",
+      "salary": "Up to 30 triệu",
+      "remote": "Hybrid",
+      "experience": "1-2 năm",
+      "posted_date": "2026-10-05",
+      "source_url": "https://timviecnhanh.example.invalid/jobs/timviecnhanh-005",
+      "description": "Vị trí Nhân viên marketing số tại Công ty Sao Mai ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Phân tích dữ liệu",
+        "Marketing số",
+        "Excel"
+      ],
+      "employment_type": "Thực tập",
+      "benefits": [
+        "Phụ cấp ăn trưa",
+        "Bảo hiểm xã hội đầy đủ",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-11-04"
+    },
+    {
+      "id": "timviecnhanh-006",
+      "title": "Chuyên viên phân tích dữ liệu",
+      "company": "Công ty Việt Thắng",
+      "city": "Da Nang",
+      "industry": "Y tế",
+      "salary": "10-15 triệu",
+      "remote": "Hybrid",
+      "experience": "2-4 năm",
+      "posted_date": "2026-10-04",
+      "source_url": "https://timviecnhanh.example.invalid/jobs/timviecnhanh-006",
+      "description": "Vị trí Chuyên viên phân tích dữ liệu tại Công ty Việt Thắng ở Da Nang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Chăm sóc bệnh nhân",
+        "Giao tiếp",
+        "Excel"
+      ],
+      "employment_type": "internship",
+      "benefits": [
+        "Phụ cấp ăn trưa",
+        "Đào tạo nội bộ",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": "2026-11-03"
+    },
+    {
+      "id": "timviecnhanh-007",
+      "title": "Chuyên viên nhân sự",
+      "company": "Công ty Phúc Lộc",
+      "city": "Hai Phong",
+      "industry": "Vận tải",
+      "salary": "Up to 26 triệu",
+      "remote": "hybrid",
+      "experience": "4+ năm kinh nghiệm",
+      "posted_date": "2026-10-06",
+      "source_url": "https://timviecnhanh.example.invalid/jobs/timviecnhanh-007",
+      "description": "Vị trí Chuyên viên nhân sự tại Công ty Phúc Lộc ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Excel",
+        "Lập kế hoạch",
+        "Quản lý kho"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Laptop làm việc",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": "2026-11-05"
+    },
+    {
+      "id": "timviecnhanh-008",
+      "title": "Nhân viên marketing số",
+      "company": "Công ty Bảo An",
+      "city": "Cần Thơ",
+      "industry": "Thương mại điện tử",
+      "salary": "Thỏa thuận",
+      "remote": "remote",
+      "experience": "0-3 years",
+      "posted_date": "2026-11-03",
+      "source_url": "https://timviecnhanh.example.invalid/jobs/timviecnhanh-008",
+      "description": "Vị trí Nhân viên marketing số tại Công ty Bảo An ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "SEO",
+        "Phân tích dữ liệu",
+        "Marketing số"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Phụ cấp ăn trưa",
+        "Ngày nghỉ phép 12 ngày",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-12-03"
+    },
+    {
+      "id": "timviecnhanh-009",
+      "title": "Kỹ sư hệ thống",
+      "company": "Công ty Hải Đăng",
+      "city": "Dong Nai",
+      "industry": "IT",
+      "salary": "From 20 triệu",
+      "remote": "Hybrid",
+      "experience": "1-1 years",
+      "posted_date": "2026-10-20",
+      "source_url": "https://timviecnhanh.example.invalid/jobs/timviecnhanh-009",
+      "description": "Vị trí Kỹ sư hệ thống tại Công ty Hải Đăng ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "AWS",
+        "Git",
+        "SQL"
+      ],
+      "employment_type": "Bán thời gian",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm xã hội đầy đủ"
+      ],
+      "deadline": "2026-11-19"
+    },
+    {
+      "id": "timviecnhanh-010",
+      "title": "Kỹ sư dữ liệu",
+      "company": "Công ty Thanh Tâm",
+      "city": "Đồng Nai",
+      "industry": "Tài chính",
+      "salary": "12-22 triệu",
+      "remote": "Hybrid",
+      "experience": "1-1 năm",
+      "posted_date": "2026-10-05",
+      "source_url": "https://timviecnhanh.example.invalid/jobs/timviecnhanh-010",
+      "description": "Vị trí Kỹ sư dữ liệu tại Công ty Thanh Tâm ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Excel",
+        "Kế toán",
+        "Phân tích tài chính"
+      ],
+      "employment_type": "contract",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm y tế"
+      ],
+      "deadline": "2026-11-04"
+    }
+  ]
+}

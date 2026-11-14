@@ -1,0 +1,255 @@
+{
+  "board": "vietworks",
+  "jobs": [
+    {
+      "id": "vietworks-001",
+      "title": "Kỹ sư dữ liệu",
+      "company": "Công ty Thiên Long",
+      "city": "Dong Nai",
+      "industry": "Công nghệ thông tin",
+      "salary": "Thỏa thuận",
+      "remote": "Từ xa",
+      "experience": "0+ năm kinh nghiệm",
+      "posted_date": "2026-10-04",
+      "source_url": "https://vietworks.example.invalid/jobs/vietworks-001",
+      "description": "Vị trí Kỹ sư dữ liệu tại Công ty Thiên Long ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Python",
+        "Linux",
+        "Git"
+      ],
+      "employment_type": "Toàn thời gian",
+      "benefits": [
+        "Đào tạo nội bộ",
+        "Bảo hiểm y tế",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-11-03"
+    },
+    {
+      "id": "vietworks-002",
+      "title": "Chuyên viên phân tích dữ liệu",
+      "company": "Tập đoàn Nam Sơn",
+      "city": "Dong Nai",
+      "industry": "Information Technology",
+      "salary": "20000000 VND - 25000000 VND",
+      "remote": "Từ xa",
+      "experience": "6-6 năm",
+      "posted_date": "2026-11-07",
+      "source_url": "https://vietworks.example.invalid/jobs/vietworks-002",
+      "description": "Vị trí Chuyên viên phân tích dữ liệu tại Tập đoàn Nam Sơn ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Python",
+        "Docker",
+        "Java"
+      ],
+      "employment_type": "Toàn thời gian",
+      "benefits": [
+        "Ngày nghỉ phép 12 ngày",
+        "Đào tạo nội bộ",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-12-07"
+    },
+    {
+      "id": "vietworks-003",
+      "title": "Nhân viên kinh doanh",
+      "company": "Công ty Hồng Phúc",
+      "city": "Vung Tau",
+      "industry": "Manufacturing",
+      "salary": "Thỏa thuận",
+      "remote": "Remote",
+      "experience": "5+ năm kinh nghiệm",
+      "posted_date": "2026-11-10",
+      "source_url": "https://vietworks.example.invalid/jobs/vietworks-003",
+      "description": "Vị trí Nhân viên kinh doanh tại Công ty Hồng Phúc ở Vung Tau. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Quản lý sản xuất",
+        "Excel",
+        "Kiểm soát chất lượng"
+      ],
+      "employment_type": "Toàn thời gian",
+      "benefits": [
+        "Laptop làm việc",
+        "Thưởng tháng 13",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": null
+    },
+    {
+      "id": "vietworks-004",
+      "title": "Kỹ sư Backend .NET",
+      "company": "Tập đoàn Nam Sơn",
+      "city": "Dong Nai",
+      "industry": "Healthcare",
+      "salary": "12-22 triệu",
+      "remote": "Onsite",
+      "experience": "4-7 năm",
+      "posted_date": "2026-10-12",
+      "source_url": "https://vietworks.example.invalid/jobs/vietworks-004",
+      "description": "Vị trí Kỹ sư Backend .NET tại Tập đoàn Nam Sơn ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Chăm sóc bệnh nhân",
+        "Giao tiếp",
+        "Hồ sơ y tế"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Laptop làm việc",
+        "Đào tạo nội bộ",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": "2026-11-11"
+    },
+    {
+      "id": "vietworks-005",
+      "title": "Nhân viên kho vận",
+      "company": "Tập đoàn Xuân Mai",
+      "city": "Hai Phong",
+      "industry": "Finance",
+      "salary": "25000000 VND - 35000000 VND",
+      "remote": "onsite",
+      "experience": "0-3 years",
+      "posted_date": "2026-11-01",
+      "source_url": "https://vietworks.example.invalid/jobs/vietworks-005",
+      "description": "Vị trí Nhân viên kho vận tại Tập đoàn Xuân Mai ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Excel",
+        "Kế toán",
+        "Phân tích tài chính"
+      ],
+      "employment_type": "Thực tập",
+      "benefits": [
+        "Phụ cấp ăn trưa",
+        "Ngày nghỉ phép 12 ngày",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-12-01"
+    },
+    {
+      "id": "vietworks-006",
+      "title": "Kỹ sư hệ thống",
+      "company": "Công ty Ánh Dương",
+      "city": "Huế",
+      "industry": "Finance",
+      "salary": "From 20 triệu",
+      "remote": "Tại văn phòng",
+      "experience": "0-2 years",
+      "posted_date": "2026-10-20",
+      "source_url": "https://vietworks.example.invalid/jobs/vietworks-006",
+      "description": "Vị trí Kỹ sư hệ thống tại Công ty Ánh Dương ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Báo cáo",
+        "Kế toán",
+        "SQL"
+      ],
+      "employment_type": "internship",
+      "benefits": [
+        "Đào tạo nội bộ",
+        "Phụ cấp ăn trưa",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": "2026-11-19"
+    },
+    {
+      "id": "vietworks-007",
+      "title": "Kỹ sư phần mềm Python",
+      "company": "Tập đoàn Xuân Mai",
+      "city": "Bình Dương",
+      "industry": "Banking",
+      "salary": "From 10 triệu",
+      "remote": "Onsite",
+      "experience": "6-6 years",
+      "posted_date": "2026-10-16",
+      "source_url": "https://vietworks.example.invalid/jobs/vietworks-007",
+      "description": "Vị trí Kỹ sư phần mềm Python tại Tập đoàn Xuân Mai ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Tín dụng",
+        "Quản lý rủi ro",
+        "SQL"
+      ],
+      "employment_type": "part-time",
+      "benefits": [
+        "Đào tạo nội bộ",
+        "Laptop làm việc",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": "2026-11-15"
+    },
+    {
+      "id": "vietworks-008",
+      "title": "Nhân viên kiểm thử phần mềm",
+      "company": "Công ty Trí Đức",
+      "city": "Nha Trang",
+      "industry": "Sản xuất",
+      "salary": "From 15 triệu",
+      "remote": "Tại văn phòng",
+      "experience": "3+ năm kinh nghiệm",
+      "posted_date": "2026-10-06",
+      "source_url": "https://vietworks.example.invalid/jobs/vietworks-008",
+      "description": "Vị trí Nhân viên kiểm thử phần mềm tại Công ty Trí Đức ở Nha Trang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "An toàn lao động",
+        "Quản lý sản xuất",
+        "Kiểm soát chất lượng"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Laptop làm việc",
+        "Thưởng tháng 13"
+      ],
+      "deadline": null
+    },
+    {
+      "id": "vietworks-009",
+      "title": "Nhân viên marketing số",
+      "company": "Công ty Phương Nam",
+      "city": "TP. Hồ Chí Minh",
+      "industry": "Ngân hàng",
+      "salary": "From 18 triệu",
+      "remote": "onsite",
+      "experience": "3-6 years",
+      "posted_date": "2026-11-02",
+      "source_url": "https://vietworks.example.invalid/jobs/vietworks-009",
+      "description": "Vị trí Nhân viên marketing số tại Công ty Phương Nam ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Tín dụng",
+        "SQL",
+        "Excel"
+      ],
+      "employment_type": "Thực tập",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Laptop làm việc",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": "2026-12-02"
+    },
+    {
+      "id": "vietworks-010",
+      "title": "Lập trình viên di động Flutter",
+      "company": "Công ty Bảo An",
+      "city": "Dong Nai",
+      "industry": "Tài chính",
+      "salary": "Thỏa thuận",
+      "remote": "Onsite",
+      "experience": "4-6 năm",
+      "posted_date": "2026-10-14",
+      "source_url": "https://vietworks.example.invalid/jobs/vietworks-010",
+      "description": "Vị trí Lập trình viên di động Flutter tại Công ty Bảo An ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Kế toán",
+        "Excel",
+        "Báo cáo"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Laptop làm việc",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-11-13"
+    }
+  ]
+}
