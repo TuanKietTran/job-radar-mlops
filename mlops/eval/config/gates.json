@@ -1,0 +1,7 @@
+{
+  "min_sample": 500,
+  "max_mae_regression_vnd": 1500000,
+  "fairness_mae_gap_cap_vnd": 4000000,
+  "selection_rate_gap_cap": 0.2,
+  "drift_psi_cap": 0.2
+}
