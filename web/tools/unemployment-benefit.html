@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Unemployment benefit calculator</title>
+<link rel='stylesheet' href='./tools.css'>
+</head>
+<body>
+<nav><a href='./index.html'>Salary tools</a></nav>
+<h1>Unemployment benefit calculator</h1>
+<p>Rates are 2026 assumptions dated 2026-11-14. All money is integer VND per month.</p>
+<form id='calculator' novalidate>
+<label for='months'>Months contributed</label>
+<input id='months' name='months' inputmode='numeric' autocomplete='off'>
+<p id='months-error' class='error' role='alert' hidden></p>
+<label for='average'>Average monthly salary (VND per month)</label>
+<input id='average' name='average' inputmode='numeric' autocomplete='off'>
+<p id='average-error' class='error' role='alert' hidden></p>
+<button type='submit'>Calculate</button>
+</form>
+<p id='api-notice' class='notice' role='alert' hidden></p>
+<section id='results' class='results' hidden>
+<h2>Result</h2>
+<dl>
+<dt>Months contributed</dt><dd id='result-months'></dd>
+<dt>Average monthly salary</dt><dd id='result-average'></dd>
+<dt>Months of benefit</dt><dd id='result-benefit-months'></dd>
+<dt>Monthly amount</dt><dd id='result-monthly'></dd>
+<dt>Total amount</dt><dd id='result-total'></dd>
+</dl>
+<p class='hint'>This is an estimate for planning only, not a benefit decision. The monthly amount is 60 percent of the average monthly salary, capped at 24,800,000 VND.</p>
+</section>
+<script type='module'>
+import { validateMonthsContributed, validateAverageSalary, callApi, formatVnd, setFieldError, showNotice, hideNotice } from './tools.js';
+const form = document.getElementById('calculator');
+const monthsInput = document.getElementById('months');
+const monthsError = document.getElementById('months-error');
+const averageInput = document.getElementById('average');
+const averageError = document.getElementById('average-error');
+const notice = document.getElementById('api-notice');
+const resultsSection = document.getElementById('results');
+form.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  hideNotice(notice);
+  resultsSection.hidden = true;
+  const monthsProblem = validateMonthsContributed(monthsInput.value);
+  const averageProblem = validateAverageSalary(averageInput.value);
+  const monthsOk = setFieldError(monthsInput, monthsError, monthsProblem);
+  const averageOk = setFieldError(averageInput, averageError, averageProblem);
+  if (!monthsOk || !averageOk) {
+    return;
+  }
+  const months = Number(monthsInput.value.trim());
+  const average = Number(averageInput.value.trim().replace(/[\s,]/g, ''));
+  try {
+    const data = await callApi('/api/salary/unemployment-benefit', { months_contributed: months, average_monthly_salary: average });
+    document.getElementById('result-months').textContent = String(data.months_contributed);
+    document.getElementById('result-average').textContent = formatVnd(data.average_monthly_salary);
+    document.getElementById('result-benefit-months').textContent = String(data.months_of_benefit);
+    document.getElementById('result-monthly').textContent = formatVnd(data.monthly_amount);
+    document.getElementById('result-total').textContent = formatVnd(data.total_amount);
+    resultsSection.hidden = false;
+  } catch (error) {
+    showNotice(notice, error.message);
+  }
+});
+</script>
+</body>
+</html>
