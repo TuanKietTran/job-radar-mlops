@@ -1,0 +1,80 @@
+wrote data/jobs.csv rows=200
+bronze rows=200 silver rows=200 dropped=0 duplicates=0
+wrote data/silver/jobs.csv
+staging_jobs rows=200 job_skills rows=601
+mart_salary_by_city_industry rows=39
+mart_postings_by_month rows=10
+mart_remote_share rows=3
+mart_top_skills rows=20
+mart_salary_by_experience_band rows=4
+mart_postings_by_source_board rows=5
+mart_postings_by_industry rows=8
+mart_salary_by_month rows=10
+wrote data/gold.db
+postings_by_industry.sql rows=8
+postings_by_month.sql rows=10
+postings_by_source_board.sql rows=5
+remote_share.sql rows=3
+salary_by_city_industry.sql rows=39
+salary_by_experience_band.sql rows=4
+salary_by_month.sql rows=10
+top_skills.sql rows=20
+wrote data/warehouse
+delta v1 rows=200 v2 rows=200 merged=10
+wrote data/delta/silver_jobs
+main.bronze.jobs -> data/jobs.csv (data-team)
+main.silver.jobs -> data/silver/jobs.csv (data-team)
+main.silver.silver_jobs -> data/delta/silver_jobs/ (data-team)
+main.gold.staging_jobs -> data/gold.db (data-team)
+main.gold.mart_salary_by_city_industry -> data/gold.db (data-team)
+main.gold.mart_postings_by_month -> data/gold.db (data-team)
+main.gold.mart_remote_share -> data/gold.db (data-team)
+main.gold.mart_top_skills -> data/gold.db (data-team)
+main.gold.mart_salary_by_experience_band -> data/gold.db (data-team)
+main.gold.mart_postings_by_source_board -> data/gold.db (data-team)
+main.gold.mart_postings_by_industry -> data/gold.db (data-team)
+main.gold.mart_salary_by_month -> data/gold.db (data-team)
+wrote data/catalog/mapping.csv
+wrote data/catalog/lineage.csv
+postings_by_industry.sql rows=8
+postings_by_month.sql rows=10
+postings_by_source_board.sql rows=5
+remote_share.sql rows=3
+salary_by_city_industry.sql rows=39
+salary_by_experience_band.sql rows=4
+salary_by_month.sql rows=10
+top_skills.sql rows=20
+wrote results
+mart_postings_by_industry rows=8
+mart_postings_by_month rows=10
+mart_postings_by_source_board rows=5
+mart_remote_share rows=3
+mart_salary_by_city_industry rows=39
+mart_salary_by_experience_band rows=4
+mart_salary_by_month rows=10
+mart_top_skills rows=20
+wrote data/gold.db
+test_delta_log_has_two_entries (test_delta.DeltaTests.test_delta_log_has_two_entries) ... ok
+test_summary_csv (test_delta.DeltaTests.test_summary_csv) ... ok
+test_time_travel_merged_ids_differ (test_delta.DeltaTests.test_time_travel_merged_ids_differ) ... ok
+test_two_runs_identical_v2_hash (test_delta.DeltaTests.test_two_runs_identical_v2_hash) ... ok
+test_versions_have_200_rows (test_delta.DeltaTests.test_versions_have_200_rows) ... ok
+test_cli_writes_csv (test_fixture.FixtureTests.test_cli_writes_csv) ... ok
+test_columns_count_and_ranges (test_fixture.FixtureTests.test_columns_count_and_ranges) ... ok
+test_determinism_two_runs_same_hash (test_fixture.FixtureTests.test_determinism_two_runs_same_hash) ... ok
+test_gold_tables (test_notebooks.NotebookTests.test_gold_tables) ... ok
+test_silver_keeps_all_rows (test_notebooks.NotebookTests.test_silver_keeps_all_rows) ... ok
+test_warehouse_outputs (test_notebooks.NotebookTests.test_warehouse_outputs) ... ok
+test_ref_expansion (test_sql_dbt.SqlDbtTests.test_ref_expansion) ... ok
+test_schema_lists_every_model (test_sql_dbt.SqlDbtTests.test_schema_lists_every_model) ... ok
+test_sql_matches_dbt_row_counts (test_sql_dbt.SqlDbtTests.test_sql_matches_dbt_row_counts) ... ok
+test_catalog_lists_twelve_tables (test_unity_catalog.UnityCatalogTests.test_catalog_lists_twelve_tables) ... ok
+test_every_local_target_exists (test_unity_catalog.UnityCatalogTests.test_every_local_target_exists) ... ok
+test_every_table_owner_and_analyst_select (test_unity_catalog.UnityCatalogTests.test_every_table_owner_and_analyst_select) ... ok
+test_lineage_csv (test_unity_catalog.UnityCatalogTests.test_lineage_csv) ... ok
+test_mapping_csv_has_twelve_rows (test_unity_catalog.UnityCatalogTests.test_mapping_csv_has_twelve_rows) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.722s
+
+OK
