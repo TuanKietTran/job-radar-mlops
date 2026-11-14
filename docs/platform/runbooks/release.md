@@ -16,7 +16,7 @@ The worker confirms each item before handing the branch to the manager:
 - The area tests pass in the worktree, with the command and result recorded in the status log.
 - The unslop check passes: no emoji, no exclamation marks, no hype words, no unverifiable claims in docs, README text, CLI output or commit messages.
 - The status log carries a DONE line with the branch, the commit hash, the commands run and their results.
-- Commits are small, styled as area and change, with no Co-Authored-By, no Generated with and no tool or agent names anywhere in the repo.
+- Commits are small, styled as area and change, with no attribution lines crediting a co-author or a generator, and no tool or agent names anywhere in the repo.
 - Synthetic data only. No credentials, no real company or personal data, no scraped content.
 
 ## Merge steps

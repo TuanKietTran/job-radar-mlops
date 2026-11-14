@@ -28,7 +28,7 @@ Work only in that worktree, and only in the assigned subtree. Never touch anothe
 - Keep the shared todo queue current. The human orders it. Start the first unfinished item, mark it done right after, and add follow-ups when they appear. One-step requests stay out of the queue.
 - Keep the handoff current with the goal, decisions, files, verification and next steps, so another session can continue without re-asking.
 - Append one line per event to the status log at status/<worker-name>.log, and finish with a DONE line carrying the branch, the commit hash, the commands run and their results.
-- Small commits on the branch, styled as area and change. No Co-Authored-By, no Generated with and no tool or agent names anywhere in the repo.
+- Small commits on the branch, styled as area and change. No attribution lines crediting a co-author or a generator, and no tool or agent names anywhere in the repo.
 - Synthetic data only. Zero credentials, no scraping real sites, no real company or personal data, no copied content or branding.
 - Base every decision on the code and briefs actually in the repo. Mark anything not yet built as proposed, not decided.
 - Do not end a turn while the worker tests are still running.
