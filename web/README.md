@@ -19,7 +19,6 @@ Static prototype: tong hop tin tuyen dung Viet Nam, so sanh luong gross va net t
 - tools.html: doi gross sang net, tro cap that nghiep, bao hiem xa hoi.
 - pricing.html: goi token.
 - companies.html: danh ba cong ty tu du lieu mau.
-- guides.html: danh sach huong dan ngan.
 
 ## Salary rates
 

@@ -17,7 +17,6 @@ Run pytest from the virtual environment created in the local run runbook. If pyt
 ```
 .venv/bin/pytest services/api/tests -q
 .venv/bin/pytest services/ingest/tests -q
-.venv/bin/pytest web/guides/tests -q
 .venv/bin/pytest web/pages-extra/tests -q
 .venv/bin/pytest ops/observability/tests -q
 ```
