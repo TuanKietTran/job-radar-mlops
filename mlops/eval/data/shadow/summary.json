@@ -1,0 +1,7 @@
+{
+  "rows": 20,
+  "divergences": 3,
+  "divergence_rate": 0.15,
+  "baseline_accuracy": 0.85,
+  "candidate_accuracy": 1.0
+}
