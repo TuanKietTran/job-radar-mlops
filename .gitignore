@@ -1,0 +1,9 @@
+mlops/data/lake
+mlops/data/synthetic
+__pycache__
+.venv
+*.pyc
+mlops/registry/models
+mlops/features/*.db
+mlops/orchestration/runs
+mlops/monitoring/alerts
