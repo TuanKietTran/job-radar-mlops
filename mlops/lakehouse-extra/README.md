@@ -9,8 +9,10 @@ fresh clone with plain python3 and the standard library.
 
 | Databricks concept | Local equivalent |
 | --- | --- |
-| Delta table | SQLite table in data/gold.db, or a CSV under data/ |
+| Delta table | Versioned CSV snapshots under data/delta/silver_jobs/, one file per version |
+| Delta log | data/delta/silver_jobs/_delta_log/ with one JSON entry per version, fields version, operation, rows, source |
 | Unity Catalog catalog.schema.table | SQLite table named schema_table, for example gold mart tables named mart_salary_by_city_industry |
+| Unity Catalog catalog | catalog.yml listing main.bronze, main.silver and main.gold tables with owner and grants, checked by notebooks/05_unity_catalog.py |
 | Databricks SQL warehouse | run_sql.py and notebooks/03_warehouse_queries.py running sql/warehouse/*.sql against data/gold.db |
 | Notebook job | A runnable python3 script in notebooks/, with %md-style comment cells |
 | dbt model | A SQL file in models/gold/ using ref(), materialized by run_dbt.py |
@@ -21,6 +23,9 @@ fresh clone with plain python3 and the standard library.
 - notebooks/01_bronze_to_silver.py cleans bronze into data/silver/jobs.csv
 - notebooks/02_gold_marts.py builds staging tables and eight gold marts in data/gold.db
 - notebooks/03_warehouse_queries.py runs the warehouse queries into data/warehouse/
+- notebooks/04_delta_lake.py builds versioned Delta snapshots v0001 and v0002 under data/delta/silver_jobs/ with one log entry per version
+- notebooks/05_unity_catalog.py validates catalog.yml and writes data/catalog/mapping.csv and data/catalog/lineage.csv
+- catalog.yml lists 12 tables in catalog main across schemas bronze, silver and gold, each with owner data-team and grants
 - sql/warehouse/ holds the eight warehouse queries
 - run_sql.py runs those queries into results/
 - models/gold/ holds the eight dbt-style marts, models/schema.yml describes them
@@ -29,7 +34,7 @@ fresh clone with plain python3 and the standard library.
 - mart_postings_by_industry: industry, postings, avg_salary_mid
 - mart_salary_by_month: month, postings, avg_salary_mid, min_salary, max_salary
 - run_dbt.py expands ref() and materializes each mart as a SQLite table
-- tests/ holds stdlib unittest checks for the fixture, notebooks, SQL and dbt runner
+- tests/ holds stdlib unittest checks for the fixture, notebooks, SQL, dbt runner, Delta versions and Unity Catalog mapping
 
 ## Run
 
@@ -40,6 +45,8 @@ python3 mlops/lakehouse-extra/fixture.py
 python3 mlops/lakehouse-extra/notebooks/01_bronze_to_silver.py
 python3 mlops/lakehouse-extra/notebooks/02_gold_marts.py
 python3 mlops/lakehouse-extra/notebooks/03_warehouse_queries.py
+python3 mlops/lakehouse-extra/notebooks/04_delta_lake.py
+python3 mlops/lakehouse-extra/notebooks/05_unity_catalog.py
 python3 mlops/lakehouse-extra/run_sql.py
 python3 mlops/lakehouse-extra/run_dbt.py
 ```
