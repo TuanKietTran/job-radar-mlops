@@ -1,0 +1,7 @@
+job_id,title,company,city,industry,remote,experience_years,salary_gross_min,salary_gross_max,currency,employment_type,posted_date,source_board,skills
+job-0001,Backend Engineer,Northwind Works,Ha Noi,IT Software,true,4,25000000,40000000,VND,Full-time,2026-03-04,board-alpha,python;sql;docker
+job-0002,Data Analyst,Riverstone Tech,Ho Chi Minh,Banking Finance,false,2,18000000,28000000,VND,Full-time,2026-05-17,board-beta,python;sql
+job-0003,Senior Java Developer,Harbor Systems,Da Nang,IT Software,true,8,45000000,70000000,VND,Full-time,2026-08-22,board-gamma,java;aws;docker;kubernetes
+job-0004,Frontend Engineer,Meadowsoft,Ho Chi Minh,E-commerce,false,3,22000000,35000000,VND,Full-time,2026-02-11,board-alpha,react;java
+job-0005,ML Engineer,Cloudpeak Analytics,Remote,IT Software,true,6,55000000,90000000,VND,Full-time,2026-11-14,board-delta,python;ml;aws;docker
+job-0006,Logistics Coordinator,Swiftlane Logistics,Hai Phong,Logistics,false,1,12000000,18000000,VND,Contract,2026-06-30,board-beta,sql
