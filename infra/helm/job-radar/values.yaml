@@ -1,0 +1,26 @@
+replicaCount: 2
+
+namespace: job-radar
+
+image:
+  api:
+    repository: job-radar/api
+    tag: 0.1.0
+  train:
+    repository: job-radar/train
+    tag: 0.1.0
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8000
+
+config:
+  modelName: job-radar-model
+  apiPort: "8000"
+  jobsPath: /data/processed/jobs.json
+  logLevel: info
+
+train:
+  schedule: "0 2 * * *"
+  seed: 42
