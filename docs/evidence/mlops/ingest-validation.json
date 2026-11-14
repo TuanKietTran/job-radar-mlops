@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "enum_city": {
+      "failed": 0,
+      "passed": 5000
+    },
+    "enum_employment_type": {
+      "failed": 0,
+      "passed": 5000
+    },
+    "enum_industry": {
+      "failed": 0,
+      "passed": 5000
+    },
+    "experience_range": {
+      "failed": 0,
+      "passed": 5000
+    },
+    "job_id_unique": {
+      "failed": 0,
+      "passed": 1
+    },
+    "not_null_city": {
+      "failed": 0,
+      "passed": 5000
+    },
+    "not_null_company": {
+      "failed": 0,
+      "passed": 5000
+    },
+    "not_null_industry": {
+      "failed": 0,
+      "passed": 5000
+    },
+    "not_null_job_id": {
+      "failed": 0,
+      "passed": 5000
+    },
+    "not_null_title": {
+      "failed": 0,
+      "passed": 5000
+    },
+    "posted_date_range": {
+      "failed": 0,
+      "passed": 5000
+    },
+    "salary_ints": {
+      "failed": 0,
+      "passed": 5000
+    },
+    "salary_min_le_max": {
+      "failed": 0,
+      "passed": 5000
+    },
+    "salary_range": {
+      "failed": 0,
+      "passed": 5000
+    }
+  },
+  "passed": true,
+  "total_rows": 5000,
+  "valid_rows": 5000
+}
