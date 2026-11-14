@@ -1,0 +1,69 @@
+wrote 500 jobs to mlops/eval/data/heldout.json
+fixture:0
+model salary-v1-1.0.0 n=500
+mae_vnd 2010420.36
+rmse_vnd 2546783.78
+precision_at_10 1.0
+ndcg_at_10 1.0
+wrote mlops/eval/reports/eval.json
+harness:0
+sessions 200 shadow True
+control mae_vnd 2035168.65
+challenger mae_vnd 2018643.55
+recommend: keep champion; no material difference
+wrote mlops/eval/reports/ab.json
+simulate:0
+model salary-v1-1.0.0 n=500
+city mae_gap_vnd 444976.49 selection_gap 0.2938
+industry mae_gap_vnd 357156.1 selection_gap 0.2502
+employment_type mae_gap_vnd 296041.81 selection_gap 0.1598
+psi 0.0197
+flags 2
+flag city selection gap 0.2938 over cap 0.2
+flag industry selection gap 0.2502 over cap 0.2
+wrote mlops/eval/reports/fairness.json
+fairness:0
+PASS sample value=500 threshold=500
+PASS mae_regression_vnd value=-16525.1 threshold=1500000
+PASS fairness_mae_gap_vnd value=444976.49 threshold=4000000
+FAIL fairness_selection_rate_gap value=0.2938 threshold=0.2
+PASS drift_psi value=0.0197 threshold=0.2
+verdict FAIL
+wrote mlops/eval/reports/verdict.json
+gates:1
+gates verdict FAIL
+recommendation recommend: keep champion; no material difference
+failing gates fairness_selection_rate_gap
+decision keep champion
+wrote mlops/eval/data/promotion/decision.json
+promote:1
+test_exact_tie_reports_tie (test_ab.TestAb.test_exact_tie_reports_tie) ... ok
+test_rerun_produces_identical_results_hash (test_ab.TestAb.test_rerun_produces_identical_results_hash) ... ok
+test_tie_breaks_on_lower_latency (test_ab.TestAb.test_tie_breaks_on_lower_latency) ... ok
+test_winner_b_with_known_values (test_ab.TestAb.test_winner_b_with_known_values) ... ok
+test_card_approval_reflects_verdict (test_cards.TestCards.test_card_approval_reflects_verdict) ... ok
+test_card_contains_metrics_and_limitations (test_cards.TestCards.test_card_contains_metrics_and_limitations) ... ok
+test_card_without_eval_reports_no_eval (test_cards.TestCards.test_card_without_eval_reports_no_eval) ... ok
+test_bad_challenger_fails_regression_gate (test_gates.TestGates.test_bad_challenger_fails_regression_gate) ... ok
+test_good_challenger_passes (test_gates.TestGates.test_good_challenger_passes) ... ok
+test_missing_fairness_report_fails (test_gates.TestGates.test_missing_fairness_report_fails) ... ok
+test_small_sample_fails (test_gates.TestGates.test_small_sample_fails) ... ok
+test_evaluate_matches_hand_computed_values (test_harness.TestHarness.test_evaluate_matches_hand_computed_values) ... ok
+test_ndcg_at_k_penalises_wrong_order (test_harness.TestHarness.test_ndcg_at_k_penalises_wrong_order) ... ok
+test_precision_at_k_counts_grades_two_and_up (test_harness.TestHarness.test_precision_at_k_counts_grades_two_and_up) ... ok
+test_rank_ties_break_by_job_id (test_harness.TestHarness.test_rank_ties_break_by_job_id) ... ok
+test_decision_holds_champion_and_challenger_labels (test_promote.TestPromote.test_decision_holds_champion_and_challenger_labels) ... ok
+test_keep_when_fail_even_if_ab_recommends_promote (test_promote.TestPromote.test_keep_when_fail_even_if_ab_recommends_promote) ... ok
+test_keep_when_pass_but_no_material_difference (test_promote.TestPromote.test_keep_when_pass_but_no_material_difference) ... ok
+test_promote_when_pass_and_recommendation_is_promote (test_promote.TestPromote.test_promote_when_pass_and_recommendation_is_promote) ... ok
+test_rerun_produces_identical_bytes (test_promote.TestPromote.test_rerun_produces_identical_bytes) ... ok
+test_divergences_are_candidate_correct_rows (test_shadow.TestShadow.test_divergences_are_candidate_correct_rows) ... ok
+test_identical_candidate_has_no_divergences (test_shadow.TestShadow.test_identical_candidate_has_no_divergences) ... ok
+test_no_shadow_reports_none (test_simulate.TestSimulate.test_no_shadow_reports_none) ... ok
+test_shadow_never_changes_the_served_arm (test_simulate.TestSimulate.test_shadow_never_changes_the_served_arm) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.013s
+
+OK
+tests:0
