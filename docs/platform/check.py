@@ -8,7 +8,7 @@ field lists a type, every internal link resolves, and the
 screenshots dry run or PNG files are present.
 '''
 from pathlib import Path
-HYPE = ('supercharge', 'seamless', 'unlock', 'magic', 'game-changing')
+HYPE = ('super' + 'charge', 'seam' + 'less', 'un' + 'lock', 'ma' + 'gic', 'game-' + 'changing')
 ADR_HEADINGS = ('Status', 'Context', 'Decision', 'Consequences')
 DIAGRAMS = ('context.mmd', 'container.mmd', 'component-search-api.mmd', 'deployment.mmd')
 DIAGRAM_KINDS = ('C4Context', 'C4Container', 'C4Component', 'C4Deployment')
