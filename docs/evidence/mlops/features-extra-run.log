@@ -1,0 +1,64 @@
+wrote 500 events to data/topic/job_events.jsonl
+total lines 500 seed 42
+     500 data/topic/job_events.jsonl
+consumed 500 new events, offset 0 to 500
+jobs 118 companies 12 store data/online.db
+no new events, offset 500
+{"last_event_time": "2026-11-13T23:50:38Z", "offset": 500, "updated_at": "2026-11-14T11:31:14.898696Z"}
+backfilled 500 events from 2026-11-07 to 2026-11-14
+jobs 118 companies 12 store data/online.db
+feature hash 12e30144fc8d14dd3495788ceb2c48e691ad87b29a0cee3f9f8fe51bbf33270a
+backfilled 500 events from 2026-11-07 to 2026-11-14
+jobs 118 companies 12 store data/online.db
+feature hash 12e30144fc8d14dd3495788ceb2c48e691ad87b29a0cee3f9f8fe51bbf33270a
+views_1h age 0.0 minutes, limit 15 minutes, status ok
+views_24h age 0.0 minutes, limit 60 minutes, status ok
+report reports/freshness.json passed True
+{
+  "breaches": [],
+  "checked_at": "2026-11-14T11:31:15.073502Z",
+  "features": [
+    {
+      "age_minutes": 0.0,
+      "feature": "views_1h",
+      "max_age_minutes": 15,
+      "status": "ok",
+      "updated_at": "2026-11-14T11:31:15.034163Z"
+    },
+    {
+      "age_minutes": 0.0,
+      "feature": "views_24h",
+      "max_age_minutes": 60,
+      "status": "ok",
+      "updated_at": "2026-11-14T11:31:15.034163Z"
+    }
+  ],
+  "passed": true
+}
+.............
+----------------------------------------------------------------------
+Ran 13 tests in 0.057s
+
+OK
+wrote 500 events to job_events.jsonl
+total lines 500 seed 42
+wrote 500 events to job_events.jsonl
+total lines 500 seed 42
+wrote 500 events to job_events.jsonl
+total lines 500 seed 42
+wrote 50 events to events.jsonl
+total lines 50 seed 42
+wrote 50 events to events.jsonl
+total lines 100 seed 42
+wrote 100 events to a.jsonl
+total lines 100 seed 42
+wrote 100 events to b.jsonl
+total lines 100 seed 42
+wrote 500 events to job_events.jsonl
+total lines 500 seed 42
+wrote 500 events to job_events.jsonl
+total lines 500 seed 42
+wrote 100 events to job_events.jsonl
+total lines 600 seed 42
+wrote 500 events to job_events.jsonl
+total lines 500 seed 42

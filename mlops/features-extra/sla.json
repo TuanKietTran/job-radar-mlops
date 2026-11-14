@@ -1,0 +1,4 @@
+{
+  "views_1h": {"max_age_minutes": 15},
+  "views_24h": {"max_age_minutes": 60}
+}
