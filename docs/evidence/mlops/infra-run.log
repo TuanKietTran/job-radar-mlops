@@ -1,0 +1,20 @@
+Terraform v1.16.0
+[terraform] aws: init ok, validate ok, fmt ok
+[terraform] azure: init ok, validate ok, fmt ok
+[terraform] databricks: init ok, validate ok, fmt ok
+[terraform] modules/aws-ecr: init ok, validate ok, fmt ok
+[terraform] modules/aws-iam: init ok, validate ok, fmt ok
+[terraform] modules/aws-s3: init ok, validate ok, fmt ok
+[terraform] modules/aws-sagemaker: init ok, validate ok, fmt ok
+[terraform] modules/azure-ml: init ok, validate ok, fmt ok
+[terraform] modules/databricks: init ok, validate ok, fmt ok
+[tflint] not installed, skipped
+[helm] not installed, skipped; stdlib YAML sanity check used instead
+[manifests] ok (12 files checked)
+[credentials] ok (50 files scanned, no hits)
+validate.py: PASS
+........
+----------------------------------------------------------------------
+Ran 8 tests in 30.639s
+
+OK
