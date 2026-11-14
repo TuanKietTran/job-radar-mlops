@@ -1,0 +1,3044 @@
+{
+  "threshold": 0.85,
+  "num_permutations": 128,
+  "pairs": [
+    {
+      "id": "dup-01",
+      "category": "identical",
+      "job_a": {
+        "id": "dup-01-a",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/dup-01-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-01-b",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/dup-01-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "exact copy on a second board"
+    },
+    {
+      "id": "dup-02",
+      "category": "identical",
+      "job_a": {
+        "id": "dup-02-a",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/dup-02-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-02-b",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "careerhub",
+        "source_url": "https://example.invalid/jobs/dup-02-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "exact copy on a second board"
+    },
+    {
+      "id": "dup-03",
+      "category": "identical",
+      "job_a": {
+        "id": "dup-03-a",
+        "title": "Lap trinh vien Frontend",
+        "company": "Cong ty TNHH Minh Khang",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "careerhub",
+        "source_url": "https://example.invalid/jobs/dup-03-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-03-b",
+        "title": "Lap trinh vien Frontend",
+        "company": "Cong ty TNHH Minh Khang",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "timviecnhanh",
+        "source_url": "https://example.invalid/jobs/dup-03-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "exact copy on a second board"
+    },
+    {
+      "id": "dup-04",
+      "category": "case",
+      "job_a": {
+        "id": "dup-04-a",
+        "title": "KY SU PHAN MEM JAVA",
+        "company": "Cong ty TNHH Binh Minh",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "timviecnhanh",
+        "source_url": "https://example.invalid/jobs/dup-04-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-04-b",
+        "title": "Ky su phan mem Java",
+        "company": "Cong ty TNHH Binh Minh",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vieclam24h",
+        "source_url": "https://example.invalid/jobs/dup-04-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "title case differs only"
+    },
+    {
+      "id": "dup-05",
+      "category": "case",
+      "job_a": {
+        "id": "dup-05-a",
+        "title": "Ky su phan mem Python",
+        "company": "CONG TY TNHH AN BINH",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vieclam24h",
+        "source_url": "https://example.invalid/jobs/dup-05-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-05-b",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "jobpro",
+        "source_url": "https://example.invalid/jobs/dup-05-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "company case differs only"
+    },
+    {
+      "id": "dup-06",
+      "category": "case",
+      "job_a": {
+        "id": "dup-06-a",
+        "title": "Chuyen vien kiem thu phan mem",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "HO CHI MINH",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "jobpro",
+        "source_url": "https://example.invalid/jobs/dup-06-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-06-b",
+        "title": "Chuyen vien kiem thu phan mem",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/dup-06-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "city case differs only"
+    },
+    {
+      "id": "dup-07",
+      "category": "punctuation",
+      "job_a": {
+        "id": "dup-07-a",
+        "title": "Ky su phan mem. Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/dup-07-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-07-b",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/dup-07-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "full stop in title"
+    },
+    {
+      "id": "dup-08",
+      "category": "punctuation",
+      "job_a": {
+        "id": "dup-08-a",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An-Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/dup-08-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-08-b",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "careerhub",
+        "source_url": "https://example.invalid/jobs/dup-08-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "hyphen in company name"
+    },
+    {
+      "id": "dup-09",
+      "category": "punctuation",
+      "job_a": {
+        "id": "dup-09-a",
+        "title": "Lap trinh vien, Frontend",
+        "company": "Cong ty TNHH Minh Khang",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "careerhub",
+        "source_url": "https://example.invalid/jobs/dup-09-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-09-b",
+        "title": "Lap trinh vien Frontend",
+        "company": "Cong ty TNHH Minh Khang",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "timviecnhanh",
+        "source_url": "https://example.invalid/jobs/dup-09-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "comma in title"
+    },
+    {
+      "id": "dup-10",
+      "category": "whitespace",
+      "job_a": {
+        "id": "dup-10-a",
+        "title": "Ky su  phan mem   Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "timviecnhanh",
+        "source_url": "https://example.invalid/jobs/dup-10-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-10-b",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vieclam24h",
+        "source_url": "https://example.invalid/jobs/dup-10-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "extra spaces in title"
+    },
+    {
+      "id": "dup-11",
+      "category": "whitespace",
+      "job_a": {
+        "id": "dup-11-a",
+        "title": "Ky su phan mem Python",
+        "company": "  Cong ty TNHH An Binh  ",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vieclam24h",
+        "source_url": "https://example.invalid/jobs/dup-11-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-11-b",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "jobpro",
+        "source_url": "https://example.invalid/jobs/dup-11-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "leading and trailing spaces in company"
+    },
+    {
+      "id": "dup-12",
+      "category": "whitespace",
+      "job_a": {
+        "id": "dup-12-a",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ho   Chi  Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "jobpro",
+        "source_url": "https://example.invalid/jobs/dup-12-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-12-b",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/dup-12-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "extra spaces in city"
+    },
+    {
+      "id": "dup-13",
+      "category": "near-title",
+      "job_a": {
+        "id": "dup-13-a",
+        "title": "Senior Python Developer",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/dup-13-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-13-b",
+        "title": "Senior Python Developers",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/dup-13-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "title singular and plural"
+    },
+    {
+      "id": "dup-14",
+      "category": "near-title",
+      "job_a": {
+        "id": "dup-14-a",
+        "title": "Ky su DevOps",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/dup-14-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-14-b",
+        "title": "Ky su DevOps AWS",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "careerhub",
+        "source_url": "https://example.invalid/jobs/dup-14-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "title gains one stack word"
+    },
+    {
+      "id": "dup-15",
+      "category": "near-title",
+      "job_a": {
+        "id": "dup-15-a",
+        "title": "Chuyen vien kiem thu phan mem",
+        "company": "Cong ty TNHH Binh Minh",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "careerhub",
+        "source_url": "https://example.invalid/jobs/dup-15-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-15-b",
+        "title": "Chuyen vien kiem thu",
+        "company": "Cong ty TNHH Binh Minh",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "timviecnhanh",
+        "source_url": "https://example.invalid/jobs/dup-15-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "title loses two words"
+    },
+    {
+      "id": "dup-16",
+      "category": "near-company",
+      "job_a": {
+        "id": "dup-16-a",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "timviecnhanh",
+        "source_url": "https://example.invalid/jobs/dup-16-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-16-b",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vieclam24h",
+        "source_url": "https://example.invalid/jobs/dup-16-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "company loses legal form"
+    },
+    {
+      "id": "dup-17",
+      "category": "near-company",
+      "job_a": {
+        "id": "dup-17-a",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vieclam24h",
+        "source_url": "https://example.invalid/jobs/dup-17-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-17-b",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty CP Sao Mai",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "jobpro",
+        "source_url": "https://example.invalid/jobs/dup-17-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "company legal form abbreviated"
+    },
+    {
+      "id": "dup-18",
+      "category": "near-company",
+      "job_a": {
+        "id": "dup-18-a",
+        "title": "Lap trinh vien Frontend",
+        "company": "Tap doan Cong nghe Binh Minh",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "jobpro",
+        "source_url": "https://example.invalid/jobs/dup-18-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-18-b",
+        "title": "Lap trinh vien Frontend",
+        "company": "Cong ty Cong nghe Binh Minh",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/dup-18-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "company legal form differs"
+    },
+    {
+      "id": "dup-19",
+      "category": "near-city",
+      "job_a": {
+        "id": "dup-19-a",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/dup-19-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-19-b",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "TP. Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/dup-19-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "city gains prefix"
+    },
+    {
+      "id": "dup-20",
+      "category": "near-city",
+      "job_a": {
+        "id": "dup-20-a",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/dup-20-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-20-b",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Thanh pho Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "careerhub",
+        "source_url": "https://example.invalid/jobs/dup-20-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "city gains prefix"
+    },
+    {
+      "id": "dup-21",
+      "category": "combined",
+      "job_a": {
+        "id": "dup-21-a",
+        "title": "KY SU PHAN MEM.  PYTHON",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "careerhub",
+        "source_url": "https://example.invalid/jobs/dup-21-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-21-b",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "timviecnhanh",
+        "source_url": "https://example.invalid/jobs/dup-21-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "case plus punctuation plus spaces"
+    },
+    {
+      "id": "dup-22",
+      "category": "combined",
+      "job_a": {
+        "id": "dup-22-a",
+        "title": "SENIOR PYTHON DEVELOPERS",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "timviecnhanh",
+        "source_url": "https://example.invalid/jobs/dup-22-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-22-b",
+        "title": "Senior Python Developer",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vieclam24h",
+        "source_url": "https://example.invalid/jobs/dup-22-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "case plus plural"
+    },
+    {
+      "id": "dup-23",
+      "category": "borderline-duplicate",
+      "job_a": {
+        "id": "dup-23-a",
+        "title": "Lap trinh vien Backend Java",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vieclam24h",
+        "source_url": "https://example.invalid/jobs/dup-23-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-23-b",
+        "title": "Lap trinh vien Backend Java Spring",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "jobpro",
+        "source_url": "https://example.invalid/jobs/dup-23-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "title gains one framework word"
+    },
+    {
+      "id": "dup-24",
+      "category": "borderline-duplicate",
+      "job_a": {
+        "id": "dup-24-a",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "jobpro",
+        "source_url": "https://example.invalid/jobs/dup-24-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-24-b",
+        "title": "Ky su phan mem Python Django",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/dup-24-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "title gains one framework word"
+    },
+    {
+      "id": "dup-25",
+      "category": "borderline-duplicate",
+      "job_a": {
+        "id": "dup-25-a",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty TNHH Binh Minh",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/dup-25-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "dup-25-b",
+        "title": "Chuyen vien du lieu",
+        "company": "Cong ty TNHH Binh Minh",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/dup-25-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": true,
+      "note": "title loses two words"
+    },
+    {
+      "id": "non-01",
+      "category": "same-role-diff-city",
+      "job_a": {
+        "id": "non-01-a",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/non-01-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-01-b",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "careerhub",
+        "source_url": "https://example.invalid/jobs/non-01-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same role and company, other city"
+    },
+    {
+      "id": "non-02",
+      "category": "same-role-diff-city",
+      "job_a": {
+        "id": "non-02-a",
+        "title": "Lap trinh vien Frontend",
+        "company": "Cong ty TNHH Minh Khang",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "careerhub",
+        "source_url": "https://example.invalid/jobs/non-02-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-02-b",
+        "title": "Lap trinh vien Frontend",
+        "company": "Cong ty TNHH Minh Khang",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "timviecnhanh",
+        "source_url": "https://example.invalid/jobs/non-02-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same role and company, other city"
+    },
+    {
+      "id": "non-03",
+      "category": "same-role-diff-city",
+      "job_a": {
+        "id": "non-03-a",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "timviecnhanh",
+        "source_url": "https://example.invalid/jobs/non-03-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-03-b",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Hai Phong",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vieclam24h",
+        "source_url": "https://example.invalid/jobs/non-03-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same role and company, other city"
+    },
+    {
+      "id": "non-04",
+      "category": "same-role-diff-city",
+      "job_a": {
+        "id": "non-04-a",
+        "title": "Ky su DevOps",
+        "company": "Cong ty TNHH Binh Minh",
+        "city": "Can Tho",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vieclam24h",
+        "source_url": "https://example.invalid/jobs/non-04-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-04-b",
+        "title": "Ky su DevOps",
+        "company": "Cong ty TNHH Binh Minh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "jobpro",
+        "source_url": "https://example.invalid/jobs/non-04-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same role and company, other city"
+    },
+    {
+      "id": "non-05",
+      "category": "same-role-diff-city",
+      "job_a": {
+        "id": "non-05-a",
+        "title": "Chuyen vien kiem thu phan mem",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Binh Duong",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "jobpro",
+        "source_url": "https://example.invalid/jobs/non-05-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-05-b",
+        "title": "Chuyen vien kiem thu phan mem",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Dong Nai",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/non-05-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same role and company, other city"
+    },
+    {
+      "id": "non-06",
+      "category": "same-role-diff-company",
+      "job_a": {
+        "id": "non-06-a",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/non-06-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-06-b",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/non-06-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same role and city, other company"
+    },
+    {
+      "id": "non-07",
+      "category": "same-role-diff-company",
+      "job_a": {
+        "id": "non-07-a",
+        "title": "Lap trinh vien Frontend",
+        "company": "Cong ty TNHH Minh Khang",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/non-07-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-07-b",
+        "title": "Lap trinh vien Frontend",
+        "company": "Cong ty TNHH Binh Minh",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "careerhub",
+        "source_url": "https://example.invalid/jobs/non-07-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same role and city, other company"
+    },
+    {
+      "id": "non-08",
+      "category": "same-role-diff-company",
+      "job_a": {
+        "id": "non-08-a",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "careerhub",
+        "source_url": "https://example.invalid/jobs/non-08-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-08-b",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "timviecnhanh",
+        "source_url": "https://example.invalid/jobs/non-08-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same role and city, other company"
+    },
+    {
+      "id": "non-09",
+      "category": "same-role-diff-company",
+      "job_a": {
+        "id": "non-09-a",
+        "title": "Ky su DevOps",
+        "company": "Cong ty TNHH Binh Minh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "timviecnhanh",
+        "source_url": "https://example.invalid/jobs/non-09-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-09-b",
+        "title": "Ky su DevOps",
+        "company": "Cong ty TNHH Minh Khang",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vieclam24h",
+        "source_url": "https://example.invalid/jobs/non-09-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same role and city, other company"
+    },
+    {
+      "id": "non-10",
+      "category": "same-role-diff-company",
+      "job_a": {
+        "id": "non-10-a",
+        "title": "Chuyen vien kiem thu phan mem",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vieclam24h",
+        "source_url": "https://example.invalid/jobs/non-10-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-10-b",
+        "title": "Chuyen vien kiem thu phan mem",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "jobpro",
+        "source_url": "https://example.invalid/jobs/non-10-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same role and city, other company"
+    },
+    {
+      "id": "non-11",
+      "category": "diff-role-same-company-city",
+      "job_a": {
+        "id": "non-11-a",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "jobpro",
+        "source_url": "https://example.invalid/jobs/non-11-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-11-b",
+        "title": "Ky su phan mem Java",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/non-11-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same company and city, other stack"
+    },
+    {
+      "id": "non-12",
+      "category": "diff-role-same-company-city",
+      "job_a": {
+        "id": "non-12-a",
+        "title": "Lap trinh vien Frontend",
+        "company": "Cong ty TNHH Minh Khang",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/non-12-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-12-b",
+        "title": "Lap trinh vien Backend",
+        "company": "Cong ty TNHH Minh Khang",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/non-12-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same company and city, other stack"
+    },
+    {
+      "id": "non-13",
+      "category": "diff-role-same-company-city",
+      "job_a": {
+        "id": "non-13-a",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/non-13-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-13-b",
+        "title": "Chuyen vien phan tich kinh doanh",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "careerhub",
+        "source_url": "https://example.invalid/jobs/non-13-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same company and city, other analysis focus"
+    },
+    {
+      "id": "non-14",
+      "category": "diff-role-same-company-city",
+      "job_a": {
+        "id": "non-14-a",
+        "title": "Ky su DevOps",
+        "company": "Cong ty TNHH Binh Minh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "careerhub",
+        "source_url": "https://example.invalid/jobs/non-14-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-14-b",
+        "title": "Ky su kiem thu phan mem",
+        "company": "Cong ty TNHH Binh Minh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "timviecnhanh",
+        "source_url": "https://example.invalid/jobs/non-14-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same company and city, other role"
+    },
+    {
+      "id": "non-15",
+      "category": "diff-role-same-company-city",
+      "job_a": {
+        "id": "non-15-a",
+        "title": "Quan ly du an",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "timviecnhanh",
+        "source_url": "https://example.invalid/jobs/non-15-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-15-b",
+        "title": "Quan ly san pham",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vieclam24h",
+        "source_url": "https://example.invalid/jobs/non-15-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same company and city, other management role"
+    },
+    {
+      "id": "non-16",
+      "category": "diff-role-diff-company-city",
+      "job_a": {
+        "id": "non-16-a",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vieclam24h",
+        "source_url": "https://example.invalid/jobs/non-16-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-16-b",
+        "title": "Ky su phan mem Java",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "jobpro",
+        "source_url": "https://example.invalid/jobs/non-16-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "other role and company, same city"
+    },
+    {
+      "id": "non-17",
+      "category": "diff-role-diff-company-city",
+      "job_a": {
+        "id": "non-17-a",
+        "title": "Lap trinh vien Frontend",
+        "company": "Cong ty TNHH Minh Khang",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "jobpro",
+        "source_url": "https://example.invalid/jobs/non-17-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-17-b",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty TNHH Binh Minh",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/non-17-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "other role and company, same city"
+    },
+    {
+      "id": "non-18",
+      "category": "diff-role-diff-company-diff-city",
+      "job_a": {
+        "id": "non-18-a",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/non-18-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-18-b",
+        "title": "Lap trinh vien Frontend",
+        "company": "Cong ty TNHH Minh Khang",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/non-18-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "other role, company and city"
+    },
+    {
+      "id": "non-19",
+      "category": "diff-role-diff-company-diff-city",
+      "job_a": {
+        "id": "non-19-a",
+        "title": "Ky su DevOps",
+        "company": "Cong ty TNHH Binh Minh",
+        "city": "Ha Noi",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/non-19-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-19-b",
+        "title": "Chuyen vien kiem thu phan mem",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "careerhub",
+        "source_url": "https://example.invalid/jobs/non-19-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "other role, company and city"
+    },
+    {
+      "id": "non-20",
+      "category": "borderline-non-duplicate",
+      "job_a": {
+        "id": "non-20-a",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Hai Phong",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "careerhub",
+        "source_url": "https://example.invalid/jobs/non-20-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-20-b",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Hai Duong",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "timviecnhanh",
+        "source_url": "https://example.invalid/jobs/non-20-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same role and company, similar city names"
+    },
+    {
+      "id": "non-21",
+      "category": "borderline-non-duplicate",
+      "job_a": {
+        "id": "non-21-a",
+        "title": "Lap trinh vien Frontend",
+        "company": "Cong ty TNHH Minh Khang",
+        "city": "Binh Duong",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "timviecnhanh",
+        "source_url": "https://example.invalid/jobs/non-21-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-21-b",
+        "title": "Lap trinh vien Frontend",
+        "company": "Cong ty TNHH Minh Khang",
+        "city": "Binh Dinh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vieclam24h",
+        "source_url": "https://example.invalid/jobs/non-21-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same role and company, similar city names"
+    },
+    {
+      "id": "non-22",
+      "category": "borderline-non-duplicate",
+      "job_a": {
+        "id": "non-22-a",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Dong Nai",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vieclam24h",
+        "source_url": "https://example.invalid/jobs/non-22-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-22-b",
+        "title": "Chuyen vien phan tich du lieu",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Dong Thap",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "jobpro",
+        "source_url": "https://example.invalid/jobs/non-22-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same role and company, similar city names"
+    },
+    {
+      "id": "non-23",
+      "category": "borderline-non-duplicate",
+      "job_a": {
+        "id": "non-23-a",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "jobpro",
+        "source_url": "https://example.invalid/jobs/non-23-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-23-b",
+        "title": "Ky su phan mem Python",
+        "company": "Cong ty TNHH An Binh Tech",
+        "city": "Ho Chi Minh",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/non-23-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same role and city, company gains one word"
+    },
+    {
+      "id": "non-24",
+      "category": "borderline-non-duplicate",
+      "job_a": {
+        "id": "non-24-a",
+        "title": "Lap trinh vien Frontend",
+        "company": "Cong ty Co phan Sao Mai",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "vietworks",
+        "source_url": "https://example.invalid/jobs/non-24-a",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "job_b": {
+        "id": "non-24-b",
+        "title": "Lap trinh vien Frontend",
+        "company": "Cong ty Co phan Sao Mai Group",
+        "city": "Da Nang",
+        "industry": "Cong nghe thong tin",
+        "skills": [
+          "Python",
+          "SQL"
+        ],
+        "salary_min_vnd": 20000000,
+        "salary_max_vnd": 35000000,
+        "salary_currency": "VND",
+        "remote": "onsite",
+        "experience_min_years": 2,
+        "experience_max_years": 5,
+        "level": "middle",
+        "employment_type": "full-time",
+        "posted_at": "2026-11-01",
+        "source_board": "topjobvn",
+        "source_url": "https://example.invalid/jobs/non-24-b",
+        "description": "Mo ta cong viec cho vi tri nay.",
+        "benefits": [
+          "Bao hiem y te",
+          "Thuong thang 13"
+        ],
+        "application_deadline": "2026-12-01"
+      },
+      "expected_duplicate": false,
+      "note": "same role and city, company gains one word"
+    }
+  ]
+}
