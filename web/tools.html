@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Công cụ lương — Job Radar</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-head"><div class="wrap head-inner"><a class="brand" href="index.html"><span class="brand-mark">JR</span>Job Radar</a><nav class="nav" aria-label="Điều hướng chính"><a href="index.html">Việc làm</a><a href="tools.html" aria-current="page">Công cụ lương</a><a href="pricing.html">Bảng giá</a><a href="companies.html">Công ty</a><a href="guides.html">Hướng dẫn</a></nav></div></header>
+<main class="wrap">
+<h1>Công cụ lương</h1>
+<p class="lede">Tính lương net, trợ cấp thất nghiệp và bảo hiểm từ lương gross, ngay trên trình duyệt, không gửi dữ liệu đi đâu.</p>
+<p class="note" id="rates-note"></p>
+<section class="card" aria-labelledby="gross-title">
+<h2 id="gross-title">Lương gross sang lương net</h2>
+<form id="gross-form">
+<div class="field"><label for="gross-input">Lương gross theo tháng (đồng)</label><input id="gross-input" name="gross-input" type="number" min="0" step="100000" inputmode="numeric" value="30000000"></div>
+<div class="field"><label for="dependents-input">Số người phụ thuộc</label><input id="dependents-input" name="dependents-input" type="number" min="0" max="20" step="1" inputmode="numeric" value="0"></div>
+<div class="actions"><button type="submit" class="btn">Tính lương net</button></div>
+</form>
+<div class="result" id="gross-result" aria-live="polite"></div>
+<p class="muted">Cách tính: trừ BHXH 8%, BHYT 1,5%, BHTN 1% trên lương gross, trừ giảm trừ bản thân 11.000.000 đồng và 4.400.000 đồng cho mỗi người phụ thuộc, rồi tính thuế thu nhập cá nhân lũy tiến 5% đến 35%.</p>
+</section>
+<section class="card" aria-labelledby="unemployment-title">
+<h2 id="unemployment-title">Ước tính trợ cấp thất nghiệp</h2>
+<form id="unemployment-form">
+<div class="field"><label for="unemployment-months">Số tháng đã đóng bảo hiểm thất nghiệp</label><input id="unemployment-months" name="unemployment-months" type="number" min="0" max="480" step="1" inputmode="numeric"></div>
+<div class="field"><label for="unemployment-salary">Lương bình quân 6 tháng gần nhất (đồng)</label><input id="unemployment-salary" name="unemployment-salary" type="number" min="0" step="100000" inputmode="numeric"></div>
+<div class="actions"><button type="submit" class="btn">Ước tính trợ cấp</button></div>
+</form>
+<div class="result" id="unemployment-result" aria-live="polite"></div>
+<p class="muted">Ước tính chỉ mang tính tham khảo: trợ cấp mỗi tháng bằng 60% lương bình quân, hưởng 3 tháng khi đóng đủ 12 tháng, thêm 1 tháng cho mỗi 12 tháng đóng thêm, tối đa 12 tháng.</p>
+</section>
+<section class="card" aria-labelledby="social-title">
+<h2 id="social-title">Bảo hiểm xã hội, y tế, thất nghiệp</h2>
+<form id="social-form">
+<div class="field"><label for="social-gross">Lương gross theo tháng (đồng)</label><input id="social-gross" name="social-gross" type="number" min="0" step="100000" inputmode="numeric" value="30000000"></div>
+<div class="actions"><button type="submit" class="btn">Tính khoản đóng</button></div>
+</form>
+<div class="result" id="social-result" aria-live="polite"></div>
+<p class="muted">Người lao động đóng BHXH 8%, BHYT 1,5%, BHTN 1%. Người sử dụng lao động đóng BHXH 17,5%, BHYT 3%, BHTN 1%. Trần tính BHXH và BHYT là 46.800.000 đồng, trần tính BHTN là 99.200.000 đồng.</p>
+</section>
+</main>
+<footer class="site-foot"><div class="wrap"><p>Kết quả trên trang này là ước tính theo mức giả định tháng 11 năm 2026, kiểm tra lại khi luật thay đổi.</p></div></footer>
+<script src="assets/salary.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
