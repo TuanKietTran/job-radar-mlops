@@ -14,7 +14,7 @@ Deployment_Node(local_api, 'Local search service', 'uvicorn on port 8000') {
 Container(search_api, 'Search API', 'FastAPI', 'Reads data processed jobs.json with fixture fallback')
 }
 Deployment_Node(local_static, 'Local static pages', 'Any static host or local file server') {
-Container(web_pages, 'Static web pages', 'Plain HTML and CSS', 'Generated guides and company pages')
+Container(web_pages, 'Static web pages', 'Plain HTML and CSS', 'Generated company pages')
 }
 Deployment_Node(local_obs, 'Local observability', 'Localhost only') {
 Container(obs_stack, 'Observability stack', 'Prometheus, Grafana and OpenTelemetry collector', 'Local observation only, production observation is still open')

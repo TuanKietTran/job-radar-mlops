@@ -42,11 +42,10 @@ Inputs are the fixtures under data/fixtures/boards. Outputs are the document sto
 ## Static pages
 
 ```
-python3 web/guides/generate.py
 python3 web/pages-extra/generate.py
 ```
 
-The guides generator reads Markdown articles from web/guides/articles and writes index.html, search.html, search.json and one page per article. The pages-extra generator reads data/companies.json and writes the site under web/pages-extra/site. Both use the standard library only, so no install step is needed. Serve the output with any static file server.
+The pages-extra generator reads data/companies.json and writes the site under web/pages-extra/site. It uses the standard library only, so no install step is needed. Serve the output with any static file server.
 
 ## Observability demo
 

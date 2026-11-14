@@ -13,8 +13,8 @@ import functools
 import http.server
 import threading
 from pathlib import Path
-PAGE_DIRS = (('web/guides/dist', 'guides'), ('web/pages-extra/site', 'pages-extra'), ('web/tools', 'tools'))
-SAMPLE = ('web/guides/dist/index.html', 'web/guides/dist/cau-truc-cv.html', 'web/pages-extra/site/index.html', 'web/pages-extra/site/companies/an-nhien-systems.html', 'web/pages-extra/site/cities/ho-chi-minh-city.html', 'web/pages-extra/site/industries/software-development.html')
+PAGE_DIRS = (('web/pages-extra/site', 'pages-extra'), ('web/tools', 'tools'))
+SAMPLE = ('web/pages-extra/site/index.html', 'web/pages-extra/site/companies/an-nhien-systems.html', 'web/pages-extra/site/cities/ho-chi-minh-city.html', 'web/pages-extra/site/industries/software-development.html')
 def repo_root():
     return Path(__file__).resolve().parents[3]
 def discover(root, use_all):
