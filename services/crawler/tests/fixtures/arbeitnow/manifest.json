@@ -1,0 +1,9 @@
+{
+  "source": "arbeitnow",
+  "api_url": "https://www.arbeitnow.com/api/job-board-api?page=1",
+  "fetched_at": "2026-11-14",
+  "full_page_items": 300,
+  "excerpt_items": 3,
+  "excerpt": "Staff Frontend Engineer at bunch in Berlin, Portfolio Accountant remote, Senior Solutions Engineer at Jfrog with no location: one onsite, one remote, one empty-location",
+  "note": "Excerpt of the live page-1 JSON for offline tests. Adapter output records carry a short snippet only, never the full description."
+}
