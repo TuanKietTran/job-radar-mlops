@@ -1,0 +1,40 @@
+{
+  "title": "Error budget",
+  "uid": "job-radar-errors",
+  "tags": ["job-radar"],
+  "timezone": "browser",
+  "schemaVersion": 39,
+  "version": 1,
+  "panels": [
+    {
+      "id": 1,
+      "title": "Error ratio",
+      "type": "timeseries",
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "gridPos": {"x": 0, "y": 0, "w": 12, "h": 8},
+      "targets": [
+        {"expr": "sum(rate(http_errors_total[5m])) / sum(rate(http_requests_total[5m]))", "legendFormat": "error ratio", "refId": "A"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Availability, 30 day",
+      "type": "stat",
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "gridPos": {"x": 12, "y": 0, "w": 12, "h": 8},
+      "targets": [
+        {"expr": "1 - (sum(rate(http_errors_total[30d])) / sum(rate(http_requests_total[30d])))", "refId": "A"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Budget consumed, 99 percent target",
+      "type": "timeseries",
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "gridPos": {"x": 0, "y": 8, "w": 24, "h": 8},
+      "targets": [
+        {"expr": "(sum(rate(http_errors_total[30d])) / sum(rate(http_requests_total[30d]))) / 0.01", "legendFormat": "budget consumed", "refId": "A"}
+      ]
+    }
+  ]
+}
