@@ -1,0 +1,8 @@
+{
+  "model": "salary-v1-1.0.0",
+  "n": 500,
+  "mae_vnd": 2010420.36,
+  "rmse_vnd": 2546783.78,
+  "precision_at_10": 1.0,
+  "ndcg_at_10": 1.0
+}
