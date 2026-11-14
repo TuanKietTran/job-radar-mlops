@@ -107,6 +107,8 @@ python3 -m unittest discover mlops
 git diff --check
 ```
 
+Live crawling is separate from verification. `make verify` and `make mlops-e2e` use recorded fixtures only and never touch the network. `make crawl --dry-run` lists the crawl steps without fetching anything, and `make crawl-dry-run` runs the same step list for real, also offline. `make crawl` runs the live crawler only; it refuses to run when CI is set and is never called from CI. Recorded fixtures live in data/fixtures/boards and flow through the same normalize and dedupe path as live crawl output.
+
 End to end, from the repo root:
 
 ```

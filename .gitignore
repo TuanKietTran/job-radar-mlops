@@ -7,3 +7,4 @@ mlops/registry/models
 mlops/features/*.db
 mlops/orchestration/runs
 mlops/monitoring/alerts
+data/crawled/
