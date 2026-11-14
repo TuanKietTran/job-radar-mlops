@@ -1,0 +1,111 @@
+{
+  "model": "salary-v1-1.0.0",
+  "n": 500,
+  "overall_mae_vnd": 2010420.36,
+  "median_predicted_vnd": 30750000.0,
+  "slices": {
+    "city": {
+      "slices": [
+        {
+          "slice": "Cần Thơ",
+          "n": 55,
+          "mae_vnd": 1716209.58,
+          "selection_rate": 0.3273
+        },
+        {
+          "slice": "Hà Nội",
+          "n": 144,
+          "mae_vnd": 1916222.35,
+          "selection_rate": 0.5
+        },
+        {
+          "slice": "Hải Phòng",
+          "n": 50,
+          "mae_vnd": 2127778.26,
+          "selection_rate": 0.32
+        },
+        {
+          "slice": "Hồ Chí Minh",
+          "n": 189,
+          "mae_vnd": 2161186.07,
+          "selection_rate": 0.6138
+        },
+        {
+          "slice": "Đà Nẵng",
+          "n": 62,
+          "mae_vnd": 1935960.53,
+          "selection_rate": 0.4839
+        }
+      ],
+      "mae_gap_vnd": 444976.49,
+      "selection_rate_gap": 0.2938
+    },
+    "industry": {
+      "slices": [
+        {
+          "slice": "Banking",
+          "n": 102,
+          "mae_vnd": 1994037.88,
+          "selection_rate": 0.4314
+        },
+        {
+          "slice": "IT Software",
+          "n": 225,
+          "mae_vnd": 2043039.51,
+          "selection_rate": 0.5911
+        },
+        {
+          "slice": "Logistics",
+          "n": 44,
+          "mae_vnd": 2131790.8,
+          "selection_rate": 0.3409
+        },
+        {
+          "slice": "Manufacturing",
+          "n": 69,
+          "mae_vnd": 2055906.51,
+          "selection_rate": 0.4493
+        },
+        {
+          "slice": "Retail",
+          "n": 60,
+          "mae_vnd": 1774634.7,
+          "selection_rate": 0.4833
+        }
+      ],
+      "mae_gap_vnd": 357156.1,
+      "selection_rate_gap": 0.2502
+    },
+    "employment_type": {
+      "slices": [
+        {
+          "slice": "contract",
+          "n": 48,
+          "mae_vnd": 1768310.77,
+          "selection_rate": 0.3958
+        },
+        {
+          "slice": "full-time",
+          "n": 407,
+          "mae_vnd": 2064352.58,
+          "selection_rate": 0.5111
+        },
+        {
+          "slice": "part-time",
+          "n": 45,
+          "mae_vnd": 1780883.6,
+          "selection_rate": 0.5556
+        }
+      ],
+      "mae_gap_vnd": 296041.81,
+      "selection_rate_gap": 0.1598
+    }
+  },
+  "max_mae_gap_vnd": 444976.49,
+  "max_selection_rate_gap": 0.2938,
+  "psi": 0.0197,
+  "flags": [
+    "city selection gap 0.2938 over cap 0.2",
+    "industry selection gap 0.2502 over cap 0.2"
+  ]
+}

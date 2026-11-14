@@ -1,0 +1,41 @@
+{
+  "model": "salary-v1-1.0.0",
+  "verdict": "FAIL",
+  "gates": [
+    {
+      "name": "sample",
+      "status": "PASS",
+      "value": 500,
+      "threshold": 500,
+      "detail": ""
+    },
+    {
+      "name": "mae_regression_vnd",
+      "status": "PASS",
+      "value": -16525.1,
+      "threshold": 1500000,
+      "detail": ""
+    },
+    {
+      "name": "fairness_mae_gap_vnd",
+      "status": "PASS",
+      "value": 444976.49,
+      "threshold": 4000000,
+      "detail": ""
+    },
+    {
+      "name": "fairness_selection_rate_gap",
+      "status": "FAIL",
+      "value": 0.2938,
+      "threshold": 0.2,
+      "detail": ""
+    },
+    {
+      "name": "drift_psi",
+      "status": "PASS",
+      "value": 0.0197,
+      "threshold": 0.2,
+      "detail": ""
+    }
+  ]
+}
