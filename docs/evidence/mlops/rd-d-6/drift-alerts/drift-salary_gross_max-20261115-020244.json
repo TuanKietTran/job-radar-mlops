@@ -1,0 +1,11 @@
+{
+  "field": "salary_gross_max",
+  "psi": 6.7554,
+  "ks": 0.9321,
+  "psi_threshold": 0.2,
+  "ks_threshold": 0.15,
+  "alert": true,
+  "reference_count": 162,
+  "current_count": 162,
+  "ts": 1794682964.548416
+}

@@ -1,0 +1,11 @@
+{
+  "field": "salary_gross_min",
+  "psi": 7.2524,
+  "ks": 0.821,
+  "psi_threshold": 0.2,
+  "ks_threshold": 0.15,
+  "alert": true,
+  "reference_count": 162,
+  "current_count": 162,
+  "ts": 1794682964.548639
+}
