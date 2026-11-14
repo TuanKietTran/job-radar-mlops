@@ -1,0 +1,122 @@
+catalog: main
+tables:
+  - catalog: main
+    schema: bronze
+    table: jobs
+    local_target: data/jobs.csv
+    owner: data-team
+    grants:
+      - role: analyst
+        permissions: select
+      - role: data-team
+        permissions: select, write
+  - catalog: main
+    schema: silver
+    table: jobs
+    local_target: data/silver/jobs.csv
+    owner: data-team
+    grants:
+      - role: analyst
+        permissions: select
+      - role: data-team
+        permissions: select, write
+  - catalog: main
+    schema: silver
+    table: silver_jobs
+    local_target: data/delta/silver_jobs/
+    owner: data-team
+    grants:
+      - role: analyst
+        permissions: select
+      - role: data-team
+        permissions: select, write
+  - catalog: main
+    schema: gold
+    table: staging_jobs
+    local_target: data/gold.db
+    owner: data-team
+    grants:
+      - role: analyst
+        permissions: select
+      - role: data-team
+        permissions: select, write
+  - catalog: main
+    schema: gold
+    table: mart_salary_by_city_industry
+    local_target: data/gold.db
+    owner: data-team
+    grants:
+      - role: analyst
+        permissions: select
+      - role: data-team
+        permissions: select, write
+  - catalog: main
+    schema: gold
+    table: mart_postings_by_month
+    local_target: data/gold.db
+    owner: data-team
+    grants:
+      - role: analyst
+        permissions: select
+      - role: data-team
+        permissions: select, write
+  - catalog: main
+    schema: gold
+    table: mart_remote_share
+    local_target: data/gold.db
+    owner: data-team
+    grants:
+      - role: analyst
+        permissions: select
+      - role: data-team
+        permissions: select, write
+  - catalog: main
+    schema: gold
+    table: mart_top_skills
+    local_target: data/gold.db
+    owner: data-team
+    grants:
+      - role: analyst
+        permissions: select
+      - role: data-team
+        permissions: select, write
+  - catalog: main
+    schema: gold
+    table: mart_salary_by_experience_band
+    local_target: data/gold.db
+    owner: data-team
+    grants:
+      - role: analyst
+        permissions: select
+      - role: data-team
+        permissions: select, write
+  - catalog: main
+    schema: gold
+    table: mart_postings_by_source_board
+    local_target: data/gold.db
+    owner: data-team
+    grants:
+      - role: analyst
+        permissions: select
+      - role: data-team
+        permissions: select, write
+  - catalog: main
+    schema: gold
+    table: mart_postings_by_industry
+    local_target: data/gold.db
+    owner: data-team
+    grants:
+      - role: analyst
+        permissions: select
+      - role: data-team
+        permissions: select, write
+  - catalog: main
+    schema: gold
+    table: mart_salary_by_month
+    local_target: data/gold.db
+    owner: data-team
+    grants:
+      - role: analyst
+        permissions: select
+      - role: data-team
+        permissions: select, write
