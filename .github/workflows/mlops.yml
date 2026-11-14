@@ -1,0 +1,12 @@
+name: mlops
+on:
+  push:
+jobs:
+  mlops:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run mlops tests
+        run: python3 -m unittest discover -s mlops/tests
+      - name: Run end-to-end script
+        run: bash mlops/scripts/e2e.sh
