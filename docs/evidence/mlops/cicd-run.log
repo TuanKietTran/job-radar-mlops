@@ -1,0 +1,126 @@
+evidence run: cicd
+2026-11-14T11:15:39Z
+cicd/workflows
+445a4db api: add FastAPI job search service
+Python 3.15.0
+--- tool presence ---
+syft: not installed
+pre-commit: not installed
+actionlint: not installed
+tflint: not installed
+--- check.py ---
+check: pass
+check exit: 0
+--- unittest ---
+test_clean_fixture_passes (test_check.CheckTests.test_clean_fixture_passes) ... ok
+test_dirty_fixture_fails (test_check.CheckTests.test_dirty_fixture_fails) ... ok
+test_workflow_missing_key_fails (test_check.CheckTests.test_workflow_missing_key_fails) ... ok
+test_dockerfiles_have_pinned_base_and_non_root_user (test_dockerfiles.DockerfileTests.test_dockerfiles_have_pinned_base_and_non_root_user) ... ok
+test_output_is_valid_spdx_with_sha256_per_file (test_sbom.SbomTests.test_output_is_valid_spdx_with_sha256_per_file) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.398s
+
+OK
+unittest exit: 0
+--- sbom.py ---
+sbom: wrote mlops/cicd/sbom.spdx.json with 30 files and base image python:3.15.0-slim-bookworm
+sbom exit: 0
+sbom json valid
+     476 mlops/cicd/sbom.spdx.json
+--- docker build ---
+#0 building with "orbstack" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.api
+#1 transferring dockerfile:
+#1 transferring dockerfile: 393B 0.0s done
+#1 DONE 0.6s
+
+#2 [internal] load metadata for docker.io/library/python:3.15.0-slim-bookworm
+#2 DONE 1.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.1s
+
+#4 [internal] load build context
+#4 transferring context: 20.91kB done
+#4 DONE 0.1s
+
+#5 [1/6] FROM docker.io/library/python:3.15.0-slim-bookworm@sha256:0e019bbdfb5d9874cb2389f1c2884b64aa2ac97c99960b5bc521cef978c0617d
+#5 resolve docker.io/library/python:3.15.0-slim-bookworm@sha256:0e019bbdfb5d9874cb2389f1c2884b64aa2ac97c99960b5bc521cef978c0617d
+#5 resolve docker.io/library/python:3.15.0-slim-bookworm@sha256:0e019bbdfb5d9874cb2389f1c2884b64aa2ac97c99960b5bc521cef978c0617d 0.1s done
+#5 DONE 0.1s
+
+#6 [2/6] RUN useradd --create-home --uid 10001 appuser
+#6 CACHED
+
+#7 [3/6] WORKDIR /app
+#7 CACHED
+
+#8 [4/6] COPY services/api/requirements.txt ./requirements.txt
+#8 CACHED
+
+#9 [5/6] RUN pip install --no-cache-dir -r requirements.txt
+#9 CACHED
+
+#10 [6/6] COPY services/api/ ./services/api/
+#10 CACHED
+
+#11 exporting to image
+#11 exporting layers done
+#11 exporting manifest sha256:dbb3938abe301c26e396265a0b019864e28da3a9c42a8ef5cd521ec2fc55436f 0.1s done
+#11 exporting config sha256:943caa8d9128ba1f0e15b4a9bae19c77aa5a127fcfc010b818be15e14015c020
+#11 exporting config sha256:943caa8d9128ba1f0e15b4a9bae19c77aa5a127fcfc010b818be15e14015c020 0.0s done
+#11 exporting attestation manifest sha256:c7d2cf4c16c37afa2381fb79500f858cc9d04e772a39ac226555ca7ad1fd42dd
+#11 exporting attestation manifest sha256:c7d2cf4c16c37afa2381fb79500f858cc9d04e772a39ac226555ca7ad1fd42dd 0.7s done
+#11 exporting manifest list sha256:eeb4cd92318dbd0a710917d40ca95cae153f4a95b561a5bd15260240a31153af
+#11 exporting manifest list sha256:eeb4cd92318dbd0a710917d40ca95cae153f4a95b561a5bd15260240a31153af 0.0s done
+#11 naming to docker.io/library/job-radar-api:local done
+#11 unpacking to docker.io/library/job-radar-api:local 0.0s done
+#11 DONE 1.4s
+build: api ok
+#0 building with "orbstack" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.train
+#1 transferring dockerfile: 211B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.15.0-slim-bookworm
+#2 DONE 0.4s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 45.47kB 0.0s done
+#4 DONE 0.0s
+
+#5 [1/4] FROM docker.io/library/python:3.15.0-slim-bookworm@sha256:0e019bbdfb5d9874cb2389f1c2884b64aa2ac97c99960b5bc521cef978c0617d
+#5 resolve docker.io/library/python:3.15.0-slim-bookworm@sha256:0e019bbdfb5d9874cb2389f1c2884b64aa2ac97c99960b5bc521cef978c0617d 0.1s done
+#5 DONE 0.1s
+
+#6 [2/4] RUN useradd --create-home --uid 10001 appuser
+#6 CACHED
+
+#7 [3/4] WORKDIR /app
+#7 CACHED
+
+#8 [4/4] COPY mlops/ ./mlops/
+#8 DONE 0.1s
+
+#9 exporting to image
+#9 exporting layers 0.1s done
+#9 exporting manifest sha256:20af6f1411eea8244dede59bf74041b6dceda4f52a1564428226bde482af095e
+#9 exporting manifest sha256:20af6f1411eea8244dede59bf74041b6dceda4f52a1564428226bde482af095e 0.0s done
+#9 exporting config sha256:f40c6e3d54cdad2b7c65a8c2b875aa827a62736214d36ca6a727cebeda8f7aff 0.0s done
+#9 exporting attestation manifest sha256:6c28a8d1832784456486fb911bb622e1102fcbe22009755a081c2106e857f675 0.0s done
+#9 exporting manifest list sha256:46c5d87af634efb6343c839fedcdf0532c13aa632aaa83937dcea55389cfdd7e 0.0s done
+#9 naming to docker.io/library/job-radar-train:local
+#9 naming to docker.io/library/job-radar-train:local done
+#9 unpacking to docker.io/library/job-radar-train:local 0.1s done
+#9 DONE 0.3s
+build: train ok
+build: done with status 0
+build exit: 0

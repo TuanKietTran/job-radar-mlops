@@ -1,0 +1,476 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "created": "2026-01-01T00:00:00Z",
+    "creators": [
+      "Tool: mlops-cicd-sbom"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentDescribes": [
+    "SPDXRef-Package-base-image",
+    "SPDXRef-File-1",
+    "SPDXRef-File-2",
+    "SPDXRef-File-3",
+    "SPDXRef-File-4",
+    "SPDXRef-File-5",
+    "SPDXRef-File-6",
+    "SPDXRef-File-7",
+    "SPDXRef-File-8",
+    "SPDXRef-File-9",
+    "SPDXRef-File-10",
+    "SPDXRef-File-11",
+    "SPDXRef-File-12",
+    "SPDXRef-File-13",
+    "SPDXRef-File-14",
+    "SPDXRef-File-15",
+    "SPDXRef-File-16",
+    "SPDXRef-File-17",
+    "SPDXRef-File-18",
+    "SPDXRef-File-19",
+    "SPDXRef-File-20",
+    "SPDXRef-File-21",
+    "SPDXRef-File-22",
+    "SPDXRef-File-23",
+    "SPDXRef-File-24",
+    "SPDXRef-File-25",
+    "SPDXRef-File-26",
+    "SPDXRef-File-27",
+    "SPDXRef-File-28",
+    "SPDXRef-File-29",
+    "SPDXRef-File-30"
+  ],
+  "documentNamespace": "urn:job-radar-mlops:sbom",
+  "name": "job-radar-mlops",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-base-image",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "python:3.15.0-slim-bookworm",
+      "supplier": "NOASSERTION",
+      "versionInfo": "3.15.0-slim-bookworm"
+    },
+    {
+      "SPDXID": "SPDXRef-File-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4c58ad5379ef56189e5e07b52662e57afcdc49588a898b9129434182109a5ac3"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": ".github/workflows/build.yml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "65fa9fe0812541e4d5d8bfbd6c544d2aa9e5f680e121236841a30220a18325bb"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": ".github/workflows/deploy-canary.yml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8c68223efd121c2b292832a3878a4c767ecea134b3b9a9fb7ce447e88d966681"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": ".github/workflows/lint.yml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9a95cd4af98c5d3df5718e822301e1bd1fa3631cd12d8cf2e20eb954cc653616"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": ".github/workflows/register.yml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5664816447c5fe3ab831605f4a624d7dc19690a0036f9eebc9234fa5ae34ec98"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": ".github/workflows/rollback.yml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e6e7937ac4760531397764002a83f52689974b6f55e773de3e6c8535a2c36e24"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": ".github/workflows/test.yml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5cf87b698234b31c45026a50254b082da046c6429197e5a6e2a4882e04aaec42"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": ".github/workflows/train.yml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f8a27f76f0e857dfd725ffc744652e3375628eeb9778963f609780e4fcb9daf6"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": ".gitignore",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d630d3b5cd053eac54d49b4b78e16b5dd3e8226e958171afe557b7cf5af99ae2"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": ".pre-commit-config.yaml",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-10",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "427a03947eeff6929258227590c9f471f3a2b05bcb23d5084d19bc5cf13d9c37"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "docs/evidence/mlops/cicd-run.log",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-11",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "mlops/.gitkeep",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-12",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f9bd1d97ea542026812ebe9edb5c21cbbb3cfe799ec153fd8c2fb0ab05c437ec"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "mlops/cicd/Dockerfile.api",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-13",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bddbbbc4542b2e66193cd283caf9bd041e47d40e122bb9eebc14a21a6521c0ef"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "mlops/cicd/Dockerfile.train",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-14",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d85fc26036b7322c92c18df51fddde37af3ec52feadeb06803174ea7da3d67fb"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "mlops/cicd/README.md",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-15",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f1aa4ea5e4264fa6367da48d589b087bb25e9979cb5d8500cb193bdad70e1e69"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "mlops/cicd/__init__.py",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-16",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "981831085fe1334fa80d3334718b19640604e0b96fe9e5e6e8d994f5d1cdeb2d"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "mlops/cicd/build.sh",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-17",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6ffe5b103d88b9a4b9487e25d22c187297300757c41ccc1d5274a689c2434cd8"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "mlops/cicd/check.py",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-18",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7febe7bd21755ed527f09a67272016a8cd9c0e07b8ba4a31332931a53ad9c87b"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "mlops/cicd/sbom.py",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-19",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5211d163d0ec55dfd7faafe2bb806db4e0af86c76a6874eb2a13dcda8926ca0c"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "mlops/cicd/tests/__init__.py",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-20",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "407c4d01e4253e13d813d9b8aad8ce03afbde6f993a895bad0ebd735551d5c53"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "mlops/cicd/tests/test_check.py",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-21",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5447e4a623610d2b0adc86e7ec99d519f1fea9c33610fba92cde95e41201751b"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "mlops/cicd/tests/test_dockerfiles.py",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-22",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bd5ed76702f5e14991e95f9593b87ef443cbeb32cc78725601f37ccb35404638"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "mlops/cicd/tests/test_sbom.py",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-23",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4f2da2e66b1eaa298f643e8dee878c68b1814440db852e685cd5c23eeaee7b5c"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "mlops/cicd/train-entry.sh",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-24",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "33512f99237bb6e5e664c5aacbe4681e7ced104a84d2f2212fa82b7f608a5610"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "services/api/README.md",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-25",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "439b9669180055948a0c47e9c42bd55c932a77b340275eccb725069573cde022"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "services/api/app.py",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-26",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "929fb64b195a20604421de17870abb8a72da7dc242cbdbdd454473875f2f1722"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "services/api/main.py",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-27",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ad0fff6268ae752877c878dc982fb1efd4a6d9fbccbf6afebfb7e9cd3a262167"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "services/api/requirements.txt",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-28",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "95b330059941656ae0599c0922ac29c465103aedd64786d7b9c7d3be3e555fa2"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "services/api/tests/fixtures/sample-jobs.json",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-29",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a5eb4ebe6fa4aaf20d984bbc5d9e961b54b84987994b6dae380ddd15dbc98891"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "services/api/tests/test_api.py",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-File-30",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "333926fec3c9289c1d55281c3505058ca0816a106ac42048b594cae6c241a919"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "name": "services/api/tests/test_search.py",
+      "supplier": "NOASSERTION",
+      "versionInfo": "NOASSERTION"
+    }
+  ],
+  "spdxVersion": "SPDX-2.3"
+}

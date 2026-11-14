@@ -1,0 +1,58 @@
+name: deploy-canary
+on:
+  workflow_dispatch:
+    inputs:
+      model_version:
+        description: Model version to deploy
+        required: true
+      canary_percent:
+        description: Canary traffic percent
+        required: false
+        default: '10'
+permissions:
+  contents: read
+concurrency:
+  group: deploy-canary-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  deploy-canary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.15'
+      - name: Run offline checks
+        run: python3 mlops/cicd/check.py
+      - name: Build API image
+        run: sh mlops/cicd/build.sh
+      - name: Start canary and check health
+        run: |
+          pip install -r services/api/requirements.txt
+          python3 services/api/main.py &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          ok=0
+          i=0
+          while [ $i -lt 30 ]; do
+            if curl -fsS http://127.0.0.1:8000/health; then
+              ok=1
+              break
+            fi
+            i=$((i + 1))
+            sleep 2
+          done
+          if [ $ok -ne 1 ]; then
+            echo 'deploy-canary: health check failed'
+            exit 1
+          fi
+          echo 'deploy-canary: health check passed'
+      - name: Roll back on health-check failure
+        if: failure()
+        run: |
+          if [ -f mlops/registry/current-stage.txt ] && [ -f mlops/registry/previous-stage.txt ]; then
+            cp mlops/registry/previous-stage.txt mlops/registry/current-stage.txt
+            echo 'deploy-canary: restored previous stage'
+          else
+            echo 'deploy-canary: no previous stage is recorded, nothing to restore'
+          fi
