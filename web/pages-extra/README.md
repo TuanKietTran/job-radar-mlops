@@ -4,7 +4,7 @@ Static company directory and industry and city pages, generated from a data file
 
 ## Data
 
-`data/companies.json` holds 30 invented companies. Each entry has a name, slug, industry, city, size band, founded year, short description and open roles count.
+`data/companies.json` holds 40 invented companies. Each entry has a name, slug, industry, city, size band, founded year, short description and open roles count.
 
 ## Generate
 
