@@ -1,0 +1,6 @@
+apiVersion: v2
+name: job-radar
+version: 0.1.0
+appVersion: "0.1.0"
+description: Job-radar serving and training workloads.
+type: application

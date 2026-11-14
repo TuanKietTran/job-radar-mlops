@@ -1,0 +1,38 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: job-radar-train
+  namespace: job-radar
+  labels:
+    app: job-radar
+    component: train
+spec:
+  schedule: "0 2 * * *"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            app: job-radar
+            component: train
+        spec:
+          restartPolicy: OnFailure
+          containers:
+            - name: train
+              image: job-radar/train:0.1.0
+              imagePullPolicy: IfNotPresent
+              env:
+                - name: TRAIN_SEED
+                  value: "42"
+                - name: JOBS_PATH
+                  value: /data/processed/jobs.json
+              resources:
+                requests:
+                  cpu: "500m"
+                  memory: "512Mi"
+                limits:
+                  cpu: "1000m"
+                  memory: "1Gi"

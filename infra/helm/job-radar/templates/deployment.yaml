@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "job-radar.fullname" . }}-serving
+  namespace: {{ .Values.namespace }}
+  labels:
+    {{- include "job-radar.labels" . | nindent 4 }}
+    component: serving
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: job-radar
+      component: serving
+  template:
+    metadata:
+      labels:
+        app: job-radar
+        component: serving
+    spec:
+      containers:
+        - name: api
+          image: {{ .Values.image.api.repository }}:{{ .Values.image.api.tag }}
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: {{ .Values.service.targetPort }}
+          envFrom:
+            - configMapRef:
+                name: {{ include "job-radar.fullname" . }}-serving-config
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: {{ .Values.service.targetPort }}
+            initialDelaySeconds: 10
+            periodSeconds: 15
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: {{ .Values.service.targetPort }}
+            initialDelaySeconds: 5
+            periodSeconds: 10

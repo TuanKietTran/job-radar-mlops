@@ -1,0 +1,13 @@
+job-radar {{ .Chart.Version }} is installed in namespace {{ .Release.Namespace }}.
+
+The serving deployment runs {{ .Values.replicaCount }} replicas of {{ .Values.image.api.repository }}:{{ .Values.image.api.tag }}.
+
+The train CronJob runs on schedule {{ .Values.train.schedule }} with seed {{ .Values.train.seed }}.
+
+Check the serving pods with:
+
+  kubectl -n {{ .Release.Namespace }} get pods -l app=job-radar,component=serving
+
+Reach the service inside the cluster at:
+
+  http://{{ .Release.Name }}-serving:{{ .Values.service.port }}/health

@@ -1,0 +1,38 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: {{ include "job-radar.fullname" . }}-train
+  namespace: {{ .Values.namespace }}
+  labels:
+    {{- include "job-radar.labels" . | nindent 4 }}
+    component: train
+spec:
+  schedule: {{ .Values.train.schedule | quote }}
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            app: job-radar
+            component: train
+        spec:
+          restartPolicy: OnFailure
+          containers:
+            - name: train
+              image: {{ .Values.image.train.repository }}:{{ .Values.image.train.tag }}
+              imagePullPolicy: IfNotPresent
+              env:
+                - name: TRAIN_SEED
+                  value: {{ .Values.train.seed | quote }}
+                - name: JOBS_PATH
+                  value: {{ .Values.config.jobsPath | quote }}
+              resources:
+                requests:
+                  cpu: "500m"
+                  memory: "512Mi"
+                limits:
+                  cpu: "1000m"
+                  memory: "1Gi"

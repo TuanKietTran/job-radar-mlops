@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: job-radar-serving-config
+  namespace: job-radar
+  labels:
+    app: job-radar
+    component: serving
+data:
+  MODEL_NAME: job-radar-model
+  API_PORT: "8000"
+  JOBS_PATH: /data/processed/jobs.json
+  LOG_LEVEL: info
