@@ -1,0 +1,10 @@
+screenshots dry run
+playwright: absent
+missing page dirs: none
+pages: 6
+web/index.html
+web/job.html
+web/companies.html
+web/guides.html
+web/tools.html
+web/pricing.html

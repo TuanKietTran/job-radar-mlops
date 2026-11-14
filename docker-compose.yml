@@ -1,0 +1,65 @@
+services:
+  api:
+    image: python:3.15-slim
+    working_dir: /app/services/api
+    volumes:
+      - .:/app
+    environment:
+      - JOBS_PATH=/app/data/processed/jobs.json
+    command: sh -c 'pip install -q -r requirements.txt && python main.py'
+    ports:
+      - '8000:8000'
+    networks:
+      - jobradar
+    healthcheck:
+      test: ['CMD', 'python', '/app/scripts/healthcheck.py', '8000']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+  ai:
+    image: python:3.15-slim
+    working_dir: /app/services/ai
+    volumes:
+      - .:/app
+    command: sh -c 'pip install -q -r requirements.txt && python main.py'
+    ports:
+      - '8001:8001'
+    networks:
+      - jobradar
+    healthcheck:
+      test: ['CMD', 'python', '/app/scripts/healthcheck.py', '8001']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+  web:
+    image: python:3.15-slim
+    working_dir: /app/web
+    volumes:
+      - .:/app
+    command: python -m http.server 8080
+    ports:
+      - '8080:8080'
+    networks:
+      - jobradar
+    healthcheck:
+      test: ['CMD', 'python', '/app/scripts/healthcheck.py', '8080', '/']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+  ingest:
+    image: python:3.15-slim
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: python -m services.ingest.store
+    profiles:
+      - ingest
+    restart: 'no'
+    networks:
+      - jobradar
+
+networks:
+  jobradar:

@@ -94,21 +94,26 @@ Architecture decisions, runbooks, data dictionary and diagrams live under [docs/
 
 ## Verification
 
-Run from the repo root, after the Quickstart virtual environment setup:
+Run from the repo root:
 
 ```
 make verify
 ```
 
-`make verify` runs the offline checks, the unit tests, the search API tests and the hygiene check:
+`make verify` creates the virtual environment when it is missing, then runs the hygiene check, the offline checks, the unit tests, the search API tests, the smoke checks and the diff check, in order:
 
 ```
+make setup
+bash scripts/hygiene.sh
 python3 mlops/cicd/check.py
 python3 docs/platform/check.py
 python3 -m unittest discover mlops
 .venv/bin/pytest services/api/tests -q
+make smoke
 git diff --check
 ```
+
+`make smoke` runs the salary calculator for a gross of 30,000,000 VND with 1 dependent, then `.venv/bin/python scripts/smoke.py`, which checks the search API and the ingest store against the jobs file.
 
 End to end, from the repo root:
 
