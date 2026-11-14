@@ -1,0 +1,255 @@
+{
+  "board": "nganhnghe",
+  "jobs": [
+    {
+      "id": "nganhnghe-001",
+      "title": "Lập trình viên Java",
+      "company": "Công ty Phương Nam",
+      "city": "Can Tho",
+      "industry": "Finance",
+      "salary": "25-33 triệu",
+      "remote": "onsite",
+      "experience": "0+ năm kinh nghiệm",
+      "posted_date": "2026-10-24",
+      "source_url": "https://nganhnghe.example.invalid/jobs/nganhnghe-001",
+      "description": "Vị trí Lập trình viên Java tại Công ty Phương Nam ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Báo cáo",
+        "Kế toán",
+        "SQL"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Bảo hiểm xã hội đầy đủ",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-11-23"
+    },
+    {
+      "id": "nganhnghe-002",
+      "title": "Chuyên viên nhân sự",
+      "company": "Công ty Việt Thắng",
+      "city": "Binh Duong",
+      "industry": "E-commerce",
+      "salary": "From 8 triệu",
+      "remote": "hybrid",
+      "experience": "0-2 năm",
+      "posted_date": "2026-10-03",
+      "source_url": "https://nganhnghe.example.invalid/jobs/nganhnghe-002",
+      "description": "Vị trí Chuyên viên nhân sự tại Công ty Việt Thắng ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "SEO",
+        "Marketing số",
+        "Excel"
+      ],
+      "employment_type": "Thực tập",
+      "benefits": [
+        "Đào tạo nội bộ",
+        "Phụ cấp ăn trưa",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": "2026-11-02"
+    },
+    {
+      "id": "nganhnghe-003",
+      "title": "Quản lý dự án công nghệ",
+      "company": "Công ty Việt Thắng",
+      "city": "Hai Phong",
+      "industry": "Tài chính",
+      "salary": "From 18 triệu",
+      "remote": "Onsite",
+      "experience": "1+ năm kinh nghiệm",
+      "posted_date": "2026-10-27",
+      "source_url": "https://nganhnghe.example.invalid/jobs/nganhnghe-003",
+      "description": "Vị trí Quản lý dự án công nghệ tại Công ty Việt Thắng ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "SQL",
+        "Phân tích tài chính",
+        "Kế toán"
+      ],
+      "employment_type": "Bán thời gian",
+      "benefits": [
+        "Laptop làm việc",
+        "Bảo hiểm y tế",
+        "Thưởng tháng 13"
+      ],
+      "deadline": null
+    },
+    {
+      "id": "nganhnghe-004",
+      "title": "Lập trình viên di động Flutter",
+      "company": "Công ty Lan Anh",
+      "city": "Hải Phòng",
+      "industry": "Education",
+      "salary": "Up to 18 triệu",
+      "remote": "Từ xa",
+      "experience": "2-4 năm",
+      "posted_date": "2026-11-06",
+      "source_url": "https://nganhnghe.example.invalid/jobs/nganhnghe-004",
+      "description": "Vị trí Lập trình viên di động Flutter tại Công ty Lan Anh ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Tiếng Anh",
+        "Giảng dạy",
+        "Soạn giáo án"
+      ],
+      "employment_type": "part-time",
+      "benefits": [
+        "Phụ cấp ăn trưa",
+        "Thưởng tháng 13",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": "2026-12-06"
+    },
+    {
+      "id": "nganhnghe-005",
+      "title": "Nhân viên kho vận",
+      "company": "Công ty Bảo An",
+      "city": "Can Tho",
+      "industry": "IT",
+      "salary": "25-30 triệu",
+      "remote": "hybrid",
+      "experience": "3-4 năm",
+      "posted_date": "2026-11-06",
+      "source_url": "https://nganhnghe.example.invalid/jobs/nganhnghe-005",
+      "description": "Vị trí Nhân viên kho vận tại Công ty Bảo An ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "SQL",
+        "Java",
+        "Python"
+      ],
+      "employment_type": "part-time",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Laptop làm việc",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-12-06"
+    },
+    {
+      "id": "nganhnghe-006",
+      "title": "Lập trình viên Frontend React",
+      "company": "Công ty Bảo An",
+      "city": "Hanoi",
+      "industry": "Y tế",
+      "salary": "Thỏa thuận",
+      "remote": "Linh hoạt",
+      "experience": "5+ năm kinh nghiệm",
+      "posted_date": "2026-10-11",
+      "source_url": "https://nganhnghe.example.invalid/jobs/nganhnghe-006",
+      "description": "Vị trí Lập trình viên Frontend React tại Công ty Bảo An ở Hanoi. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Chăm sóc bệnh nhân",
+        "Hồ sơ y tế",
+        "Giao tiếp"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Thưởng tháng 13",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": "2026-11-10"
+    },
+    {
+      "id": "nganhnghe-007",
+      "title": "Nhân viên kiểm thử phần mềm",
+      "company": "Tập đoàn Minh Khang",
+      "city": "Hue",
+      "industry": "Healthcare",
+      "salary": "15000000-20000000",
+      "remote": "Remote",
+      "experience": "0-3 năm",
+      "posted_date": "2026-11-09",
+      "source_url": "https://nganhnghe.example.invalid/jobs/nganhnghe-007",
+      "description": "Vị trí Nhân viên kiểm thử phần mềm tại Tập đoàn Minh Khang ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Hồ sơ y tế",
+        "Giao tiếp",
+        "Excel"
+      ],
+      "employment_type": "Toàn thời gian",
+      "benefits": [
+        "Laptop làm việc",
+        "Thưởng tháng 13",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": "2026-12-09"
+    },
+    {
+      "id": "nganhnghe-008",
+      "title": "Quản lý dự án công nghệ",
+      "company": "Công ty Ánh Dương",
+      "city": "Can Tho",
+      "industry": "Information Technology",
+      "salary": "From 12 triệu",
+      "remote": "Tại văn phòng",
+      "experience": "3+ năm kinh nghiệm",
+      "posted_date": "2026-10-16",
+      "source_url": "https://nganhnghe.example.invalid/jobs/nganhnghe-008",
+      "description": "Vị trí Quản lý dự án công nghệ tại Công ty Ánh Dương ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Python",
+        "Docker",
+        "AWS"
+      ],
+      "employment_type": "Toàn thời gian",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Phụ cấp ăn trưa",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": "2026-11-15"
+    },
+    {
+      "id": "nganhnghe-009",
+      "title": "Kỹ sư DevOps",
+      "company": "Công ty Bảo An",
+      "city": "Vũng Tàu",
+      "industry": "Logistics",
+      "salary": "12-20 triệu",
+      "remote": "Linh hoạt",
+      "experience": "5-7 năm",
+      "posted_date": "2026-10-25",
+      "source_url": "https://nganhnghe.example.invalid/jobs/nganhnghe-009",
+      "description": "Vị trí Kỹ sư DevOps tại Công ty Bảo An ở Vung Tau. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Giao tiếp",
+        "Lập kế hoạch",
+        "Quản lý kho"
+      ],
+      "employment_type": "part-time",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Bảo hiểm xã hội đầy đủ",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-11-24"
+    },
+    {
+      "id": "nganhnghe-010",
+      "title": "Kỹ sư hệ thống",
+      "company": "Tập đoàn Xuân Mai",
+      "city": "Cần Thơ",
+      "industry": "Logistics",
+      "salary": "25000000 VND - 40000000 VND",
+      "remote": "Linh hoạt",
+      "experience": "6+ năm kinh nghiệm",
+      "posted_date": "2026-10-07",
+      "source_url": "https://nganhnghe.example.invalid/jobs/nganhnghe-010",
+      "description": "Vị trí Kỹ sư hệ thống tại Tập đoàn Xuân Mai ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Lập kế hoạch",
+        "Excel",
+        "Quản lý kho"
+      ],
+      "employment_type": "Toàn thời gian",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Đào tạo nội bộ",
+        "Laptop làm việc"
+      ],
+      "deadline": null
+    }
+  ]
+}

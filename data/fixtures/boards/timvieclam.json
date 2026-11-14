@@ -1,0 +1,280 @@
+{
+  "board": "timvieclam",
+  "jobs": [
+    {
+      "code": "timvieclam-001",
+      "position": "Kỹ sư hệ thống",
+      "company_name": "Tập đoàn Trường Sơn",
+      "place": "Binh Duong",
+      "field": "Vận tải",
+      "pay": "From 8 triệu",
+      "work_type": "remote",
+      "years": "6-7 năm",
+      "date_posted": "2026-10-14",
+      "link": "https://timvieclam.example.invalid/jobs/timvieclam-001",
+      "summary": "Vị trí Kỹ sư hệ thống tại Tập đoàn Trường Sơn ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Vận chuyển",
+        "Giao tiếp",
+        "Quản lý kho"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Phụ cấp ăn trưa",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": "2026-11-13"
+    },
+    {
+      "code": "timvieclam-002",
+      "position": "Quản lý dự án công nghệ",
+      "company_name": "Tập đoàn Hòa Bình",
+      "place": "HCMC",
+      "field": "Healthcare",
+      "pay": "From 25 triệu",
+      "work_type": "onsite",
+      "years": "3-5 năm",
+      "date_posted": "2026-10-27",
+      "link": "https://timvieclam.example.invalid/jobs/timvieclam-002",
+      "summary": "Vị trí Quản lý dự án công nghệ tại Tập đoàn Hòa Bình ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Excel",
+        "Chăm sóc bệnh nhân",
+        "Hồ sơ y tế"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Ngày nghỉ phép 12 ngày",
+        "Phụ cấp ăn trưa",
+        "Laptop làm việc"
+      ],
+      "deadline": null
+    },
+    {
+      "code": "timvieclam-003",
+      "position": "Chuyên viên tài chính",
+      "company_name": "Công ty Phương Nam",
+      "place": "Hue",
+      "field": "Finance",
+      "pay": "15000000 VND - 20000000 VND",
+      "work_type": "Hybrid",
+      "years": "2-4 năm",
+      "date_posted": "2026-11-10",
+      "link": "https://timvieclam.example.invalid/jobs/timvieclam-003",
+      "summary": "Vị trí Chuyên viên tài chính tại Công ty Phương Nam ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "SQL",
+        "Phân tích tài chính",
+        "Excel"
+      ],
+      "contract": "Toàn thời gian",
+      "benefits": [
+        "Phụ cấp ăn trưa",
+        "Thưởng tháng 13",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": "2026-12-10"
+    },
+    {
+      "code": "timvieclam-004",
+      "position": "Kỹ sư hệ thống",
+      "company_name": "Công ty Phúc Lộc",
+      "place": "Can Tho",
+      "field": "Healthcare",
+      "pay": "12000000 VND - 17000000 VND",
+      "work_type": "remote",
+      "years": "5-7 năm",
+      "date_posted": "2026-10-13",
+      "link": "https://timvieclam.example.invalid/jobs/timvieclam-004",
+      "summary": "Vị trí Kỹ sư hệ thống tại Công ty Phúc Lộc ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Chăm sóc bệnh nhân",
+        "Giao tiếp",
+        "Excel"
+      ],
+      "contract": "Toàn thời gian",
+      "benefits": [
+        "Ngày nghỉ phép 12 ngày",
+        "Phụ cấp ăn trưa",
+        "Laptop làm việc"
+      ],
+      "deadline": null
+    },
+    {
+      "code": "timvieclam-005",
+      "position": "Nhân viên marketing số",
+      "company_name": "Công ty Thanh Tâm",
+      "place": "Hải Phòng",
+      "field": "E-commerce",
+      "pay": "Thỏa thuận",
+      "work_type": "Remote",
+      "years": "2-4 năm",
+      "date_posted": "2026-11-01",
+      "link": "https://timvieclam.example.invalid/jobs/timvieclam-005",
+      "summary": "Vị trí Nhân viên marketing số tại Công ty Thanh Tâm ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "SEO",
+        "Chăm sóc khách hàng",
+        "Excel"
+      ],
+      "contract": "Toàn thời gian",
+      "benefits": [
+        "Laptop làm việc",
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm y tế"
+      ],
+      "deadline": "2026-12-01"
+    },
+    {
+      "code": "timvieclam-006",
+      "position": "Chuyên viên nhân sự",
+      "company_name": "Tập đoàn Xuân Mai",
+      "place": "Dong Nai",
+      "field": "Healthcare",
+      "pay": "From 15 triệu",
+      "work_type": "Linh hoạt",
+      "years": "0+ năm kinh nghiệm",
+      "date_posted": "2026-10-16",
+      "link": "https://timvieclam.example.invalid/jobs/timvieclam-006",
+      "summary": "Vị trí Chuyên viên nhân sự tại Tập đoàn Xuân Mai ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Hồ sơ y tế",
+        "Giao tiếp",
+        "Chăm sóc bệnh nhân"
+      ],
+      "contract": "contract",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Phụ cấp ăn trưa",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-11-15"
+    },
+    {
+      "code": "timvieclam-007",
+      "position": "Chuyên viên an ninh mạng",
+      "company_name": "Công ty Sao Mai",
+      "place": "Cần Thơ",
+      "field": "Healthcare",
+      "pay": "15 triệu",
+      "work_type": "Remote",
+      "years": "0+ năm kinh nghiệm",
+      "date_posted": "2026-10-27",
+      "link": "https://timvieclam.example.invalid/jobs/timvieclam-007",
+      "summary": "Vị trí Chuyên viên an ninh mạng tại Công ty Sao Mai ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Chăm sóc bệnh nhân",
+        "Excel",
+        "Hồ sơ y tế"
+      ],
+      "contract": "internship",
+      "benefits": [
+        "Đào tạo nội bộ",
+        "Phụ cấp ăn trưa",
+        "Bảo hiểm xã hội đầy đủ"
+      ],
+      "deadline": "2026-11-26"
+    },
+    {
+      "code": "timvieclam-008",
+      "position": "Quản lý sản phẩm",
+      "company_name": "Công ty Hải Đăng",
+      "place": "Da Nang",
+      "field": "Tài chính",
+      "pay": "Up to 23 triệu",
+      "work_type": "remote",
+      "years": "4-6 years",
+      "date_posted": "2026-10-15",
+      "link": "https://timvieclam.example.invalid/jobs/timvieclam-008",
+      "summary": "Vị trí Quản lý sản phẩm tại Công ty Hải Đăng ở Da Nang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "SQL",
+        "Excel",
+        "Kế toán"
+      ],
+      "contract": "part-time",
+      "benefits": [
+        "Ngày nghỉ phép 12 ngày",
+        "Laptop làm việc",
+        "Bảo hiểm xã hội đầy đủ"
+      ],
+      "deadline": "2026-11-14"
+    },
+    {
+      "code": "timvieclam-009",
+      "position": "Lập trình viên di động Flutter",
+      "company_name": "Tập đoàn Xuân Mai",
+      "place": "Hanoi",
+      "field": "Finance",
+      "pay": "Up to 13 triệu",
+      "work_type": "Linh hoạt",
+      "years": "1-1 năm",
+      "date_posted": "2026-10-06",
+      "link": "https://timvieclam.example.invalid/jobs/timvieclam-009",
+      "summary": "Vị trí Lập trình viên di động Flutter tại Tập đoàn Xuân Mai ở Hanoi. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "SQL",
+        "Báo cáo",
+        "Excel"
+      ],
+      "contract": "Toàn thời gian",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Phụ cấp ăn trưa",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-11-05"
+    },
+    {
+      "code": "timvieclam-010",
+      "position": "Chuyên viên nhân sự",
+      "company_name": "Công ty Thanh Tâm",
+      "place": "Huế",
+      "field": "Information Technology",
+      "pay": "10-25 triệu",
+      "work_type": "Onsite",
+      "years": "5-7 năm",
+      "date_posted": "2026-11-10",
+      "link": "https://timvieclam.example.invalid/jobs/timvieclam-010",
+      "summary": "Vị trí Chuyên viên nhân sự tại Công ty Thanh Tâm ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Git",
+        "Docker",
+        "Python"
+      ],
+      "contract": "Toàn thời gian",
+      "benefits": [
+        "Thưởng tháng 13",
+        "Laptop làm việc",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": null
+    },
+    {
+      "code": "timvieclam-011",
+      "position": "Chuyên  viên tài chính",
+      "company_name": "Công ty Đức Minh",
+      "place": "TP. Hồ Chí Minh",
+      "field": "IT",
+      "pay": "12000000 VND - 17000000 VND",
+      "work_type": "onsite",
+      "years": "1-1 năm",
+      "date_posted": "2026-11-03",
+      "link": "https://timvieclam.example.invalid/jobs/timvieclam-011",
+      "summary": "Vị trí Chuyên viên tài chính tại Công ty Đức Minh ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "SQL",
+        "Python",
+        "React"
+      ],
+      "contract": "Thực tập",
+      "benefits": [
+        "Laptop làm việc",
+        "Phụ cấp ăn trưa",
+        "Bảo hiểm y tế"
+      ],
+      "deadline": "2026-12-02"
+    }
+  ]
+}

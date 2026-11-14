@@ -1,0 +1,215 @@
+{
+  "board": "vieclammoi",
+  "jobs": [
+    {
+      "job_id": "vieclammoi-001",
+      "job_title": "Chuyên viên phân tích dữ liệu",
+      "employer": "Công ty Việt Thắng",
+      "location": "Huế",
+      "sector": "Manufacturing",
+      "salary_text": "Thỏa thuận",
+      "work_mode": "Từ xa",
+      "exp": "1+ năm kinh nghiệm",
+      "posted": "10/11/2026",
+      "url": "https://vieclammoi.example.invalid/jobs/vieclammoi-001",
+      "description": "Vị trí Chuyên viên phân tích dữ liệu tại Công ty Việt Thắng ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Excel, Quản lý sản xuất, Kiểm soát chất lượng",
+      "job_type": "Hợp đồng",
+      "perks": [
+        "Bảo hiểm y tế",
+        "Phụ cấp ăn trưa",
+        "Laptop làm việc"
+      ],
+      "apply_before": "2026-12-10"
+    },
+    {
+      "job_id": "vieclammoi-002",
+      "job_title": "Quản lý sản phẩm",
+      "employer": "Tập đoàn Trường Sơn",
+      "location": "TP. Hồ Chí Minh",
+      "sector": "Y tế",
+      "salary_text": "Up to 40 triệu",
+      "work_mode": "Onsite",
+      "exp": "2+ năm kinh nghiệm",
+      "posted": "01/10/2026",
+      "url": "https://vieclammoi.example.invalid/jobs/vieclammoi-002",
+      "description": "Vị trí Quản lý sản phẩm tại Tập đoàn Trường Sơn ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Hồ sơ y tế, Giao tiếp, Excel",
+      "job_type": "part-time",
+      "perks": [
+        "Thưởng tháng 13",
+        "Bảo hiểm xã hội đầy đủ",
+        "Laptop làm việc"
+      ],
+      "apply_before": "2026-10-31"
+    },
+    {
+      "job_id": "vieclammoi-003",
+      "job_title": "Chuyên viên an ninh mạng",
+      "employer": "Tập đoàn Minh Khang",
+      "location": "Đà Nẵng",
+      "sector": "Y tế",
+      "salary_text": "12000000-27000000",
+      "work_mode": "remote",
+      "exp": "6+ năm kinh nghiệm",
+      "posted": "05/10/2026",
+      "url": "https://vieclammoi.example.invalid/jobs/vieclammoi-003",
+      "description": "Vị trí Chuyên viên an ninh mạng tại Tập đoàn Minh Khang ở Da Nang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Hồ sơ y tế, Excel, Giao tiếp",
+      "job_type": "internship",
+      "perks": [
+        "Laptop làm việc",
+        "Bảo hiểm y tế",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "apply_before": null
+    },
+    {
+      "job_id": "vieclammoi-004",
+      "job_title": "Kỹ sư DevOps",
+      "employer": "Tập đoàn Trường Sơn",
+      "location": "Hue",
+      "sector": "Vận tải",
+      "salary_text": "From 18 triệu",
+      "work_mode": "Onsite",
+      "exp": "5-5 năm",
+      "posted": "16/10/2026",
+      "url": "https://vieclammoi.example.invalid/jobs/vieclammoi-004",
+      "description": "Vị trí Kỹ sư DevOps tại Tập đoàn Trường Sơn ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Giao tiếp, Vận chuyển, Quản lý kho",
+      "job_type": "full-time",
+      "perks": [
+        "Bảo hiểm y tế",
+        "Ngày nghỉ phép 12 ngày",
+        "Phụ cấp ăn trưa"
+      ],
+      "apply_before": "2026-11-15"
+    },
+    {
+      "job_id": "vieclammoi-005",
+      "job_title": "Nhân viên kinh doanh",
+      "employer": "Công ty An Bình",
+      "location": "HCMC",
+      "sector": "Tài chính",
+      "salary_text": "Thỏa thuận",
+      "work_mode": "remote",
+      "exp": "1-3 years",
+      "posted": "10/11/2026",
+      "url": "https://vieclammoi.example.invalid/jobs/vieclammoi-005",
+      "description": "Vị trí Nhân viên kinh doanh tại Công ty An Bình ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Phân tích tài chính, Báo cáo, Excel",
+      "job_type": "Hợp đồng",
+      "perks": [
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm y tế",
+        "Thưởng tháng 13"
+      ],
+      "apply_before": "2026-12-10"
+    },
+    {
+      "job_id": "vieclammoi-006",
+      "job_title": "Lập trình viên Java",
+      "employer": "Tập đoàn Đại Dương",
+      "location": "Ha Noi",
+      "sector": "Logistics",
+      "salary_text": "12 triệu",
+      "work_mode": "Onsite",
+      "exp": "4+ năm kinh nghiệm",
+      "posted": "08/10/2026",
+      "url": "https://vieclammoi.example.invalid/jobs/vieclammoi-006",
+      "description": "Vị trí Lập trình viên Java tại Tập đoàn Đại Dương ở Hanoi. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Giao tiếp, Vận chuyển, Quản lý kho",
+      "job_type": "Toàn thời gian",
+      "perks": [
+        "Thưởng tháng 13",
+        "Phụ cấp ăn trưa",
+        "Laptop làm việc"
+      ],
+      "apply_before": "2026-11-07"
+    },
+    {
+      "job_id": "vieclammoi-007",
+      "job_title": "Chuyên viên hỗ trợ khách hàng",
+      "employer": "Tập đoàn Trường Sơn",
+      "location": "Đồng Nai",
+      "sector": "Ngân hàng",
+      "salary_text": "From 18 triệu",
+      "work_mode": "Hybrid",
+      "exp": "0-2 years",
+      "posted": "04/10/2026",
+      "url": "https://vieclammoi.example.invalid/jobs/vieclammoi-007",
+      "description": "Vị trí Chuyên viên hỗ trợ khách hàng tại Tập đoàn Trường Sơn ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "SQL, Quản lý rủi ro, Chăm sóc khách hàng",
+      "job_type": "full-time",
+      "perks": [
+        "Phụ cấp ăn trưa",
+        "Đào tạo nội bộ",
+        "Laptop làm việc"
+      ],
+      "apply_before": "2026-11-03"
+    },
+    {
+      "job_id": "vieclammoi-008",
+      "job_title": "Kỹ sư dữ liệu",
+      "employer": "Công ty Bảo An",
+      "location": "Nha Trang",
+      "sector": "Information Technology",
+      "salary_text": "Thỏa thuận",
+      "work_mode": "remote",
+      "exp": "2-5 năm",
+      "posted": "23/10/2026",
+      "url": "https://vieclammoi.example.invalid/jobs/vieclammoi-008",
+      "description": "Vị trí Kỹ sư dữ liệu tại Công ty Bảo An ở Nha Trang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Python, SQL, Linux",
+      "job_type": "part-time",
+      "perks": [
+        "Laptop làm việc",
+        "Thưởng tháng 13",
+        "Bảo hiểm y tế"
+      ],
+      "apply_before": "2026-11-22"
+    },
+    {
+      "job_id": "vieclammoi-009",
+      "job_title": "Kỹ sư dữ liệu",
+      "employer": "Công ty Trí Đức",
+      "location": "Cần Thơ",
+      "sector": "Công nghệ thông tin",
+      "salary_text": "From 15 triệu",
+      "work_mode": "Remote",
+      "exp": "1-2 năm",
+      "posted": "03/10/2026",
+      "url": "https://vieclammoi.example.invalid/jobs/vieclammoi-009",
+      "description": "Vị trí Kỹ sư dữ liệu tại Công ty Trí Đức ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Python, React, AWS",
+      "job_type": "full-time",
+      "perks": [
+        "Laptop làm việc",
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm xã hội đầy đủ"
+      ],
+      "apply_before": "2026-11-02"
+    },
+    {
+      "job_id": "vieclammoi-010",
+      "job_title": "Nhân viên marketing số",
+      "employer": "Tập đoàn Hòa Bình",
+      "location": "Nha Trang",
+      "sector": "Công nghệ thông tin",
+      "salary_text": "18 triệu",
+      "work_mode": "Hybrid",
+      "exp": "6-6 years",
+      "posted": "16/10/2026",
+      "url": "https://vieclammoi.example.invalid/jobs/vieclammoi-010",
+      "description": "Vị trí Nhân viên marketing số tại Tập đoàn Hòa Bình ở Nha Trang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Java, SQL, React",
+      "job_type": "full-time",
+      "perks": [
+        "Phụ cấp ăn trưa",
+        "Thưởng tháng 13",
+        "Bảo hiểm y tế"
+      ],
+      "apply_before": "2026-11-15"
+    }
+  ]
+}

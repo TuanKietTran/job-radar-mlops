@@ -1,0 +1,280 @@
+{
+  "board": "vieclampro",
+  "jobs": [
+    {
+      "code": "vieclampro-001",
+      "position": "Nhân viên kiểm thử phần mềm",
+      "company_name": "Công ty Thiên Long",
+      "place": "Cần Thơ",
+      "field": "Công nghệ thông tin",
+      "pay": "18-28 triệu",
+      "work_type": "Tại văn phòng",
+      "years": "4-6 năm",
+      "date_posted": "2026-11-07",
+      "link": "https://vieclampro.example.invalid/jobs/vieclampro-001",
+      "summary": "Vị trí Nhân viên kiểm thử phần mềm tại Công ty Thiên Long ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Docker",
+        "SQL",
+        "AWS"
+      ],
+      "contract": "Toàn thời gian",
+      "benefits": [
+        "Laptop làm việc",
+        "Bảo hiểm xã hội đầy đủ",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": null
+    },
+    {
+      "code": "vieclampro-002",
+      "position": "Chuyên viên phân tích dữ liệu",
+      "company_name": "Công ty Ngọc Anh",
+      "place": "Vung Tau",
+      "field": "Finance",
+      "pay": "12 triệu",
+      "work_type": "Linh hoạt",
+      "years": "6-7 năm",
+      "date_posted": "2026-10-28",
+      "link": "https://vieclampro.example.invalid/jobs/vieclampro-002",
+      "summary": "Vị trí Chuyên viên phân tích dữ liệu tại Công ty Ngọc Anh ở Vung Tau. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Báo cáo",
+        "Kế toán",
+        "Excel"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm xã hội đầy đủ",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-11-27"
+    },
+    {
+      "code": "vieclampro-003",
+      "position": "Kỹ sư phần mềm Python",
+      "company_name": "Tập đoàn Phú Thịnh",
+      "place": "Hải Phòng",
+      "field": "E-commerce",
+      "pay": "Thỏa thuận",
+      "work_type": "hybrid",
+      "years": "0-1 years",
+      "date_posted": "2026-10-13",
+      "link": "https://vieclampro.example.invalid/jobs/vieclampro-003",
+      "summary": "Vị trí Kỹ sư phần mềm Python tại Tập đoàn Phú Thịnh ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Excel",
+        "Marketing số",
+        "Chăm sóc khách hàng"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Thưởng tháng 13",
+        "Phụ cấp ăn trưa",
+        "Bảo hiểm y tế"
+      ],
+      "deadline": "2026-11-12"
+    },
+    {
+      "code": "vieclampro-004",
+      "position": "Nhân viên kiểm thử phần mềm",
+      "company_name": "Công ty Việt Thắng",
+      "place": "TP. Hồ Chí Minh",
+      "field": "Finance",
+      "pay": "10000000 VND - 15000000 VND",
+      "work_type": "onsite",
+      "years": "0+ năm kinh nghiệm",
+      "date_posted": "2026-10-18",
+      "link": "https://vieclampro.example.invalid/jobs/vieclampro-004",
+      "summary": "Vị trí Nhân viên kiểm thử phần mềm tại Công ty Việt Thắng ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Kế toán",
+        "Excel",
+        "Báo cáo"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm xã hội đầy đủ",
+        "Bảo hiểm y tế"
+      ],
+      "deadline": "2026-11-17"
+    },
+    {
+      "code": "vieclampro-005",
+      "position": "Lập trình viên Frontend React",
+      "company_name": "Công ty Hải Đăng",
+      "place": "Đồng Nai",
+      "field": "Healthcare",
+      "pay": "Up to 30 triệu",
+      "work_type": "Tại văn phòng",
+      "years": "1-1 years",
+      "date_posted": "2026-11-10",
+      "link": "https://vieclampro.example.invalid/jobs/vieclampro-005",
+      "summary": "Vị trí Lập trình viên Frontend React tại Công ty Hải Đăng ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Excel",
+        "Hồ sơ y tế",
+        "Giao tiếp"
+      ],
+      "contract": "part-time",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Bảo hiểm y tế",
+        "Phụ cấp ăn trưa"
+      ],
+      "deadline": "2026-12-10"
+    },
+    {
+      "code": "vieclampro-006",
+      "position": "Kỹ sư dữ liệu",
+      "company_name": "Công ty Ánh Dương",
+      "place": "Bình Dương",
+      "field": "Information Technology",
+      "pay": "25 triệu",
+      "work_type": "Onsite",
+      "years": "3+ năm kinh nghiệm",
+      "date_posted": "2026-10-06",
+      "link": "https://vieclampro.example.invalid/jobs/vieclampro-006",
+      "summary": "Vị trí Kỹ sư dữ liệu tại Công ty Ánh Dương ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "SQL",
+        "Docker",
+        "Python"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm xã hội đầy đủ",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": null
+    },
+    {
+      "code": "vieclampro-007",
+      "position": "Chuyên viên an ninh mạng",
+      "company_name": "Tập đoàn Nam Sơn",
+      "place": "Vũng Tàu",
+      "field": "Banking",
+      "pay": "Up to 30 triệu",
+      "work_type": "Remote",
+      "years": "6+ năm kinh nghiệm",
+      "date_posted": "2026-10-31",
+      "link": "https://vieclampro.example.invalid/jobs/vieclampro-007",
+      "summary": "Vị trí Chuyên viên an ninh mạng tại Tập đoàn Nam Sơn ở Vung Tau. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Excel",
+        "SQL",
+        "Chăm sóc khách hàng"
+      ],
+      "contract": "internship",
+      "benefits": [
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm xã hội đầy đủ",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-11-30"
+    },
+    {
+      "code": "vieclampro-008",
+      "position": "Chuyên viên tài chính",
+      "company_name": "Tập đoàn Đại Dương",
+      "place": "Đà Nẵng",
+      "field": "Sản xuất",
+      "pay": "20 triệu",
+      "work_type": "Tại văn phòng",
+      "years": "0-3 năm",
+      "date_posted": "2026-11-10",
+      "link": "https://vieclampro.example.invalid/jobs/vieclampro-008",
+      "summary": "Vị trí Chuyên viên tài chính tại Tập đoàn Đại Dương ở Da Nang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Quản lý sản xuất",
+        "Excel",
+        "Kiểm soát chất lượng"
+      ],
+      "contract": "Toàn thời gian",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Bảo hiểm xã hội đầy đủ",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-12-10"
+    },
+    {
+      "code": "vieclampro-009",
+      "position": "Chuyên viên tài chính",
+      "company_name": "Công ty Ngọc Anh",
+      "place": "Nha Trang",
+      "field": "Banking",
+      "pay": "10-18 triệu",
+      "work_type": "Remote",
+      "years": "2+ năm kinh nghiệm",
+      "date_posted": "2026-10-11",
+      "link": "https://vieclampro.example.invalid/jobs/vieclampro-009",
+      "summary": "Vị trí Chuyên viên tài chính tại Công ty Ngọc Anh ở Nha Trang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Quản lý rủi ro",
+        "SQL",
+        "Chăm sóc khách hàng"
+      ],
+      "contract": "full-time",
+      "benefits": [
+        "Thưởng tháng 13",
+        "Phụ cấp ăn trưa",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": "2026-11-10"
+    },
+    {
+      "code": "vieclampro-010",
+      "position": "Lập trình viên di động Flutter",
+      "company_name": "Tập đoàn Xuân Mai",
+      "place": "Can Tho",
+      "field": "Y tế",
+      "pay": "Up to 13 triệu",
+      "work_type": "Remote",
+      "years": "0-0 years",
+      "date_posted": "2026-10-26",
+      "link": "https://vieclampro.example.invalid/jobs/vieclampro-010",
+      "summary": "Vị trí Lập trình viên di động Flutter tại Tập đoàn Xuân Mai ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Chăm sóc bệnh nhân",
+        "Excel",
+        "Hồ sơ y tế"
+      ],
+      "contract": "Toàn thời gian",
+      "benefits": [
+        "Đào tạo nội bộ",
+        "Bảo hiểm xã hội đầy đủ",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-11-25"
+    },
+    {
+      "code": "vieclampro-011",
+      "position": "Kế  toán tổng hợp",
+      "company_name": "Tập đoàn Xuân Mai",
+      "place": "Can Tho",
+      "field": "Sản xuất",
+      "pay": "15000000-23000000",
+      "work_type": "onsite",
+      "years": "2+ năm kinh nghiệm",
+      "date_posted": "2026-11-02",
+      "link": "https://vieclampro.example.invalid/jobs/vieclampro-011",
+      "summary": "Vị trí Kế toán tổng hợp tại Tập đoàn Xuân Mai ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skill_set": [
+        "Quản lý sản xuất",
+        "Excel",
+        "Kiểm soát chất lượng"
+      ],
+      "contract": "internship",
+      "benefits": [
+        "Đào tạo nội bộ",
+        "Bảo hiểm y tế",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-12-01"
+    }
+  ]
+}

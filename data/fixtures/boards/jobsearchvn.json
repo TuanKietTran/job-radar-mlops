@@ -1,0 +1,236 @@
+{
+  "board": "jobsearchvn",
+  "jobs": [
+    {
+      "job_id": "jobsearchvn-001",
+      "job_title": "Lập trình viên Java",
+      "employer": "Công ty Việt Thắng",
+      "location": "Nha Trang",
+      "sector": "Manufacturing",
+      "salary_text": "From 10 triệu",
+      "work_mode": "Onsite",
+      "exp": "0-2 năm",
+      "posted": "02/11/2026",
+      "url": "https://jobsearchvn.example.invalid/jobs/jobsearchvn-001",
+      "description": "Vị trí Lập trình viên Java tại Công ty Việt Thắng ở Nha Trang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Kiểm soát chất lượng, Excel, An toàn lao động",
+      "job_type": "full-time",
+      "perks": [
+        "Ngày nghỉ phép 12 ngày",
+        "Thưởng tháng 13",
+        "Bảo hiểm y tế"
+      ],
+      "apply_before": null
+    },
+    {
+      "job_id": "jobsearchvn-002",
+      "job_title": "Nhân viên kho vận",
+      "employer": "Tập đoàn Nam Sơn",
+      "location": "Hai Phong",
+      "sector": "Logistics",
+      "salary_text": "15000000-23000000",
+      "work_mode": "remote",
+      "exp": "6-9 năm",
+      "posted": "24/10/2026",
+      "url": "https://jobsearchvn.example.invalid/jobs/jobsearchvn-002",
+      "description": "Vị trí Nhân viên kho vận tại Tập đoàn Nam Sơn ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Excel, Lập kế hoạch, Vận chuyển",
+      "job_type": "contract",
+      "perks": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm y tế"
+      ],
+      "apply_before": "2026-11-23"
+    },
+    {
+      "job_id": "jobsearchvn-003",
+      "job_title": "Kế toán tổng hợp",
+      "employer": "Công ty Thanh Tâm",
+      "location": "Cần Thơ",
+      "sector": "E-commerce",
+      "salary_text": "18-33 triệu",
+      "work_mode": "Onsite",
+      "exp": "5-8 năm",
+      "posted": "23/10/2026",
+      "url": "https://jobsearchvn.example.invalid/jobs/jobsearchvn-003",
+      "description": "Vị trí Kế toán tổng hợp tại Công ty Thanh Tâm ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Phân tích dữ liệu, Excel, SEO",
+      "job_type": "Toàn thời gian",
+      "perks": [
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm xã hội đầy đủ",
+        "Thưởng tháng 13"
+      ],
+      "apply_before": null
+    },
+    {
+      "job_id": "jobsearchvn-004",
+      "job_title": "Thiết kế giao diện người dùng",
+      "employer": "Tập đoàn Minh Khang",
+      "location": "Hồ Chí Minh",
+      "sector": "Ngân hàng",
+      "salary_text": "12000000 VND - 27000000 VND",
+      "work_mode": "remote",
+      "exp": "5-5 năm",
+      "posted": "04/10/2026",
+      "url": "https://jobsearchvn.example.invalid/jobs/jobsearchvn-004",
+      "description": "Vị trí Thiết kế giao diện người dùng tại Tập đoàn Minh Khang ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Excel, Tín dụng, Chăm sóc khách hàng",
+      "job_type": "part-time",
+      "perks": [
+        "Thưởng tháng 13",
+        "Phụ cấp ăn trưa",
+        "Bảo hiểm xã hội đầy đủ"
+      ],
+      "apply_before": "2026-11-03"
+    },
+    {
+      "job_id": "jobsearchvn-005",
+      "job_title": "Quản lý sản phẩm",
+      "employer": "Công ty Thanh Tâm",
+      "location": "Binh Duong",
+      "sector": "Banking",
+      "salary_text": "12 triệu",
+      "work_mode": "Từ xa",
+      "exp": "1-4 years",
+      "posted": "31/10/2026",
+      "url": "https://jobsearchvn.example.invalid/jobs/jobsearchvn-005",
+      "description": "Vị trí Quản lý sản phẩm tại Công ty Thanh Tâm ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Quản lý rủi ro, SQL, Tín dụng",
+      "job_type": "internship",
+      "perks": [
+        "Bảo hiểm y tế",
+        "Đào tạo nội bộ",
+        "Laptop làm việc"
+      ],
+      "apply_before": "2026-11-30"
+    },
+    {
+      "job_id": "jobsearchvn-006",
+      "job_title": "Kỹ sư trí tuệ nhân tạo",
+      "employer": "Công ty Hồng Phúc",
+      "location": "Huế",
+      "sector": "Giáo dục",
+      "salary_text": "25000000-35000000",
+      "work_mode": "Remote",
+      "exp": "6-7 năm",
+      "posted": "08/11/2026",
+      "url": "https://jobsearchvn.example.invalid/jobs/jobsearchvn-006",
+      "description": "Vị trí Kỹ sư trí tuệ nhân tạo tại Công ty Hồng Phúc ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Tiếng Anh, Soạn giáo án, Giao tiếp",
+      "job_type": "Bán thời gian",
+      "perks": [
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm xã hội đầy đủ",
+        "Đào tạo nội bộ"
+      ],
+      "apply_before": null
+    },
+    {
+      "job_id": "jobsearchvn-007",
+      "job_title": "Chuyên viên tài chính",
+      "employer": "Tập đoàn Nam Sơn",
+      "location": "Vũng Tàu",
+      "sector": "Education",
+      "salary_text": "25 triệu",
+      "work_mode": "Hybrid",
+      "exp": "2-2 years",
+      "posted": "29/10/2026",
+      "url": "https://jobsearchvn.example.invalid/jobs/jobsearchvn-007",
+      "description": "Vị trí Chuyên viên tài chính tại Tập đoàn Nam Sơn ở Vung Tau. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Giao tiếp, Giảng dạy, Soạn giáo án",
+      "job_type": "contract",
+      "perks": [
+        "Laptop làm việc",
+        "Đào tạo nội bộ",
+        "Bảo hiểm xã hội đầy đủ"
+      ],
+      "apply_before": "2026-11-28"
+    },
+    {
+      "job_id": "jobsearchvn-008",
+      "job_title": "Kế toán tổng hợp",
+      "employer": "Công ty Sao Mai",
+      "location": "Binh Duong",
+      "sector": "Y tế",
+      "salary_text": "10-25 triệu",
+      "work_mode": "Onsite",
+      "exp": "6-7 năm",
+      "posted": "02/10/2026",
+      "url": "https://jobsearchvn.example.invalid/jobs/jobsearchvn-008",
+      "description": "Vị trí Kế toán tổng hợp tại Công ty Sao Mai ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Excel, Hồ sơ y tế, Giao tiếp",
+      "job_type": "contract",
+      "perks": [
+        "Laptop làm việc",
+        "Bảo hiểm xã hội đầy đủ",
+        "Đào tạo nội bộ"
+      ],
+      "apply_before": null
+    },
+    {
+      "job_id": "jobsearchvn-009",
+      "job_title": "Chuyên viên tài chính",
+      "employer": "Công ty Phúc Lộc",
+      "location": "Dong Nai",
+      "sector": "Education",
+      "salary_text": "Thỏa thuận",
+      "work_mode": "Từ xa",
+      "exp": "4+ năm kinh nghiệm",
+      "posted": "23/10/2026",
+      "url": "https://jobsearchvn.example.invalid/jobs/jobsearchvn-009",
+      "description": "Vị trí Chuyên viên tài chính tại Công ty Phúc Lộc ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Giảng dạy, Giao tiếp, Tiếng Anh",
+      "job_type": "Toàn thời gian",
+      "perks": [
+        "Bảo hiểm y tế",
+        "Đào tạo nội bộ",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "apply_before": "2026-11-22"
+    },
+    {
+      "job_id": "jobsearchvn-010",
+      "job_title": "Chuyên viên tài chính",
+      "employer": "Công ty Bảo An",
+      "location": "Nha Trang",
+      "sector": "Banking",
+      "salary_text": "15000000-25000000",
+      "work_mode": "remote",
+      "exp": "1-3 năm",
+      "posted": "03/11/2026",
+      "url": "https://jobsearchvn.example.invalid/jobs/jobsearchvn-010",
+      "description": "Vị trí Chuyên viên tài chính tại Công ty Bảo An ở Nha Trang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Quản lý rủi ro, Excel, Chăm sóc khách hàng",
+      "job_type": "Toàn thời gian",
+      "perks": [
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm y tế",
+        "Bảo hiểm xã hội đầy đủ"
+      ],
+      "apply_before": "2026-12-03"
+    },
+    {
+      "job_id": "jobsearchvn-011",
+      "job_title": "Kỹ  sư dữ liệu",
+      "employer": "Công ty Thiên Long",
+      "location": "Đồng Nai",
+      "sector": "Công nghệ thông tin",
+      "salary_text": "Thỏa thuận",
+      "work_mode": "Remote",
+      "exp": "0-3 years",
+      "posted": "05/10/2026",
+      "url": "https://jobsearchvn.example.invalid/jobs/jobsearchvn-011",
+      "description": "Vị trí Kỹ sư dữ liệu tại Công ty Thiên Long ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "tags": "Python, Linux, Git",
+      "job_type": "full-time",
+      "perks": [
+        "Đào tạo nội bộ",
+        "Bảo hiểm y tế",
+        "Thưởng tháng 13"
+      ],
+      "apply_before": "2026-11-03"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "board": "vieclam24h",
+  "jobs": [
+    {
+      "id": "vieclam24h-001",
+      "title": "Nhân viên marketing số",
+      "company": "Công ty Hồng Phúc",
+      "city": "Hồ Chí Minh",
+      "industry": "Sản xuất",
+      "salary": "15000000 VND - 25000000 VND",
+      "remote": "Tại văn phòng",
+      "experience": "1-2 years",
+      "posted_date": "2026-10-24",
+      "source_url": "https://vieclam24h.example.invalid/jobs/vieclam24h-001",
+      "description": "Vị trí Nhân viên marketing số tại Công ty Hồng Phúc ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Quản lý sản xuất",
+        "Excel",
+        "An toàn lao động"
+      ],
+      "employment_type": "part-time",
+      "benefits": [
+        "Laptop làm việc",
+        "Bảo hiểm xã hội đầy đủ",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-11-23"
+    },
+    {
+      "id": "vieclam24h-002",
+      "title": "Nhân viên kho vận",
+      "company": "Công ty Sao Mai",
+      "city": "TP. Hồ Chí Minh",
+      "industry": "Giáo dục",
+      "salary": "Up to 30 triệu",
+      "remote": "Hybrid",
+      "experience": "4-7 năm",
+      "posted_date": "2026-10-04",
+      "source_url": "https://vieclam24h.example.invalid/jobs/vieclam24h-002",
+      "description": "Vị trí Nhân viên kho vận tại Công ty Sao Mai ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Soạn giáo án",
+        "Giảng dạy",
+        "Tiếng Anh"
+      ],
+      "employment_type": "contract",
+      "benefits": [
+        "Đào tạo nội bộ",
+        "Ngày nghỉ phép 12 ngày",
+        "Phụ cấp ăn trưa"
+      ],
+      "deadline": "2026-11-03"
+    },
+    {
+      "id": "vieclam24h-003",
+      "title": "Thiết kế giao diện người dùng",
+      "company": "Tập đoàn Đại Dương",
+      "city": "Hai Phong",
+      "industry": "Education",
+      "salary": "Up to 35 triệu",
+      "remote": "onsite",
+      "experience": "1-3 years",
+      "posted_date": "2026-10-11",
+      "source_url": "https://vieclam24h.example.invalid/jobs/vieclam24h-003",
+      "description": "Vị trí Thiết kế giao diện người dùng tại Tập đoàn Đại Dương ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Soạn giáo án",
+        "Giao tiếp",
+        "Tiếng Anh"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Laptop làm việc",
+        "Thưởng tháng 13",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": "2026-11-10"
+    },
+    {
+      "id": "vieclam24h-004",
+      "title": "Kỹ sư dữ liệu",
+      "company": "Tập đoàn Xuân Mai",
+      "city": "Đồng Nai",
+      "industry": "Ngân hàng",
+      "salary": "10000000-20000000",
+      "remote": "remote",
+      "experience": "5-6 năm",
+      "posted_date": "2026-10-06",
+      "source_url": "https://vieclam24h.example.invalid/jobs/vieclam24h-004",
+      "description": "Vị trí Kỹ sư dữ liệu tại Tập đoàn Xuân Mai ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Excel",
+        "Quản lý rủi ro",
+        "Tín dụng"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Phụ cấp ăn trưa",
+        "Đào tạo nội bộ",
+        "Bảo hiểm xã hội đầy đủ"
+      ],
+      "deadline": "2026-11-05"
+    },
+    {
+      "id": "vieclam24h-005",
+      "title": "Quản lý sản phẩm",
+      "company": "Tập đoàn Trường Sơn",
+      "city": "Nha Trang",
+      "industry": "Thương mại điện tử",
+      "salary": "8-23 triệu",
+      "remote": "Hybrid",
+      "experience": "3-5 năm",
+      "posted_date": "2026-11-06",
+      "source_url": "https://vieclam24h.example.invalid/jobs/vieclam24h-005",
+      "description": "Vị trí Quản lý sản phẩm tại Tập đoàn Trường Sơn ở Nha Trang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Excel",
+        "SEO",
+        "Marketing số"
+      ],
+      "employment_type": "Toàn thời gian",
+      "benefits": [
+        "Ngày nghỉ phép 12 ngày",
+        "Thưởng tháng 13",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": "2026-12-06"
+    },
+    {
+      "id": "vieclam24h-006",
+      "title": "Lập trình viên di động Flutter",
+      "company": "Tập đoàn Hòa Bình",
+      "city": "Huế",
+      "industry": "Giáo dục",
+      "salary": "Thỏa thuận",
+      "remote": "Linh hoạt",
+      "experience": "2-2 năm",
+      "posted_date": "2026-10-31",
+      "source_url": "https://vieclam24h.example.invalid/jobs/vieclam24h-006",
+      "description": "Vị trí Lập trình viên di động Flutter tại Tập đoàn Hòa Bình ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Giảng dạy",
+        "Tiếng Anh",
+        "Soạn giáo án"
+      ],
+      "employment_type": "Bán thời gian",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Laptop làm việc",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": "2026-11-30"
+    },
+    {
+      "id": "vieclam24h-007",
+      "title": "Chuyên viên hỗ trợ khách hàng",
+      "company": "Công ty Hoàng Gia",
+      "city": "Ha Noi",
+      "industry": "Thương mại điện tử",
+      "salary": "From 20 triệu",
+      "remote": "Remote",
+      "experience": "1+ năm kinh nghiệm",
+      "posted_date": "2026-10-30",
+      "source_url": "https://vieclam24h.example.invalid/jobs/vieclam24h-007",
+      "description": "Vị trí Chuyên viên hỗ trợ khách hàng tại Công ty Hoàng Gia ở Hanoi. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Marketing số",
+        "SEO",
+        "Excel"
+      ],
+      "employment_type": "Toàn thời gian",
+      "benefits": [
+        "Laptop làm việc",
+        "Bảo hiểm y tế",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": null
+    },
+    {
+      "id": "vieclam24h-008",
+      "title": "Nhân viên kiểm thử phần mềm",
+      "company": "Tập đoàn Hòa Bình",
+      "city": "Hải Phòng",
+      "industry": "Giáo dục",
+      "salary": "Thỏa thuận",
+      "remote": "Remote",
+      "experience": "0-0 years",
+      "posted_date": "2026-11-07",
+      "source_url": "https://vieclam24h.example.invalid/jobs/vieclam24h-008",
+      "description": "Vị trí Nhân viên kiểm thử phần mềm tại Tập đoàn Hòa Bình ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Soạn giáo án",
+        "Giao tiếp",
+        "Giảng dạy"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Laptop làm việc",
+        "Ngày nghỉ phép 12 ngày"
+      ],
+      "deadline": null
+    },
+    {
+      "id": "vieclam24h-009",
+      "title": "Chuyên viên hỗ trợ khách hàng",
+      "company": "Tập đoàn Đại Dương",
+      "city": "Bình Dương",
+      "industry": "Thương mại điện tử",
+      "salary": "10000000-15000000",
+      "remote": "Linh hoạt",
+      "experience": "4-7 năm",
+      "posted_date": "2026-10-20",
+      "source_url": "https://vieclam24h.example.invalid/jobs/vieclam24h-009",
+      "description": "Vị trí Chuyên viên hỗ trợ khách hàng tại Tập đoàn Đại Dương ở Binh Duong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Chăm sóc khách hàng",
+        "Excel",
+        "Marketing số"
+      ],
+      "employment_type": "full-time",
+      "benefits": [
+        "Ngày nghỉ phép 12 ngày",
+        "Thưởng tháng 13",
+        "Đào tạo nội bộ"
+      ],
+      "deadline": null
+    },
+    {
+      "id": "vieclam24h-010",
+      "title": "Chuyên viên an ninh mạng",
+      "company": "Công ty Hoàng Gia",
+      "city": "Huế",
+      "industry": "Information Technology",
+      "salary": "15-23 triệu",
+      "remote": "Tại văn phòng",
+      "experience": "2+ năm kinh nghiệm",
+      "posted_date": "2026-10-19",
+      "source_url": "https://vieclam24h.example.invalid/jobs/vieclam24h-010",
+      "description": "Vị trí Chuyên viên an ninh mạng tại Công ty Hoàng Gia ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Java",
+        "Linux",
+        "Git"
+      ],
+      "employment_type": "contract",
+      "benefits": [
+        "Thưởng tháng 13",
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm xã hội đầy đủ"
+      ],
+      "deadline": "2026-11-18"
+    }
+  ]
+}

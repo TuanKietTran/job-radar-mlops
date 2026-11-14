@@ -1,0 +1,255 @@
+{
+  "board": "tuyendung",
+  "jobs": [
+    {
+      "id": "tuyendung-001",
+      "title": "Chuyên viên tài chính",
+      "company": "Công ty Đức Minh",
+      "city": "Hồ Chí Minh",
+      "industry": "Information Technology",
+      "salary": "12000000-17000000",
+      "remote": "onsite",
+      "experience": "1+ năm kinh nghiệm",
+      "posted_date": "2026-11-02",
+      "source_url": "https://tuyendung.example.invalid/jobs/tuyendung-001",
+      "description": "Vị trí Chuyên viên tài chính tại Công ty Đức Minh ở Ho Chi Minh City. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "SQL",
+        "Python",
+        "React"
+      ],
+      "employment_type": "Thực tập",
+      "benefits": [
+        "Laptop làm việc",
+        "Phụ cấp ăn trưa",
+        "Bảo hiểm y tế"
+      ],
+      "deadline": "2026-12-02"
+    },
+    {
+      "id": "tuyendung-002",
+      "title": "Chuyên viên tuyển dụng",
+      "company": "Công ty Thiên Long",
+      "city": "Hue",
+      "industry": "Sản xuất",
+      "salary": "Thỏa thuận",
+      "remote": "hybrid",
+      "experience": "1+ năm kinh nghiệm",
+      "posted_date": "2026-11-09",
+      "source_url": "https://tuyendung.example.invalid/jobs/tuyendung-002",
+      "description": "Vị trí Chuyên viên tuyển dụng tại Công ty Thiên Long ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Excel",
+        "Kiểm soát chất lượng",
+        "An toàn lao động"
+      ],
+      "employment_type": "Toàn thời gian",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Đào tạo nội bộ",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-12-09"
+    },
+    {
+      "id": "tuyendung-003",
+      "title": "Nhân viên marketing số",
+      "company": "Công ty Phúc Lộc",
+      "city": "Hue",
+      "industry": "E-commerce",
+      "salary": "10000000 VND - 20000000 VND",
+      "remote": "Linh hoạt",
+      "experience": "6-8 years",
+      "posted_date": "2026-10-03",
+      "source_url": "https://tuyendung.example.invalid/jobs/tuyendung-003",
+      "description": "Vị trí Nhân viên marketing số tại Công ty Phúc Lộc ở Hue. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "SEO",
+        "Phân tích dữ liệu",
+        "Chăm sóc khách hàng"
+      ],
+      "employment_type": "Bán thời gian",
+      "benefits": [
+        "Ngày nghỉ phép 12 ngày",
+        "Đào tạo nội bộ",
+        "Thưởng tháng 13"
+      ],
+      "deadline": null
+    },
+    {
+      "id": "tuyendung-004",
+      "title": "Nhân viên marketing số",
+      "company": "Công ty Hồng Phúc",
+      "city": "Nha Trang",
+      "industry": "Information Technology",
+      "salary": "18000000 VND - 23000000 VND",
+      "remote": "hybrid",
+      "experience": "2+ năm kinh nghiệm",
+      "posted_date": "2026-11-04",
+      "source_url": "https://tuyendung.example.invalid/jobs/tuyendung-004",
+      "description": "Vị trí Nhân viên marketing số tại Công ty Hồng Phúc ở Nha Trang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "AWS",
+        "SQL",
+        "Git"
+      ],
+      "employment_type": "part-time",
+      "benefits": [
+        "Ngày nghỉ phép 12 ngày",
+        "Laptop làm việc",
+        "Thưởng tháng 13"
+      ],
+      "deadline": "2026-12-04"
+    },
+    {
+      "id": "tuyendung-005",
+      "title": "Chuyên viên an ninh mạng",
+      "company": "Công ty Thanh Tâm",
+      "city": "Ha Noi",
+      "industry": "Vận tải",
+      "salary": "8-18 triệu",
+      "remote": "remote",
+      "experience": "1-2 years",
+      "posted_date": "2026-10-17",
+      "source_url": "https://tuyendung.example.invalid/jobs/tuyendung-005",
+      "description": "Vị trí Chuyên viên an ninh mạng tại Công ty Thanh Tâm ở Hanoi. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Excel",
+        "Quản lý kho",
+        "Giao tiếp"
+      ],
+      "employment_type": "contract",
+      "benefits": [
+        "Bảo hiểm y tế",
+        "Thưởng tháng 13",
+        "Phụ cấp ăn trưa"
+      ],
+      "deadline": "2026-11-16"
+    },
+    {
+      "id": "tuyendung-006",
+      "title": "Thiết kế giao diện người dùng",
+      "company": "Công ty Việt Thắng",
+      "city": "Đồng Nai",
+      "industry": "Education",
+      "salary": "10 triệu",
+      "remote": "Tại văn phòng",
+      "experience": "5-7 năm",
+      "posted_date": "2026-11-09",
+      "source_url": "https://tuyendung.example.invalid/jobs/tuyendung-006",
+      "description": "Vị trí Thiết kế giao diện người dùng tại Công ty Việt Thắng ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Giảng dạy",
+        "Tiếng Anh",
+        "Soạn giáo án"
+      ],
+      "employment_type": "Toàn thời gian",
+      "benefits": [
+        "Ngày nghỉ phép 12 ngày",
+        "Bảo hiểm y tế",
+        "Laptop làm việc"
+      ],
+      "deadline": "2026-12-09"
+    },
+    {
+      "id": "tuyendung-007",
+      "title": "Chuyên viên an ninh mạng",
+      "company": "Tập đoàn Nam Sơn",
+      "city": "Can Tho",
+      "industry": "Giáo dục",
+      "salary": "10000000-20000000",
+      "remote": "Từ xa",
+      "experience": "6-8 năm",
+      "posted_date": "2026-10-31",
+      "source_url": "https://tuyendung.example.invalid/jobs/tuyendung-007",
+      "description": "Vị trí Chuyên viên an ninh mạng tại Tập đoàn Nam Sơn ở Can Tho. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Soạn giáo án",
+        "Giao tiếp",
+        "Giảng dạy"
+      ],
+      "employment_type": "Toàn thời gian",
+      "benefits": [
+        "Đào tạo nội bộ",
+        "Bảo hiểm y tế",
+        "Phụ cấp ăn trưa"
+      ],
+      "deadline": null
+    },
+    {
+      "id": "tuyendung-008",
+      "title": "Lập trình viên Frontend React",
+      "company": "Công ty Thiên Long",
+      "city": "Hai Phong",
+      "industry": "Giáo dục",
+      "salary": "Thỏa thuận",
+      "remote": "Remote",
+      "experience": "2+ năm kinh nghiệm",
+      "posted_date": "2026-10-23",
+      "source_url": "https://tuyendung.example.invalid/jobs/tuyendung-008",
+      "description": "Vị trí Lập trình viên Frontend React tại Công ty Thiên Long ở Hai Phong. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "Tiếng Anh",
+        "Giao tiếp",
+        "Soạn giáo án"
+      ],
+      "employment_type": "contract",
+      "benefits": [
+        "Thưởng tháng 13",
+        "Bảo hiểm xã hội đầy đủ",
+        "Bảo hiểm y tế"
+      ],
+      "deadline": "2026-11-22"
+    },
+    {
+      "id": "tuyendung-009",
+      "title": "Lập trình viên Java",
+      "company": "Tập đoàn Minh Khang",
+      "city": "Nha Trang",
+      "industry": "Information Technology",
+      "salary": "8000000 VND - 13000000 VND",
+      "remote": "onsite",
+      "experience": "3-4 năm",
+      "posted_date": "2026-11-09",
+      "source_url": "https://tuyendung.example.invalid/jobs/tuyendung-009",
+      "description": "Vị trí Lập trình viên Java tại Tập đoàn Minh Khang ở Nha Trang. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "SQL",
+        "Git",
+        "Java"
+      ],
+      "employment_type": "Toàn thời gian",
+      "benefits": [
+        "Laptop làm việc",
+        "Bảo hiểm xã hội đầy đủ",
+        "Phụ cấp ăn trưa"
+      ],
+      "deadline": "2026-12-09"
+    },
+    {
+      "id": "tuyendung-010",
+      "title": "Lập trình viên Frontend React",
+      "company": "Tập đoàn Hòa Bình",
+      "city": "Dong Nai",
+      "industry": "Ngân hàng",
+      "salary": "Thỏa thuận",
+      "remote": "Từ xa",
+      "experience": "5-7 years",
+      "posted_date": "2026-10-04",
+      "source_url": "https://tuyendung.example.invalid/jobs/tuyendung-010",
+      "description": "Vị trí Lập trình viên Frontend React tại Tập đoàn Hòa Bình ở Dong Nai. Công việc gồm thực hiện nhiệm vụ chuyên môn, phối hợp nhóm và báo cáo kết quả theo tuần.",
+      "skills": [
+        "SQL",
+        "Tín dụng",
+        "Quản lý rủi ro"
+      ],
+      "employment_type": "Thực tập",
+      "benefits": [
+        "Bảo hiểm xã hội đầy đủ",
+        "Đào tạo nội bộ",
+        "Phụ cấp ăn trưa"
+      ],
+      "deadline": "2026-11-03"
+    }
+  ]
+}
