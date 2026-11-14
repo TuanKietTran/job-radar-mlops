@@ -23,10 +23,14 @@ If that file is absent, the service falls back to `services/api/tests/fixtures/s
 - `GET /health` returns `{"status": "ok"}`.
 - `GET /api/jobs` accepts `q`, `city`, `industry`, `remote`, `level`, `salary_min`, `salary_max`, `experience`, `page` (default 1) and `page_size` (default 20, max 100). It returns `total`, `page`, `page_size` and `jobs`.
 - `GET /api/jobs/{id}` returns one job or 404.
+- `GET /api/jobs/{id}/redirect` returns 302 to the job `source_url` and logs one click.
+- `GET /api/jobs/{id}/clicks` returns the job id and its click count.
 - `GET /api/redirect/{id}` returns 302 to the job `source_url`.
 - `GET /api/filters` returns `cities`, `industries`, `remotes` and `levels`.
 
 Search matches title, company, skills and description. Matching is case-insensitive and diacritic-insensitive for Vietnamese text. Salary filtering uses range overlap, and jobs with null salary match only when no salary filter is given. The experience filter matches when the requested years fall inside the job experience range. Filters combine with AND. Results are ordered by `posted_at` descending, then `id`. Remote is one of onsite, hybrid or remote, not a boolean, because the fixture stores the work mode that way. Salary is monthly gross in VND. Unknown or empty filter values return total 0 with an empty list. Invalid values, such as a non-numeric salary or a negative experience, return 422. The OpenAPI snapshot in `services/api/openapi.json` is generated from the running app and must match live `/openapi.json`.
+
+Click log: SQLite table `clicks` in `data/clicks.db` by default, matching the ingest SQLite store in `services/ingest/store.py`. Set `CLICKS_PATH` to override the path. Columns are `id`, `job_id`, `clicked_at_utc` (ISO 8601 UTC) and `user_agent`. The table is append-only. No IP address or other personal data is stored.
 
 ## Tests
 
@@ -34,4 +38,4 @@ Search matches title, company, skills and description. Matching is case-insensit
 .venv/bin/pytest services/api/tests -q
 ```
 
-Tests cover every endpoint, every filter, pagination edges, 404, redirect target, diacritic-insensitive search and salary overlap logic.
+Tests cover every endpoint, every filter, pagination edges, 404, redirect target, click logging and count, diacritic-insensitive search and salary overlap logic.
