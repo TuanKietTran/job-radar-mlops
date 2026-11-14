@@ -1,0 +1,46 @@
+{
+  "name": "salary-v1",
+  "version": "1.0.0",
+  "kind": "linear salary predictor with skill ranker",
+  "salary": {
+    "intercept": 12500000,
+    "per_experience_year": 2100000,
+    "city_adj": {
+      "Hà Nội": 1800000,
+      "Hồ Chí Minh": 2800000,
+      "Đà Nẵng": 200000,
+      "Hải Phòng": -800000,
+      "Cần Thơ": -1800000
+    },
+    "industry_adj": {
+      "IT Software": 5800000,
+      "Banking": 3800000,
+      "Manufacturing": 200000,
+      "Retail": -900000,
+      "Logistics": 900000
+    },
+    "level_adj": {
+      "junior": 0,
+      "middle": 4800000,
+      "senior": 11500000
+    }
+  },
+  "ranker": {
+    "skill_weights": {
+      "python": 2.0,
+      "sql": 2.0,
+      "aws": 1.5,
+      "docker": 1.5
+    },
+    "preferred_cities": [
+      "Hà Nội",
+      "Hồ Chí Minh"
+    ],
+    "city_bonus": 1.5,
+    "preferred_levels": [
+      "middle",
+      "senior"
+    ],
+    "level_bonus": 1.0
+  }
+}

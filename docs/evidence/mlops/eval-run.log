@@ -1,0 +1,41 @@
+wrote 500 jobs to mlops/eval/data/heldout.json
+fixture exit 0
+model salary-v1-1.0.0 n=500
+mae_vnd 2010420.36
+rmse_vnd 2546783.78
+precision_at_10 1.0
+ndcg_at_10 1.0
+wrote mlops/eval/reports/eval.json
+harness exit 0
+sessions 200 shadow True
+control mae_vnd 2035168.65
+challenger mae_vnd 2018643.55
+recommend: keep champion; no material difference
+wrote mlops/eval/reports/ab.json
+simulate exit 0
+model salary-v1-1.0.0 n=500
+city mae_gap_vnd 444976.49 selection_gap 0.2938
+industry mae_gap_vnd 357156.1 selection_gap 0.2502
+employment_type mae_gap_vnd 296041.81 selection_gap 0.1598
+psi 0.0197
+flags 2
+flag city selection gap 0.2938 over cap 0.2
+flag industry selection gap 0.2502 over cap 0.2
+wrote mlops/eval/reports/fairness.json
+fairness exit 0
+PASS sample value=500 threshold=500
+PASS mae_regression_vnd value=-16525.1 threshold=1500000
+PASS fairness_mae_gap_vnd value=444976.49 threshold=4000000
+FAIL fairness_selection_rate_gap value=0.2938 threshold=0.2
+PASS drift_psi value=0.0197 threshold=0.2
+verdict FAIL
+wrote mlops/eval/reports/verdict.json
+gates exit 1
+wrote docs/cards/salary-v1-1.0.0.md
+cards exit 0
+.............
+----------------------------------------------------------------------
+Ran 13 tests in 0.003s
+
+OK
+unittest exit 0
