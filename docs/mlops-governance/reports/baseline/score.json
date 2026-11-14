@@ -1,0 +1,49 @@
+{
+  "band": "Defined",
+  "dimensions": {
+    "cicd": {
+      "description": "Tests run automatically on every change. Builds are reproducible from version control.",
+      "level": 2,
+      "name": "CI and CD",
+      "score": 7.5,
+      "weight": 15
+    },
+    "data": {
+      "description": "Ingest is scheduled and logged. Schemas are recorded for the main sources.",
+      "level": 2,
+      "name": "Data",
+      "score": 10.0,
+      "weight": 20
+    },
+    "governance": {
+      "description": "Every production model has an owner and a validation record. Approval is a named step.",
+      "level": 2,
+      "name": "Governance",
+      "score": 7.5,
+      "weight": 15
+    },
+    "monitoring": {
+      "description": "Drift and performance are tracked against a baseline. Alerts go to a named owner.",
+      "level": 3,
+      "name": "Monitoring",
+      "score": 11.25,
+      "weight": 15
+    },
+    "serving": {
+      "description": "The serving version is written down. Restarts are manual.",
+      "level": 1,
+      "name": "Serving",
+      "score": 3.75,
+      "weight": 15
+    },
+    "training": {
+      "description": "Experiments are comparable across runs. The best run can be reproduced from its record.",
+      "level": 3,
+      "name": "Training",
+      "score": 15.0,
+      "weight": 20
+    }
+  },
+  "seed": 42,
+  "total": 55.0
+}

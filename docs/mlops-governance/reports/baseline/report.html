@@ -1,0 +1,30 @@
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<title>Maturity assessment report</title>
+<style>
+body { font-family: sans-serif; color: #1a1a1a; max-width: 960px; margin: 32px auto; padding: 0 16px; }
+h1 { font-size: 28px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #999999; padding: 8px; text-align: left; vertical-align: top; }
+th { background: #eef4f8; }
+.total { color: #1f5c8b; font-size: 32px; }
+</style>
+</head>
+<body>
+<h1>Maturity assessment report</h1>
+<p class=total>Total: 55.0 of 100</p>
+<p>Band: Defined</p>
+<p>Method: each dimension score equals level divided by 4 times weight. Weights sum to 100. Seed: 42.</p>
+<table>
+<tr><th>Dimension</th><th>Level</th><th>Weight</th><th>Score</th><th>What this level means</th></tr>
+<tr><td>Data</td><td>2</td><td>20</td><td>10.0</td><td>Ingest is scheduled and logged. Schemas are recorded for the main sources.</td></tr>
+<tr><td>Training</td><td>3</td><td>20</td><td>15.0</td><td>Experiments are comparable across runs. The best run can be reproduced from its record.</td></tr>
+<tr><td>Serving</td><td>1</td><td>15</td><td>3.75</td><td>The serving version is written down. Restarts are manual.</td></tr>
+<tr><td>Monitoring</td><td>3</td><td>15</td><td>11.25</td><td>Drift and performance are tracked against a baseline. Alerts go to a named owner.</td></tr>
+<tr><td>Governance</td><td>2</td><td>15</td><td>7.5</td><td>Every production model has an owner and a validation record. Approval is a named step.</td></tr>
+<tr><td>CI and CD</td><td>2</td><td>15</td><td>7.5</td><td>Tests run automatically on every change. Builds are reproducible from version control.</td></tr>
+</table>
+<p>Levels run from 0 to 4. Bands: below 25 Initial, below 50 Developing, below 75 Defined, below 90 Managed, 90 and above Optimizing.</p>
+</body>
+</html>

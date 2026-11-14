@@ -1,0 +1,8 @@
+{
+  "cicd": 2,
+  "data": 2,
+  "governance": 2,
+  "monitoring": 3,
+  "serving": 1,
+  "training": 3
+}
