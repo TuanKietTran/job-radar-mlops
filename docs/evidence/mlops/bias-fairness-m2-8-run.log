@@ -1,0 +1,677 @@
+2026-11-14T20:01:30+0700
+--- mlops.eval.bias ---
+model salary-v1-1.0.0 n=500
+city di_ratio 0.5213 dpd 0.2938 eod_salary 0.0 eod_ranking 0.0412
+industry di_ratio 0.5767 dpd 0.2502 eod_salary 0.0 eod_ranking 0.069
+employment_type di_ratio 0.7124 dpd 0.1598 eod_salary 0.0 eod_ranking 0.038
+flags 5
+flag city disparate impact ratio 0.5213 below 0.8
+flag city demographic parity difference 0.2938 over cap 0.2
+flag industry disparate impact ratio 0.5767 below 0.8
+flag industry demographic parity difference 0.2502 over cap 0.2
+flag employment_type disparate impact ratio 0.7124 below 0.8
+wrote mlops/eval/reports/bias.json
+wrote mlops/eval/reports/bias.md
+--- unittest discover -s mlops/eval/tests ---
+..........................
+----------------------------------------------------------------------
+Ran 26 tests in 0.023s
+
+OK
+--- unittest discover -s mlops ---
+.....................................................................................mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1067e3bc0>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x105b76dc0>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b66c0>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b6180>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b6340>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b5700>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b67a0>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b65e0>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b6500>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b6880>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b6960>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b6a40>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b6c00>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b6ce0>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b6b20>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b6dc0>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b6ea0>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b6f80>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7140>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7220>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7300>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b75a0>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b73e0>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7680>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7760>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7840>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7920>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7ae0>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7bc0>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7a00>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7ca0>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7d80>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106968040>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106968120>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7e60>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:48: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1069682e0>
+  centred = [target - y_mean for target in targets]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.........mlops/training/synthetic.py:128: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7d80>
+  overlap = len(set(candidate['skills']) & set(job['skills'])) / len(job['skills'])
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/synthetic.py:128: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7a00>
+  overlap = len(set(candidate['skills']) & set(job['skills'])) / len(job['skills'])
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/synthetic.py:128: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7760>
+  overlap = len(set(candidate['skills']) & set(job['skills'])) / len(job['skills'])
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/synthetic.py:128: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b73e0>
+  overlap = len(set(candidate['skills']) & set(job['skills'])) / len(job['skills'])
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.registry error: cannot move archived to staging
+.registry error: cannot move dev to production
+.registry error: no such registered version: salary v9
+.mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7680>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7bc0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7060>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7920>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7a00>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7840>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7e60>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b7220>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b6f80>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1068b6dc0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.registry error: cannot move to production without a model card
+.registry error: cannot move to staging without metrics
+......
+----------------------------------------------------------------------
+Ran 106 tests in 5.154s
+
+OK
+bronze: 200 rows into 22 board files in bronze
+silver: bronze 200 rows, dropped invalid 0, dedupe exact 0 fuzzy 0, kept 200 in jobs.db
+gold: salary rows 36, board rows 22, month rows 11 in gold.db
+validate: rows 200 valid 200 passed True report validation.json
+  not_null_job_id: passed 200 failed 0
+  not_null_title: passed 200 failed 0
+  not_null_company: passed 200 failed 0
+  not_null_city: passed 200 failed 0
+  not_null_industry: passed 200 failed 0
+  enum_city: passed 200 failed 0
+  enum_industry: passed 200 failed 0
+  enum_employment_type: passed 200 failed 0
+  salary_ints: passed 200 failed 0
+  salary_min_le_max: passed 200 failed 0
+  salary_range: passed 200 failed 0
+  experience_range: passed 200 failed 0
+  posted_date_range: passed 200 failed 0
+  job_id_unique: passed 1 failed 0
+lineage: lineage.json sources 22 silver rows 200
+bronze: 200 rows into 22 board files in bronze
+silver: bronze 200 rows, dropped invalid 0, dedupe exact 0 fuzzy 0, kept 200 in jobs.db
+gold: salary rows 36, board rows 22, month rows 11 in gold.db
+validate: rows 200 valid 200 passed True report validation.json
+  not_null_job_id: passed 200 failed 0
+  not_null_title: passed 200 failed 0
+  not_null_company: passed 200 failed 0
+  not_null_city: passed 200 failed 0
+  not_null_industry: passed 200 failed 0
+  enum_city: passed 200 failed 0
+  enum_industry: passed 200 failed 0
+  enum_employment_type: passed 200 failed 0
+  salary_ints: passed 200 failed 0
+  salary_min_le_max: passed 200 failed 0
+  salary_range: passed 200 failed 0
+  experience_range: passed 200 failed 0
+  posted_date_range: passed 200 failed 0
+  job_id_unique: passed 1 failed 0
+lineage: lineage.json sources 22 silver rows 200
+bronze: 200 rows into 22 board files in bronze
+silver: bronze 200 rows, dropped invalid 0, dedupe exact 0 fuzzy 0, kept 200 in jobs.db
+gold: salary rows 36, board rows 22, month rows 11 in gold.db
+validate: rows 200 valid 200 passed True report validation.json
+  not_null_job_id: passed 200 failed 0
+  not_null_title: passed 200 failed 0
+  not_null_company: passed 200 failed 0
+  not_null_city: passed 200 failed 0
+  not_null_industry: passed 200 failed 0
+  enum_city: passed 200 failed 0
+  enum_industry: passed 200 failed 0
+  enum_employment_type: passed 200 failed 0
+  salary_ints: passed 200 failed 0
+  salary_min_le_max: passed 200 failed 0
+  salary_range: passed 200 failed 0
+  experience_range: passed 200 failed 0
+  posted_date_range: passed 200 failed 0
+  job_id_unique: passed 1 failed 0
+lineage: lineage.json sources 22 silver rows 200
+bronze: 200 rows into 22 board files in bronze
+silver: bronze 200 rows, dropped invalid 0, dedupe exact 0 fuzzy 0, kept 200 in jobs.db
+gold: salary rows 36, board rows 22, month rows 11 in gold.db
+validate: rows 200 valid 200 passed True report validation.json
+  not_null_job_id: passed 200 failed 0
+  not_null_title: passed 200 failed 0
+  not_null_company: passed 200 failed 0
+  not_null_city: passed 200 failed 0
+  not_null_industry: passed 200 failed 0
+  enum_city: passed 200 failed 0
+  enum_industry: passed 200 failed 0
+  enum_employment_type: passed 200 failed 0
+  salary_ints: passed 200 failed 0
+  salary_min_le_max: passed 200 failed 0
+  salary_range: passed 200 failed 0
+  experience_range: passed 200 failed 0
+  posted_date_range: passed 200 failed 0
+  job_id_unique: passed 1 failed 0
+lineage: lineage.json sources 22 silver rows 200
+bronze: 200 rows into 22 board files in bronze
+silver: bronze 200 rows, dropped invalid 0, dedupe exact 0 fuzzy 0, kept 200 in jobs.db
+gold: salary rows 36, board rows 22, month rows 11 in gold.db
+validate: rows 200 valid 200 passed True report validation.json
+  not_null_job_id: passed 200 failed 0
+  not_null_title: passed 200 failed 0
+  not_null_company: passed 200 failed 0
+  not_null_city: passed 200 failed 0
+  not_null_industry: passed 200 failed 0
+  enum_city: passed 200 failed 0
+  enum_industry: passed 200 failed 0
+  enum_employment_type: passed 200 failed 0
+  salary_ints: passed 200 failed 0
+  salary_min_le_max: passed 200 failed 0
+  salary_range: passed 200 failed 0
+  experience_range: passed 200 failed 0
+  posted_date_range: passed 200 failed 0
+  job_id_unique: passed 1 failed 0
+lineage: lineage.json sources 22 silver rows 200
+validate: rows 200 valid 200 passed True report validation.json
+  not_null_job_id: passed 200 failed 0
+  not_null_title: passed 200 failed 0
+  not_null_company: passed 200 failed 0
+  not_null_city: passed 200 failed 0
+  not_null_industry: passed 200 failed 0
+  enum_city: passed 200 failed 0
+  enum_industry: passed 200 failed 0
+  enum_employment_type: passed 200 failed 0
+  salary_ints: passed 200 failed 0
+  salary_min_le_max: passed 200 failed 0
+  salary_range: passed 200 failed 0
+  experience_range: passed 200 failed 0
+  posted_date_range: passed 200 failed 0
+  job_id_unique: passed 1 failed 0
+drift: alert field=salary psi=8.2831 ks=1.0
+drift: ok salary psi=0.0 ks=0.0
+report: wrote /var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpypd1d7vh/reports/report.md and /var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpypd1d7vh/reports/report.json
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpjb19a4az/salary/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+registered salary v1 at stage dev
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmp0xu3wprc/salary/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmp0d1g3gi7/salary/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+evaluated salary: {"mae": 1480565.7434983717, "rmse": 1927272.7578420378, "rows": 120}
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmp9zi9wue6/salary/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+trained ranking: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmp9zi9wue6/ranking/model.json metrics={"mae": 0.025066695872721943, "precision_at_10": 0.34500000000000003, "queries": 20}
+trained match: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmp9zi9wue6/match/model.json metrics={"accuracy": 0.9625, "f1": 0.9662921348314606, "precision": 0.9347826086956522, "recall": 1.0, "rows": 80, "threshold": 0.3}
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpve1bf8l9/artifact/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+registered salary v1 at stage dev
+registered salary v2 at stage dev
+promoted salary v1 to archived
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpjuexpur6/artifact/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+registered salary v1 at stage dev
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpy3oy7aj7/artifact/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+registered salary v1 at stage dev
+[
+  {
+    "metrics": {
+      "mae": 2107084.5257877572,
+      "rmse": 2717867.8312313054,
+      "rows": 120,
+      "test_rows": 24
+    },
+    "model": "salary",
+    "stage": "dev",
+    "version": "v1"
+  }
+]
+{
+  "kind": "linear_regression",
+  "model": "salary",
+  "path": "/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpy3oy7aj7/models/salary/v1/model.json",
+  "stage": "dev",
+  "version": "v1"
+}
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpwb7e0rqn/artifact/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+registered salary v1 at stage dev
+promoted salary v1 to staging
+promoted salary v1 to production
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmplxdue9ns/artifact/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+registered salary v1 at stage dev
+promoted salary v1 to staging
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpxgnyadf4/artifact/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+registered salary v1 at stage dev
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmp3skl5pmk/artifact/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+registered salary v1 at stage dev
+--- unittest discover root ---
+................................../opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1063fadc0>
+  return drv, root, [x for x in rel.split(sep) if x and x != '.']
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10705b760>
+  return drv, root, [x for x in rel.split(sep) if x and x != '.']
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10705b4c0>
+  return drv, root, [x for x in rel.split(sep) if x and x != '.']
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10705b680>
+  return drv, root, [x for x in rel.split(sep) if x and x != '.']
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10705b840>
+  return drv, root, [x for x in rel.split(sep) if x and x != '.']
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106034040>
+  return drv, root, [x for x in rel.split(sep) if x and x != '.']
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10718fbc0>
+  return drv, root, [x for x in rel.split(sep) if x and x != '.']
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071ff920>
+  return drv, root, [x for x in rel.split(sep) if x and x != '.']
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071fea40>
+  return drv, root, [x for x in rel.split(sep) if x and x != '.']
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071ff3e0>
+  return drv, root, [x for x in rel.split(sep) if x and x != '.']
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071fedc0>
+  return drv, root, [x for x in rel.split(sep) if x and x != '.']
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071ff5a0>
+  return drv, root, [x for x in rel.split(sep) if x and x != '.']
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/pathlib/__init__.py:301: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071fe960>
+  return drv, root, [x for x in rel.split(sep) if x and x != '.']
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.....................................................mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x105fab300>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10718fca0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10718fbc0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10705b840>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10705b680>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10705b4c0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10705b760>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071ff680>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071fe880>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071ff760>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071fe960>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071ff5a0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071fedc0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071fea40>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071ff920>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071ff3e0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071ffbc0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x107344200>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1073442e0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1073444a0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1073443c0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x107344660>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x107345a80>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x107345c40>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x107345fc0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.......mlops/training/synthetic.py:128: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106034040>
+  overlap = len(set(candidate['skills']) & set(job['skills'])) / len(job['skills'])
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.registry error: cannot move archived to staging
+.registry error: cannot move dev to production
+.registry error: no such registered version: salary v9
+.mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071ffa00>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x106034040>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1063fadc0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071ffbc0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071ff920>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x1071ff760>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10705b4c0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10705b760>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10718fbc0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10718fca0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+mlops/training/linear.py:46: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x107345fc0>
+  standardised = [[(row[j] - means[j]) / stds[j] for j in range(n_features)] for row in rows]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.registry error: cannot move to production without a model card
+.registry error: cannot move to staging without metrics
+......E
+======================================================================
+ERROR: ops.observability.tests.test_observability (unittest.loader._FailedTest.ops.observability.tests.test_observability)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: ops.observability.tests.test_observability
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/unittest/loader.py", line 433, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/unittest/loader.py", line 374, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "ops/observability/tests/test_observability.py", line 7, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'. Did you mean: 'test'?
+
+
+----------------------------------------------------------------------
+Ran 107 tests in 5.526s
+
+FAILED (errors=1)
+bronze: 200 rows into 22 board files in bronze
+silver: bronze 200 rows, dropped invalid 0, dedupe exact 0 fuzzy 0, kept 200 in jobs.db
+gold: salary rows 36, board rows 22, month rows 11 in gold.db
+validate: rows 200 valid 200 passed True report validation.json
+  not_null_job_id: passed 200 failed 0
+  not_null_title: passed 200 failed 0
+  not_null_company: passed 200 failed 0
+  not_null_city: passed 200 failed 0
+  not_null_industry: passed 200 failed 0
+  enum_city: passed 200 failed 0
+  enum_industry: passed 200 failed 0
+  enum_employment_type: passed 200 failed 0
+  salary_ints: passed 200 failed 0
+  salary_min_le_max: passed 200 failed 0
+  salary_range: passed 200 failed 0
+  experience_range: passed 200 failed 0
+  posted_date_range: passed 200 failed 0
+  job_id_unique: passed 1 failed 0
+lineage: lineage.json sources 22 silver rows 200
+bronze: 200 rows into 22 board files in bronze
+silver: bronze 200 rows, dropped invalid 0, dedupe exact 0 fuzzy 0, kept 200 in jobs.db
+gold: salary rows 36, board rows 22, month rows 11 in gold.db
+validate: rows 200 valid 200 passed True report validation.json
+  not_null_job_id: passed 200 failed 0
+  not_null_title: passed 200 failed 0
+  not_null_company: passed 200 failed 0
+  not_null_city: passed 200 failed 0
+  not_null_industry: passed 200 failed 0
+  enum_city: passed 200 failed 0
+  enum_industry: passed 200 failed 0
+  enum_employment_type: passed 200 failed 0
+  salary_ints: passed 200 failed 0
+  salary_min_le_max: passed 200 failed 0
+  salary_range: passed 200 failed 0
+  experience_range: passed 200 failed 0
+  posted_date_range: passed 200 failed 0
+  job_id_unique: passed 1 failed 0
+lineage: lineage.json sources 22 silver rows 200
+bronze: 200 rows into 22 board files in bronze
+silver: bronze 200 rows, dropped invalid 0, dedupe exact 0 fuzzy 0, kept 200 in jobs.db
+gold: salary rows 36, board rows 22, month rows 11 in gold.db
+validate: rows 200 valid 200 passed True report validation.json
+  not_null_job_id: passed 200 failed 0
+  not_null_title: passed 200 failed 0
+  not_null_company: passed 200 failed 0
+  not_null_city: passed 200 failed 0
+  not_null_industry: passed 200 failed 0
+  enum_city: passed 200 failed 0
+  enum_industry: passed 200 failed 0
+  enum_employment_type: passed 200 failed 0
+  salary_ints: passed 200 failed 0
+  salary_min_le_max: passed 200 failed 0
+  salary_range: passed 200 failed 0
+  experience_range: passed 200 failed 0
+  posted_date_range: passed 200 failed 0
+  job_id_unique: passed 1 failed 0
+lineage: lineage.json sources 22 silver rows 200
+bronze: 200 rows into 22 board files in bronze
+silver: bronze 200 rows, dropped invalid 0, dedupe exact 0 fuzzy 0, kept 200 in jobs.db
+gold: salary rows 36, board rows 22, month rows 11 in gold.db
+validate: rows 200 valid 200 passed True report validation.json
+  not_null_job_id: passed 200 failed 0
+  not_null_title: passed 200 failed 0
+  not_null_company: passed 200 failed 0
+  not_null_city: passed 200 failed 0
+  not_null_industry: passed 200 failed 0
+  enum_city: passed 200 failed 0
+  enum_industry: passed 200 failed 0
+  enum_employment_type: passed 200 failed 0
+  salary_ints: passed 200 failed 0
+  salary_min_le_max: passed 200 failed 0
+  salary_range: passed 200 failed 0
+  experience_range: passed 200 failed 0
+  posted_date_range: passed 200 failed 0
+  job_id_unique: passed 1 failed 0
+lineage: lineage.json sources 22 silver rows 200
+bronze: 200 rows into 22 board files in bronze
+silver: bronze 200 rows, dropped invalid 0, dedupe exact 0 fuzzy 0, kept 200 in jobs.db
+gold: salary rows 36, board rows 22, month rows 11 in gold.db
+validate: rows 200 valid 200 passed True report validation.json
+  not_null_job_id: passed 200 failed 0
+  not_null_title: passed 200 failed 0
+  not_null_company: passed 200 failed 0
+  not_null_city: passed 200 failed 0
+  not_null_industry: passed 200 failed 0
+  enum_city: passed 200 failed 0
+  enum_industry: passed 200 failed 0
+  enum_employment_type: passed 200 failed 0
+  salary_ints: passed 200 failed 0
+  salary_min_le_max: passed 200 failed 0
+  salary_range: passed 200 failed 0
+  experience_range: passed 200 failed 0
+  posted_date_range: passed 200 failed 0
+  job_id_unique: passed 1 failed 0
+lineage: lineage.json sources 22 silver rows 200
+validate: rows 200 valid 200 passed True report validation.json
+  not_null_job_id: passed 200 failed 0
+  not_null_title: passed 200 failed 0
+  not_null_company: passed 200 failed 0
+  not_null_city: passed 200 failed 0
+  not_null_industry: passed 200 failed 0
+  enum_city: passed 200 failed 0
+  enum_industry: passed 200 failed 0
+  enum_employment_type: passed 200 failed 0
+  salary_ints: passed 200 failed 0
+  salary_min_le_max: passed 200 failed 0
+  salary_range: passed 200 failed 0
+  experience_range: passed 200 failed 0
+  posted_date_range: passed 200 failed 0
+  job_id_unique: passed 1 failed 0
+drift: alert field=salary psi=8.2831 ks=1.0
+drift: ok salary psi=0.0 ks=0.0
+report: wrote /var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpd9vd0fhn/reports/report.md and /var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpd9vd0fhn/reports/report.json
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmp_uddumaq/salary/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+registered salary v1 at stage dev
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmp6ckl95mt/salary/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpjhzusg1e/salary/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+evaluated salary: {"mae": 1480565.7434983717, "rmse": 1927272.7578420378, "rows": 120}
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmp3_lpnb2p/salary/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+trained ranking: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmp3_lpnb2p/ranking/model.json metrics={"mae": 0.025066695872721943, "precision_at_10": 0.34500000000000003, "queries": 20}
+trained match: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmp3_lpnb2p/match/model.json metrics={"accuracy": 0.9625, "f1": 0.9662921348314606, "precision": 0.9347826086956522, "recall": 1.0, "rows": 80, "threshold": 0.3}
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpeom3d4mv/artifact/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+registered salary v1 at stage dev
+registered salary v2 at stage dev
+promoted salary v1 to archived
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpyqyuw9a2/artifact/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+registered salary v1 at stage dev
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpdrpnih_7/artifact/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+registered salary v1 at stage dev
+[
+  {
+    "metrics": {
+      "mae": 2107084.5257877572,
+      "rmse": 2717867.8312313054,
+      "rows": 120,
+      "test_rows": 24
+    },
+    "model": "salary",
+    "stage": "dev",
+    "version": "v1"
+  }
+]
+{
+  "kind": "linear_regression",
+  "model": "salary",
+  "path": "/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpdrpnih_7/models/salary/v1/model.json",
+  "stage": "dev",
+  "version": "v1"
+}
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpfwqdrv4l/artifact/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+registered salary v1 at stage dev
+promoted salary v1 to staging
+promoted salary v1 to production
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpnhbvxz62/artifact/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+registered salary v1 at stage dev
+promoted salary v1 to staging
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmpe1t9aeo4/artifact/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+registered salary v1 at stage dev
+trained salary: model=/var/folders/9l/02yf95314nq1n2gtb78g5nbh0000gn/T/tmp3a2nqj4h/artifact/model.json metrics={"mae": 2107084.5257877572, "rmse": 2717867.8312313054, "rows": 120, "test_rows": 24}
+registered salary v1 at stage dev
