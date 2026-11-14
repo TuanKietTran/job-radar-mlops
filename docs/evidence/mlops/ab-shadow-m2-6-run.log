@@ -1,0 +1,34 @@
+A accuracy 0.85 mean_latency_ms 12 wins 0
+B accuracy 1.0 mean_latency_ms 18 wins 3
+winner B
+wrote mlops/eval/data/ab/results.csv
+wrote mlops/eval/data/ab/summary.json
+served accuracy 0.85
+shadow accuracy 1.0
+divergences 3
+wrote mlops/eval/data/shadow/divergences.csv
+wrote mlops/eval/data/shadow/summary.json
+test_exact_tie_reports_tie (test_ab.TestAb.test_exact_tie_reports_tie) ... ok
+test_rerun_produces_identical_results_hash (test_ab.TestAb.test_rerun_produces_identical_results_hash) ... ok
+test_tie_breaks_on_lower_latency (test_ab.TestAb.test_tie_breaks_on_lower_latency) ... ok
+test_winner_b_with_known_values (test_ab.TestAb.test_winner_b_with_known_values) ... ok
+test_card_approval_reflects_verdict (test_cards.TestCards.test_card_approval_reflects_verdict) ... ok
+test_card_contains_metrics_and_limitations (test_cards.TestCards.test_card_contains_metrics_and_limitations) ... ok
+test_card_without_eval_reports_no_eval (test_cards.TestCards.test_card_without_eval_reports_no_eval) ... ok
+test_bad_challenger_fails_regression_gate (test_gates.TestGates.test_bad_challenger_fails_regression_gate) ... ok
+test_good_challenger_passes (test_gates.TestGates.test_good_challenger_passes) ... ok
+test_missing_fairness_report_fails (test_gates.TestGates.test_missing_fairness_report_fails) ... ok
+test_small_sample_fails (test_gates.TestGates.test_small_sample_fails) ... ok
+test_evaluate_matches_hand_computed_values (test_harness.TestHarness.test_evaluate_matches_hand_computed_values) ... ok
+test_ndcg_at_k_penalises_wrong_order (test_harness.TestHarness.test_ndcg_at_k_penalises_wrong_order) ... ok
+test_precision_at_k_counts_grades_two_and_up (test_harness.TestHarness.test_precision_at_k_counts_grades_two_and_up) ... ok
+test_rank_ties_break_by_job_id (test_harness.TestHarness.test_rank_ties_break_by_job_id) ... ok
+test_divergences_are_candidate_correct_rows (test_shadow.TestShadow.test_divergences_are_candidate_correct_rows) ... ok
+test_identical_candidate_has_no_divergences (test_shadow.TestShadow.test_identical_candidate_has_no_divergences) ... ok
+test_no_shadow_reports_none (test_simulate.TestSimulate.test_no_shadow_reports_none) ... ok
+test_shadow_never_changes_the_served_arm (test_simulate.TestSimulate.test_shadow_never_changes_the_served_arm) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.008s
+
+OK
