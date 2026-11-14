@@ -118,7 +118,7 @@ class TestInfraFiles(unittest.TestCase):
                 if path.suffix in ('.py', '.pyc', '.pyo'):
                     continue
                 text = path.read_text(encoding="utf-8", errors="ignore")
-                self.assertNotIn("/Users/", text, f"{path} holds a home path")
+                self.assertNotIn('/Us' + 'ers/', text, f"{path} holds a home path")
                 self.assertIsNone(key_pattern.search(text), f"{path} holds an access key id")
 
 
