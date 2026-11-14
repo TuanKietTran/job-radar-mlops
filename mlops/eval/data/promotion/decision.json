@@ -1,0 +1,11 @@
+{
+  "decision": "keep champion",
+  "champion": "salary-v1-1.0.0",
+  "challenger": "salary-v1-1.0.0",
+  "gates_verdict": "FAIL",
+  "recommendation": "recommend: keep champion; no material difference",
+  "failing_gates": [
+    "fairness_selection_rate_gap"
+  ],
+  "model": "salary-v1-1.0.0"
+}
