@@ -314,6 +314,82 @@
         "summary": "Get Job"
       }
     },
+    "/api/jobs/{job_id}/clicks": {
+      "get": {
+        "description": "Return the number of logged redirect clicks for one job.",
+        "operationId": "job_clicks_api_jobs__job_id__clicks_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "job_id",
+            "required": true,
+            "schema": {
+              "title": "Job Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Job Clicks"
+      }
+    },
+    "/api/jobs/{job_id}/redirect": {
+      "get": {
+        "description": "Redirect to the job original posting URL and log one click.",
+        "operationId": "redirect_job_by_id_api_jobs__job_id__redirect_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "job_id",
+            "required": true,
+            "schema": {
+              "title": "Job Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Redirect Job By Id"
+      }
+    },
     "/api/redirect/{job_id}": {
       "get": {
         "operationId": "redirect_job_api_redirect__job_id__get",
