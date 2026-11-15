@@ -1,0 +1,9 @@
+{
+  "source": "remoteok",
+  "api_url": "https://remoteok.com/api",
+  "fetched_at": "2026-11-15",
+  "full_page_items": 97,
+  "excerpt_items": 3,
+  "excerpt": "Global Partnerships BD Lead at Fuku in Paris, Software Engineer AI Tooling at Supabase with no location, Accountant at Serve Robotics in los angeles with a $90000-$110000 salary",
+  "note": "Excerpt of the live API JSON for offline tests. Adapter output records carry a short snippet only, never the full description."
+}
