@@ -1,6 +1,6 @@
 'use strict';
 var RATES_DATE = '2026-11-14';
-var RATES_NOTE = 'Muc theo brief w-a-4 / worker 3: giam tru ban than 11 trieu, phu thuoc 4,4 trieu; thue 7 bac; BHXH 8%, BHYT 1,5%, BHTN 1%.';
+var RATES_NOTE = 'Muc theo brief cong cu luong / worker 3: giam tru ban than 11 trieu, phu thuoc 4,4 trieu; thue 7 bac; BHXH 8%, BHYT 1,5%, BHTN 1%.';
 var BASE_SALARY = 2340000;
 var BHXH_BHYT_CAP = 46800000;
 var MIN_WAGE_REGION_1 = 4960000;

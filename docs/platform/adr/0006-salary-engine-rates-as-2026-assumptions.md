@@ -8,9 +8,9 @@ Decided
 
 Salary handling in the repo covers parsing and filtering only. services/ingest/normalize.py parse_salary treats salary text as monthly gross VND. It parses ranges, rejects non-VND text, rejects inverted ranges, and stores the result as salary_min_vnd and salary_max_vnd with salary_currency VND. services/api/app.py filters by range overlap in _matches_salary. The canonical schema stores gross monthly VND and nothing else about pay.
 
-A gross-to-net calculator now exists on main, merged as 94f4bae (plat/w-a-3-salary, 7 files): services/salary/salary_engine.py, 251 lines, with services/salary/README.md, services/salary/cli.py, services/salary/examples.md, and services/salary/tests/test_salary_engine.py. The engine is pure standard library Python, all money is integer VND per month, and its constants are the single place where the caps and rates live.
+A gross-to-net calculator now exists on main, merged as 94f4bae (7 files): services/salary/salary_engine.py, 251 lines, with services/salary/README.md, services/salary/cli.py, services/salary/examples.md, and services/salary/tests/test_salary_engine.py. The engine is pure standard library Python, all money is integer VND per month, and its constants are the single place where the caps and rates live.
 
-The salary tools UI is not part of this decision. Branch plat/w-c-3-tools holds tests/tools/SALARY_API_CONTRACT.md and tests/tools/stub_salary_api.py, while web/tools (gross-to-net.html, social-insurance.html, unemployment-benefit.html, plus index.html, tools.css, tools.js, validation.test.mjs) is still uncommitted in wt/w-c-3 and the stub is modified uncommitted. That UI stays proposed until it is committed, merged, and checked against this engine.
+The salary tools UI is not part of this decision. The salary tools branch holds tests/tools/SALARY_API_CONTRACT.md and tests/tools/stub_salary_api.py, while web/tools (gross-to-net.html, social-insurance.html, unemployment-benefit.html, plus index.html, tools.css, tools.js, validation.test.mjs) is still uncommitted in a local checkout and the stub is modified uncommitted. That UI stays proposed until it is committed, merged, and checked against this engine.
 
 ## Decision
 

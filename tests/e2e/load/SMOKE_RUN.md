@@ -4,11 +4,11 @@ Recorded 2026-11-14 18:22 ICT, Locust 2.47.0, 30 s, 10 users, spawn rate 10/s.
 
 ## Setup
 
-- Server: w-c-4 services/api/app.py served by the w-a-2 venv uvicorn 0.54.0 on http://127.0.0.1:8001
+- Server: services/api/app.py served by the search API venv uvicorn 0.54.0 on http://127.0.0.1:8001
 - Data: data/processed/jobs.json is absent, so the app fell back to services/api/tests/fixtures/sample-jobs.json, 14 jobs. Verified before the run: GET /health returned status ok, GET /api/jobs returned total 14.
-- Port note: the README load run uses port 8000, but 8000 was already in use by the w-a-2 API server (PID 40888), so this run used port 8001 with --host http://127.0.0.1:8001. The w-a-2 server was left running.
+- Port note: the README load run uses port 8000, but 8000 was already in use by the search API server (PID 40888), so this run used port 8001 with --host http://127.0.0.1:8001. The search API server was left running.
 - Command: /tmp/wc4-venv/bin/locust -f tests/e2e/load/locustfile.py --headless -u 10 -r 10 -t 30s --host http://127.0.0.1:8001
-- Locust ran from /tmp/wc4-venv (Locust 2.47.0). That venv has no uvicorn, which is why the server ran from the w-a-2 venv instead.
+- Locust ran from /tmp/wc4-venv (Locust 2.47.0). That venv has no uvicorn, which is why the server ran from the search API venv instead.
 
 ## Results
 

@@ -2,7 +2,7 @@
 
 Field definitions for the data this repo holds. All values are synthetic and invented; no real company or personal data appears anywhere. Salary figures are monthly gross VND. Dates use ISO format (YYYY-MM-DD).
 
-Sources: canonical job schema in briefs/w-a-1.md, fixture services/api/tests/fixtures/sample-jobs.json, schemas services/ingest/schema/sqlite_schema.sql and postgres_schema.sql, dedupe in services/ingest/dedupe.py, companies in web/pages-extra/data/companies.json, logging in ops/observability/logging.py and tracing in ops/observability/tracing.py.
+Sources: canonical job schema in the search API brief, fixture services/api/tests/fixtures/sample-jobs.json, schemas services/ingest/schema/sqlite_schema.sql and postgres_schema.sql, dedupe in services/ingest/dedupe.py, companies in web/pages-extra/data/companies.json, logging in ops/observability/logging.py and tracing in ops/observability/tracing.py.
 
 ## Jobs: canonical job record
 

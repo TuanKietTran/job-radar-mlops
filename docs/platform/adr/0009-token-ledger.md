@@ -6,7 +6,7 @@ Proposed
 
 ## Context
 
-No token ledger code exists on main at 7ef6012, and services/ai does not exist on main. A FastAPI AI assistant service exists on branch plat/w-a-5-ai at 0e95267, unmerged, with a persisted ledger and a 402 response at zero balance for AI calls. The ledger fields are not pinned in the data dictionary yet, and no token pricing is recorded anywhere in the repo.
+No token ledger code exists on main at 7ef6012, and services/ai does not exist on main. A FastAPI AI assistant service exists on an unmerged branch at 0e95267, with a persisted ledger and a 402 response at zero balance for AI calls. The ledger fields are not pinned in the data dictionary yet, and no token pricing is recorded anywhere in the repo.
 
 ## Decision
 

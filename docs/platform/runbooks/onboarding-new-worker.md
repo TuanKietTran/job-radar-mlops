@@ -41,4 +41,4 @@ Work only in that worktree, and only in the assigned subtree. Never touch anothe
 
 ## Where to get help
 
-The manager is mz-managers-1. A question about the assignment goes to the manager with the brief section it concerns and the file it touches. A question about another worker subtree goes to that worker owner, not to a file edit in their subtree.
+Contact the manager. A question about the assignment goes to the manager with the brief section it concerns and the file it touches. A question about another worker subtree goes to that worker owner, not to a file edit in their subtree.

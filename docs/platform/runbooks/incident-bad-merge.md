@@ -9,7 +9,7 @@ Recover main after a merge that breaks tests, brings in the wrong subtree or mer
 1. Stop. Do not merge a second branch and do not push while the incident is open.
 2. Identify the merge commit with git log --oneline --merges, and list what it touched with git show --stat on that commit.
 3. Identify the scope: which subtree changed, which area tests fail, and whether main still starts. Run the failing area tests from the verify failure triage runbook and keep the output.
-4. Tell the manager, mz-managers-1, with the merge commit hash, the scope and the failing test output. Do not wait for a fix to report the incident.
+4. Tell the manager with the merge commit hash, the scope and the failing test output. Do not wait for a fix to report the incident.
 
 ## Choose the recovery
 

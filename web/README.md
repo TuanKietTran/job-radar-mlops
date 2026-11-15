@@ -22,7 +22,7 @@ Static prototype: tong hop tin tuyen dung Viet Nam, so sanh luong gross va net t
 
 ## Salary rates
 
-- Muc theo brief w-a-4, giong worker 3: giam tru ban than 11 trieu, phu thuoc 4,4 trieu; thue 7 bac luy tien; BHXH 8%, BHYT 1,5%, BHTN 1%.
+- Muc theo brief cong cu luong, giong worker 3: giam tru ban than 11 trieu, phu thuoc 4,4 trieu; thue 7 bac luy tien; BHXH 8%, BHYT 1,5%, BHTN 1%.
 - Tran BHXH/BHYT 46,8 trieu (20 x luong co so 2,34 trieu). Tran BHTN 99,2 trieu (20 x luong toi thieu vung I 4,96 trieu).
 - Tro cap that nghiep: 60% luong binh quan 6 thang gan nhat, toi da 5 x luong toi thieu vung I (24,8 trieu). Huong 3 thang neu dong 12-35 thang, +1 thang cho moi 12 thang them sau 36 thang, toi da 12 thang.
 - Trang tools ghi ngay ap dung muc: 2026-11-14.

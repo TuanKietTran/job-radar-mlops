@@ -2,7 +2,7 @@
 
 This contract describes the HTTP surface for the Vietnam
 gross-to-net salary engine. The function signatures and the rates
-are identical to briefs/w-a-3.md, rates dated 2026-11-14.
+are identical to the salary brief, rates dated 2026-11-14.
 
 Status: stub only. tests/tools/stub_salary_api.py implements this
 contract for local testing until services/salary lands on main.
@@ -74,7 +74,7 @@ Request:
 }
 ```
 
-Response 200, identical in shape to `salary_breakdown` in w-a-3:
+Response 200, identical in shape to `salary_breakdown` in the salary engine:
 
 ```json
 {
@@ -137,13 +137,13 @@ Response 200:
 ```
 
 The returned net is within 1000 VND of `target_net`, matching
-`net_to_gross` in w-a-3.
+`net_to_gross` in the salary engine.
 
 ## POST /api/salary/social-insurance
 
 Request: `{"gross": 30000000}`
 
-Response 200, identical in shape to `social_insurance` in w-a-3:
+Response 200, identical in shape to `social_insurance` in the salary engine:
 
 ```json
 {
@@ -162,7 +162,7 @@ Response 200, identical in shape to `social_insurance` in w-a-3:
 
 Request: `{"gross": 30000000}`
 
-Response 200, identical in shape to `unemployment_insurance` in w-a-3:
+Response 200, identical in shape to `unemployment_insurance` in the salary engine:
 
 ```json
 {
@@ -185,7 +185,7 @@ Request:
 ```
 
 Response 200, identical in shape to `unemployment_benefit_estimate`
-in w-a-3:
+in the salary engine:
 
 ```json
 {
