@@ -1,6 +1,6 @@
 # Job radar
 
-One public repo holding ingest, search, static web pages, guides and MLOps work. All data is synthetic. No real board is contacted and no real listing is copied.
+One public repo holding ingest, search, static web pages and MLOps work. All data is synthetic. No real board is contacted and no real listing is copied.
 
 ## Quickstart
 
@@ -19,11 +19,10 @@ Check it with `curl http://127.0.0.1:8000/health`. Expected reply: `{"status": "
 Static pages:
 
 ```
-python3 web/guides/generate.py
 python3 web/pages-extra/generate.py
 ```
 
-Both generators use the standard library only. Serve the output with any static file server.
+The generator uses the standard library only. Serve the output with any static file server.
 
 MLOps, from the repo root with seed 42:
 
@@ -45,12 +44,12 @@ python3 -m mlops.training.train --model salary --n 500 --seed 42 --out mlops/tra
 %% All data is synthetic. No real board is contacted and no real listing is copied.
 C4Context
 title System context for the job radar platform
-Person(job_seeker, 'Job seeker', 'Searches synthetic job listings and reads career guides')
+Person(job_seeker, 'Job seeker', 'Searches synthetic job listings')
 Person(worker, 'Platform worker', 'Runs ingest and the search API locally from a checkout')
-System(job_radar, 'Job radar platform', 'One public repo holding ingest, search, static web pages, guides and MLOps work')
+System(job_radar, 'Job radar platform', 'One public repo holding ingest, search, static web pages and MLOps work')
 System_Ext(fixtures, 'Synthetic fixtures', 'Invented boards and jobs under data fixtures boards, 22 boards and 228 canonical jobs')
 System_Ext(static_host, 'Static host', 'Any static host serving the generated HTML pages')
-Rel(job_seeker, job_radar, 'Searches listings and reads guides')
+Rel(job_seeker, job_radar, 'Searches listings')
 Rel(worker, job_radar, 'Runs ingest, search and page generation locally')
 Rel(job_radar, fixtures, 'Reads invented fixtures only')
 Rel(job_radar, static_host, 'Publishes generated HTML pages to')
@@ -69,14 +68,12 @@ MLOps serving: HTTP on 127.0.0.1 port 8001, endpoints /health, /models, /predict
 
 Observability demo: `sh ops/observability/demo/run_demo.sh` starts a synthetic job listings app on port 18080 and records the observed output in ops/observability/demo/SMOKE.md.
 
-## Guides
+## Pages
 
-The guides generator reads Markdown articles from web/guides/articles and writes index.html, search.html, search.json and one page per article. The pages-extra generator reads data/companies.json and writes the site under web/pages-extra/site.
+The pages-extra generator reads data/companies.json and writes the site under web/pages-extra/site.
 
 ### Screenshots
 
-![Guides index](docs/platform/screenshots/web__guides__dist__index.png)
-![Guide article](docs/platform/screenshots/web__guides__dist__cau-truc-cv.png)
 ![Pages index](docs/platform/screenshots/web__pages-extra__site__index.png)
 ![Company page](docs/platform/screenshots/web__pages-extra__site__companies__an-nhien-systems.png)
 ![City page](docs/platform/screenshots/web__pages-extra__site__cities__ho-chi-minh-city.png)

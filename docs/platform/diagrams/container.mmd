@@ -3,9 +3,9 @@
 %% ADR 0008, ADR 0010, ADR 0012. Proposed items are labelled proposed.
 C4Container
 title Container diagram for the job radar platform
-Person(job_seeker, 'Job seeker', 'Searches synthetic job listings and reads career guides')
+Person(job_seeker, 'Job seeker', 'Searches synthetic job listings')
 System_Boundary(job_radar, 'Job radar platform') {
-Container(web_pages, 'Static web pages', 'Plain HTML and CSS, standard library Python generators', 'Guides from web guides and company pages from web pages-extra, with search backed by search.json')
+Container(web_pages, 'Static web pages', 'Plain HTML and CSS, standard library Python generators', 'Company pages from web pages-extra, with search backed by search.json')
 Container(search_api, 'Search API', 'FastAPI served by uvicorn on port 8000', 'Serves health, jobs, one job, redirect and filters over canonical jobs')
 Container(ingest, 'Ingest pipeline', 'Standard library Python', 'Normalizes fixtures, dedupes postings and loads the local store')
 Container(salary, 'Salary engine', 'Standard library Python', 'Gross to net calculator using 2026 assumptions only, integer VND per month')
@@ -24,7 +24,7 @@ Rel(ingest, doc_store, 'Writes verbatim raw payloads')
 Rel(ingest, sqlite_store, 'Writes canonical jobs and raw payload mirror')
 Rel(ingest, canonical_jobs, 'Writes canonical jobs and the dedupe report')
 Rel(search_api, canonical_jobs, 'Reads canonical jobs, falls back to the sample fixture')
-Rel(web_pages, canonical_jobs, 'Company pages read data companies.json, guides read articles')
+Rel(web_pages, canonical_jobs, 'Company pages read data companies.json')
 Rel(search_api, observability, 'Emits logs, traces and metrics')
 Rel(ingest, observability, 'Emits logs, traces and metrics')
 UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")

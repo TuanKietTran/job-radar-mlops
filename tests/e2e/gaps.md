@@ -28,7 +28,7 @@ Every missing control found while writing tests/e2e, with its owner.
 
 - Path: web/index.html
 - Owner: brief w-a-4
-- Note: web/ holds guides and pages-extra only. The Playwright journey
+- Note: web/ holds pages-extra only. The Playwright journey
   in ui/test_journey.py is skipped at module level with this reason.
 
 ## Unknown remote value returns empty results, not 422

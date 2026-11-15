@@ -3,7 +3,7 @@
 %% The API is a small read path over canonical jobs with no database at request time.
 C4Component
 title Component diagram for the search API
-Person(job_seeker, 'Job seeker', 'Searches synthetic job listings and reads career guides')
+Person(job_seeker, 'Job seeker', 'Searches synthetic job listings')
 Container_Boundary(search_api, 'Search API, FastAPI served by uvicorn on port 8000') {
 Component(main_entry, 'Main entry', 'services api main.py', 'Runs uvicorn on host 0.0.0.0 port 8000')
 Component(create_app, 'Create app', 'services api app.py create_app', 'Builds the FastAPI app titled Job radar API and loads the job list once')

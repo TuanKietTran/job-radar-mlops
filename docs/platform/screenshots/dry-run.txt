@@ -1,9 +1,7 @@
 screenshots dry run
 playwright: absent
 missing page dirs: none
-pages: 6
-web/guides/dist/index.html
-web/guides/dist/cau-truc-cv.html
+pages: 4
 web/pages-extra/site/index.html
 web/pages-extra/site/companies/an-nhien-systems.html
 web/pages-extra/site/cities/ho-chi-minh-city.html
