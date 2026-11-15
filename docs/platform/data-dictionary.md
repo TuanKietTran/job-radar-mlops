@@ -2,7 +2,7 @@
 
 Field definitions for the data this repo holds. All values are synthetic and invented; no real company or personal data appears anywhere. Salary figures are monthly gross VND. Dates use ISO format (YYYY-MM-DD).
 
-Sources: canonical job schema in briefs/w-a-1.md, fixture services/api/tests/fixtures/sample-jobs.json, schemas services/ingest/schema/sqlite_schema.sql and postgres_schema.sql, dedupe in services/ingest/dedupe.py, companies in web/pages-extra/data/companies.json, guides in web/guides/articles/, logging in ops/observability/logging.py and tracing in ops/observability/tracing.py.
+Sources: canonical job schema in briefs/w-a-1.md, fixture services/api/tests/fixtures/sample-jobs.json, schemas services/ingest/schema/sqlite_schema.sql and postgres_schema.sql, dedupe in services/ingest/dedupe.py, companies in web/pages-extra/data/companies.json, logging in ops/observability/logging.py and tracing in ops/observability/tracing.py.
 
 ## Jobs: canonical job record
 
@@ -73,18 +73,6 @@ Written by services/ingest/dedupe.py. A pair is a duplicate when all three gates
 | threshold | number | Similarity threshold, 0.85 | Dedupe run |
 | num_permutations | int | Number of MinHash permutations, 128 | Dedupe run |
 | pairs | list | Duplicate matches; each pair records the kept job id, the duplicate job id, and the minhash_similarity, jaccard, and jaccard_title_company_city scores that triggered the match | Dedupe run |
-
-## Guides: web/guides/articles/*.md
-
-Vietnamese-language career articles. The file name is the article slug. Each file has front matter followed by a Markdown body.
-
-| Field | Type | Meaning | Source |
-| --- | --- | --- | --- |
-| title | string | Article title, for example Cấu trúc của một CV | Front matter |
-| topic | string | Topic label, for example CV | Front matter |
-| date | date | Publication date, ISO format | Front matter |
-| tags | string | Comma-separated tags, for example cv, ung-tuyen | Front matter |
-| body | markdown | Article text | File body |
 
 ## Log events: JSON lines from ops/observability/logging.py
 

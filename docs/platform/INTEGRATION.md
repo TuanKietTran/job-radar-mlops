@@ -43,7 +43,7 @@ Five runbooks cover the local run, make verify failure triage, release to the pu
 
 ## Data dictionary
 
-The data dictionary mirrors the canonical job schema from services/api/tests/fixtures/sample-jobs.json and briefs/w-a-1.md, plus company, guide, tool, token ledger and observability event fields. Every field lists name, type, meaning and source.
+The data dictionary mirrors the canonical job schema from services/api/tests/fixtures/sample-jobs.json and briefs/w-a-1.md, plus company, tool, token ledger and observability event fields. Every field lists name, type, meaning and source.
 
 ## Diagrams
 
@@ -58,11 +58,11 @@ python3 docs/platform/scripts/screenshots.py --dry-run
 python3 docs/platform/scripts/screenshots.py --all
 ```
 
-Playwright is absent on this machine, so no PNG files were captured. The blocker is recorded in screenshots/BLOCKER.txt and the dry run in screenshots/dry-run.txt lists 6 sample pages: the guides index and one guide article, the pages index, one company page, one city page and one industry page. The page dir web/tools is missing, so no tool pages are listed. The PNG paths referenced in README_SNIPPETS.md use the page path with slashes replaced by double underscores, for example docs/platform/screenshots/web__guides__dist__index.png. Do not paste the screenshot images into the README until the PNG files exist. Run the script with Playwright present to write them.
+Playwright is absent on this machine, so no PNG files were captured. The blocker is recorded in screenshots/BLOCKER.txt and the dry run in screenshots/dry-run.txt lists 4 sample pages: the pages index, one company page, one city page and one industry page. The page dir web/tools is missing, so no tool pages are listed. The PNG paths referenced in README_SNIPPETS.md use the page path with slashes replaced by double underscores, for example docs/platform/screenshots/web__pages-extra__site__index.png. Do not paste the screenshot images into the README until the PNG files exist. Run the script with Playwright present to write them.
 
 ## README snippets
 
-README_SNIPPETS.md holds the exact markdown block for the README owner to paste under a platform docs heading. It lists the ADR, runbook, data dictionary, diagram and check locations, and the six screenshot image paths.
+README_SNIPPETS.md holds the exact markdown block for the README owner to paste under a platform docs heading. It lists the ADR, runbook, data dictionary, diagram and check locations, and the four screenshot image paths.
 
 ## Checks and verification
 
