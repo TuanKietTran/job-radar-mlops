@@ -1,0 +1,40 @@
+mlops end-to-end run, seed 42
+STEP 1: generate synthetic data
+generated 500 jobs from 22 boards, seed 42
+csv: mlops/data/synthetic/jobs.csv
+jsonl: mlops/data/synthetic/jobs.jsonl sha256 84067e65865a34b9c2766d3eb05ff11e81e27686ec297212aea21a605ef5fc1b
+PASS step 1: generate synthetic data
+STEP 2: ingest bronze, silver, gold
+bronze: 500 rows into 22 board files in mlops/data/lake/bronze
+silver: bronze 500 rows, dropped invalid 0, dedupe exact 0 fuzzy 0, kept 500 in mlops/data/lake/silver/jobs.db
+gold: salary rows 36, board rows 22, month rows 11 in mlops/data/lake/gold/gold.db
+PASS step 2: ingest bronze, silver, gold
+STEP 3: build features
+built offline store: 500 jobs, 6500 feature rows -> mlops/features/offline.db
+built online store: 500 keys -> mlops/features/online.db
+PASS step 3: build features
+STEP 4: train all three models with --evaluate
+trained salary: model=mlops/training/artifacts/salary/model.json metrics={"mae": 1922934.8610071777, "rmse": 2361341.662124774, "rows": 500, "test_rows": 100}
+trained ranking: model=mlops/training/artifacts/ranking/model.json metrics={"mae": 0.026105957212178395, "precision_at_10": 0.395, "queries": 20}
+trained match: model=mlops/training/artifacts/match/model.json metrics={"accuracy": 0.9625, "f1": 0.9690721649484536, "precision": 0.94, "recall": 1.0, "rows": 80, "threshold": 0.3}
+PASS step 4: train all three models with --evaluate
+STEP 5: register and promote the salary model to production
+registered salary v6 at stage dev
+promoted salary v6 to staging
+promoted salary v6 to production
+PASS step 5: register and promote the salary model to production
+STEP 6: serve on 127.0.0.1 port 8001 and check endpoints
+PASS step 6: serve on 127.0.0.1 port 8001 and check endpoints
+STEP 7: drift check on same-distribution data, expect quiet
+generated 500 jobs from 22 boards, seed 43
+csv: jobs.csv
+jsonl: jobs.jsonl sha256 20ac916ec8c0ec2c84d6dcc7657f284d6c4cee3f2119b70771ea9c49157a180d
+drift: ok salary_gross_min psi=0.0525 ks=0.08
+PASS step 7: drift check on same-distribution data, expect quiet
+STEP 8: drift check on shifted data, expect alert
+drift: alert field=salary_gross_min psi=2.7239 ks=0.408
+PASS step 8: drift check on shifted data, expect alert
+STEP 9: retrain the salary model
+trained salary: model=mlops/training/artifacts/salary/model.json metrics={"mae": 1922934.8610071777, "rmse": 2361341.662124774, "rows": 500, "test_rows": 100}
+PASS step 9: retrain the salary model
+END: all 9 steps passed
