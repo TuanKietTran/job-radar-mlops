@@ -14,7 +14,7 @@ Policy: crawling is allowed and the ToS risk for Vietnamese boards is accepted, 
 | CareerViet | Sitemap | 16,758 | Does not disallow job paths | Job pages live under /vi/tim-viec-lam/ and /en/search-job/. |
 | Timviec365 | Sitemap | 13,165 | Allow / | |
 | Ybox | Sitemap | ~39,000 fresh | Disallows only /bookmarked, /histories | Fresh range is shards 125-135, all lastmod 2026. |
-| Hoteljob | Sitemap | 176,021 | Allow / | 36 shards counted. 4 shards (p20, p32, p33, p34) return HTTP 500, so up to ~196,021 if they recover. |
+| Hoteljob | Sitemap | 176,021 | Allow / | 36 shards counted: 35 x 5,000 + p40 1,021. 4 shards (p20, p32, p33, p34) return HTTP 500 from the same Yii fatal error, Class Functions not found in jobpage.php:15, so up to 196,021 if they recover. Bare host 301s to www, fetch with redirect following. |
 | TopCV | Sitemap | ~39,352 inferred | Allows job pages | CONDITIONAL: curl gets Cloudflare 403, so the crawl needs a fetch route that does not bypass blocks. |
 | Vieclamtot | Sitemap | 15,985 | Allow / | JobPosting verified on 3 of 3 sampled pages. CONDITIONAL: curl gets Cloudflare 403, same caveat. |
 | Greenhouse | JSON API | 3,595 | Public boards API | ATS slot. 13 company boards verified in the ATS evaluation round, tokens re-verified in follow-up ATS verification. |
@@ -28,7 +28,7 @@ Policy: crawling is allowed and the ToS risk for Vietnamese boards is accepted, 
 | TopDev | Unreachable by curl: 3 connection timeouts, no verified count. |
 | CareerLink | sitemap.xml 404, sitemap_index.xml 301, no usable sitemap source. |
 | 123job | Sitemap holds 0 job URLs, 199 browse and wiki pages only. |
-| Tuyencongnhan | sitemap_jobs.xml reachable, but only 309 job URLs, below target. |
+| Tuyencongnhan | sitemap_jobs.xml reachable, but only 309 job URLs, below target. Index lists 23 children, robots Allow all, job URLs under /tin/. |
 | Glints | Sitemap returns a firewall page, no volume. |
 | Indeed VN | sitemap.xml 404, volume unverified. |
 | LinkedIn | robots.txt Disallow / for all agents. Disabled-by-policy, cover via ATS and employer career pages. |
@@ -40,6 +40,6 @@ Policy: crawling is allowed and the ToS risk for Vietnamese boards is accepted, 
 ## Notes
 
 - TopCV total is inferred from the 200-per-shard pattern across 197 shards, with 4 shards counted by browser and tail shard 196 at 152. Exact total still unverified.
-- Hoteljob total counts 36 working shards. The 4 erroring shards return HTTP 500 on recheck, not empty pages.
+- Hoteljob total counts 36 working shards: 35 at 5,000 plus p40 at 1,021. The 4 erroring shards return HTTP 500 on recheck, not empty pages; each returns the same 394-byte Yii fatal error.
 - ITviec and RemoteOK are in per commander decision although below 3,000. Their counts are reported honestly.
 - ATS totals come from the ATS evaluation round. Greenhouse crosses 3,000, Ashby and Lever do not yet.
