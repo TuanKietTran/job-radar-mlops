@@ -1,0 +1,16 @@
+{
+  "source": "careerlink",
+  "category_url": "https://www.careerlink.vn/viec-lam/cntt-phan-mem/19",
+  "fetched_at": "2026-11-15",
+  "full_page1_items": 50,
+  "excerpt_items": 3,
+  "max_page": 9,
+  "excerpt": "3 job URLs from page 1: 3677207, 3676574, 3676645; pagination links ?page=2 and ?page=9 kept so _max_page returns 9",
+  "responses": "responses/category.html is a 3-URL excerpt of the live IT category page; each responses/<id>.html keeps the page application/ld+json script blocks verbatim, with the rest of the ~200KB page omitted",
+  "note": "excerpt of the live source for offline tests; adapter output records carry a short snippet only, never the full description",
+  "full_detail_bytes": {
+    "https://www.careerlink.vn/tim-viec-lam/bien-hung-dong-nai-chuyen-vien-it/3677207": 196330,
+    "https://www.careerlink.vn/tim-viec-lam/chuyen-vien-erp-va-doi-moi-so/3676574": 212414,
+    "https://www.careerlink.vn/tim-viec-lam/chuyen-vien-it/3676645": 197419
+  }
+}
