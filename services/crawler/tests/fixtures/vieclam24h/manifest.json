@@ -1,0 +1,13 @@
+{
+  "source": "vieclam24h",
+  "fetched_at": "2026-11-15",
+  "sitemap_url": "https://cdn1.vieclam24h.vn/file/sitemap/daily/job-0.xml",
+  "full_sitemap_items": 5000,
+  "excerpt_items": 3,
+  "responses": "responses/jobs.xml is a 3-url excerpt of the live daily job sitemap; each responses/<slug>.html keeps the page application/ld+json script blocks verbatim, with the rest of the page omitted",
+  "full_detail_bytes": {
+    "https://vieclam24h.vn/an-ninh-bao-ve/nhan-vien-an-ninh-ha-noi-c2p210000160id2984788.html": 543113,
+    "https://vieclam24h.vn/marketing/chuyen-vien-kinh-doanh-thu-nhap-10-12-trieu-khong-ap-doanh-so-c12p210000160id3012097.html": 526462,
+    "https://vieclam24h.vn/thong-tin-truyen-thong-quang-cao/nhan-vien-ke-hoach-san-xuat-lam-o-hai-duong-c24p210000172id3117672.html": 517599
+  }
+}
