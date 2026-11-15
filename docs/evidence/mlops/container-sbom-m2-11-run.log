@@ -1,6 +1,6 @@
 MS-M2-11 container SBOM run log
 2026-11-14 20:46 ICT, branch cicd/ms-m2-11-container-sbom, base main 41ff1a2
-Worktree wt/mz-workers-c-1-m2-11
+Worktree: local job-radar-mlops checkout
 
 Changed files:
 - mlops/cicd/sbom.py: --image flag, built image with image id, image pip packages via docker run pip list

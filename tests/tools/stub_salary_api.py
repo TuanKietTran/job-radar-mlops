@@ -2,7 +2,7 @@
 
 This is a stub, not the real engine. It implements
 tests/tools/SALARY_API_CONTRACT.md with the same 2026-assumption
-rates as briefs/w-a-3.md, using only the Python standard library.
+rates as the salary brief, using only the Python standard library.
 Use it for local testing until services/salary lands on main.
 All money is integer VND per month.
 '''

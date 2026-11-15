@@ -43,7 +43,7 @@ Five runbooks cover the local run, make verify failure triage, release to the pu
 
 ## Data dictionary
 
-The data dictionary mirrors the canonical job schema from services/api/tests/fixtures/sample-jobs.json and briefs/w-a-1.md, plus company, tool, token ledger and observability event fields. Every field lists name, type, meaning and source.
+The data dictionary mirrors the canonical job schema from services/api/tests/fixtures/sample-jobs.json and the search API brief, plus company, tool, token ledger and observability event fields. Every field lists name, type, meaning and source.
 
 ## Diagrams
 
