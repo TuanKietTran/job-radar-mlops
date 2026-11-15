@@ -39,3 +39,10 @@ def test_load_fallback(monkeypatch):
     monkeypatch.setenv('JOBS_PATH', '/tmp/does-not-exist-jobs.json')
     jobs = load_jobs()
     assert len(jobs) == 14 and jobs[0]['id'] == 'job-01'
+
+
+def test_search_tokenised_city():
+    assert set(_ids(client.get('/api/jobs', params={'q': 'ky su ha noi'}))) == {'job-01', 'job-13'}
+    assert set(_ids(client.get('/api/jobs', params={'q': 'hanoi ky su'}))) == {'job-01', 'job-13'}
+    assert set(_ids(client.get('/api/jobs', params={'q': 'ky su hanoi'}))) == {'job-01', 'job-13'}
+    assert _ids(client.get('/api/jobs', params={'q': 'backend hanoi'})) == ['job-01']

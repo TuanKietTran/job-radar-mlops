@@ -83,7 +83,7 @@
         "operationId": "list_jobs_api_jobs_get",
         "parameters": [
           {
-            "description": "Search text matched against title, company, skills and description, case-insensitive and diacritic-insensitive",
+            "description": "Search text, each word matched against title, company, city, skills and description, case-insensitive and diacritic-insensitive",
             "in": "query",
             "name": "q",
             "required": false,
@@ -96,7 +96,7 @@
                   "type": "null"
                 }
               ],
-              "description": "Search text matched against title, company, skills and description, case-insensitive and diacritic-insensitive",
+              "description": "Search text, each word matched against title, company, city, skills and description, case-insensitive and diacritic-insensitive",
               "title": "Q"
             }
           },
