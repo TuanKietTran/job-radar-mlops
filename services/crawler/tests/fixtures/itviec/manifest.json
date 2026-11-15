@@ -1,0 +1,13 @@
+{
+  "source": "itviec",
+  "fetched_at": "2026-11-15",
+  "sitemap_url": "https://itviec.com/twinnings_jobs_desc_en.xml",
+  "full_sitemap_items": 597,
+  "excerpt_items": 3,
+  "responses": "responses/jobs.xml is a 3-url excerpt of the live jobs sitemap; each responses/<slug>.html keeps the page application/ld+json script blocks verbatim, with the rest of the ~350KB page omitted",
+  "full_detail_bytes": {
+    "https://itviec.com/it-jobs/ai-expert-computer-vision-nlp-llm-mb-bank-4706": 348707,
+    "https://itviec.com/it-jobs/applied-ai-engineer-ai-agent-llm-elcom-3627": 350433,
+    "https://itviec.com/it-jobs/chuyen-gia-an-ninh-thong-tin-ung-dung-upto-2000-techcom-securities-4920": 345323
+  }
+}
