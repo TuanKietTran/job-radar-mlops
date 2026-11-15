@@ -34,8 +34,8 @@ Each ingest module is a command line tool. Run it with --help first and follow i
 
 - services/ingest/normalize.py: normalize board fixtures to canonical jobs.
 - services/ingest/docstore.py: populate the filesystem document store from board fixtures.
-- services/ingest/store.py: load canonical jobs into SQLite.
-- services/ingest/dedupe.py: deduplicate canonical jobs and write a dedupe report.
+- services/ingest/dedupe.py: deduplicate canonical jobs, write the kept jobs back to the canonical jobs file, and write a dedupe report.
+- services/ingest/store.py: load the kept canonical jobs into SQLite.
 
 Inputs are the fixtures under data/fixtures/boards. Outputs are the document store under data/raw, the SQLite store and the canonical jobs file.
 

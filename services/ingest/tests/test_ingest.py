@@ -212,3 +212,6 @@ def test_dedupe_cli_writes_report(tmp_path):
     report = json.loads(report_path.read_text(encoding='utf-8'))
     assert report['total'] == len(jobs)
     assert report['kept_count'] + report['duplicates_count'] == len(jobs)
+    kept_jobs = json.loads(jobs_path.read_text(encoding='utf-8'))
+    assert len(kept_jobs) == report['kept_count']
+    assert [job['id'] for job in kept_jobs] == report['kept']

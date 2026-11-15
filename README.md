@@ -62,7 +62,7 @@ More diagrams: [container](docs/platform/diagrams/container.mmd), [component for
 
 Search API: FastAPI served by uvicorn on port 8000. It reads data/processed/jobs.json when present and falls back to services/api/tests/fixtures/sample-jobs.json, a synthetic sample of 14 jobs. Set JOBS_PATH to point at another jobs file in the canonical schema. Endpoints cover health, listing jobs with filters, getting one job by id, redirecting to the job source URL, and listing filter values.
 
-Ingest pipeline, in order: services/ingest/normalize.py, services/ingest/docstore.py, services/ingest/store.py, services/ingest/dedupe.py. Inputs are the fixtures under data/fixtures/boards. Outputs are the document store under data/raw, the SQLite store and the canonical jobs file.
+Ingest pipeline, in order: services/ingest/normalize.py, services/ingest/docstore.py, services/ingest/dedupe.py, services/ingest/store.py. Inputs are the fixtures under data/fixtures/boards. Outputs are the document store under data/raw, the SQLite store and the canonical jobs file.
 
 MLOps serving: HTTP on 127.0.0.1 port 8001, endpoints /health, /models, /predict/salary, /predict/rank, /predict/match. See [mlops/README.md](mlops/README.md). Drift monitoring raises an alert when PSI is over 0.2 or KS is over 0.15 and exits 1.
 

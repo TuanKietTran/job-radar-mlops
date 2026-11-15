@@ -19,6 +19,10 @@ checks stop those pairs from merging.
 Keep first: jobs are scanned in input order and a job that
 duplicates any already kept job is recorded as a duplicate of
 that kept job. Same input gives same output.
+
+The command line tool writes the kept jobs back to the input
+file, so the store and the search API see only kept jobs, and
+writes the report to the dedupe report file.
 '''
 
 import argparse
@@ -157,13 +161,17 @@ def main(argv=None):
     parser.add_argument('--permutations', type=int, default=NUM_PERMUTATIONS, help='number of MinHash permutations')
     args = parser.parse_args(argv)
     jobs = load_jobs(args.input)
-    _, report = dedupe_jobs(jobs, threshold=args.threshold, num_permutations=args.permutations)
+    kept, report = dedupe_jobs(jobs, threshold=args.threshold, num_permutations=args.permutations)
+    in_path = Path(args.input)
+    with in_path.open('w', encoding='utf-8') as handle:
+        json.dump(kept, handle, ensure_ascii=False, indent=2)
+        handle.write('\n')
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
     with out.open('w', encoding='utf-8') as handle:
         json.dump(report, handle, ensure_ascii=False, indent=2)
         handle.write('\n')
-    print('deduplicated ' + str(report['total']) + ' jobs to ' + str(report['kept_count']) + ' kept, ' + str(report['duplicates_count']) + ' duplicates to ' + str(out))
+    print('deduplicated ' + str(report['total']) + ' jobs to ' + str(report['kept_count']) + ' kept, ' + str(report['duplicates_count']) + ' duplicates; kept jobs written to ' + str(in_path) + ' and report to ' + str(out))
     return 0
 
 
